@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JOACOXZ712 // NERV DEVELOPMENT CONSOLE</title>
+<style>
+:root{color-scheme:dark;--bg:#08090e;--panel:#11131b;--line:#30313d;--red:#b52b43;--muted:#aaa7b0;--white:#f3f1ef;--blue:#91aabd}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% -20%,#321522 0,transparent 45%),var(--bg);color:var(--white);font:15px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace}
+main{max-width:1100px;margin:auto;padding:28px 22px 60px}.top{border:1px solid var(--line);border-top:3px solid var(--red);padding:24px;background:linear-gradient(120deg,#15121a,#0d1018)}
+.kicker{color:#d65b70;letter-spacing:.22em;font-size:12px}.top h1{font:700 clamp(28px,5vw,48px)/1.1 Arial,sans-serif;letter-spacing:.04em;margin:12px 0}.muted{color:var(--muted)}.status{color:#e28b98}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}.panel{background:var(--panel);border:1px solid var(--line);padding:18px;min-width:0}.metric{font:700 30px Arial,sans-serif;color:var(--white)}.label{font-size:11px;letter-spacing:.14em;color:var(--muted)}.section{margin-top:24px}.section h2{font-size:14px;letter-spacing:.18em;color:#e06a7e;border-bottom:1px solid var(--line);padding-bottom:10px}.charts{display:grid;grid-template-columns:1fr 1fr;gap:12px}.chartbox canvas{width:100%;height:260px;display:block}.controls{display:flex;gap:8px;flex-wrap:wrap}.controls button{background:#181923;border:1px solid #49404b;color:var(--white);padding:8px 13px;cursor:pointer;font:inherit}.controls button.active,.controls button:hover{border-color:var(--red);background:#321722}.repo{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:12px 0}.repo:last-child{border:0}.repo a{color:var(--white);text-decoration:none}.repo a:hover{color:#ef8a99}.cat{width:100%;max-height:290px;object-fit:cover;border:1px solid var(--line);margin-top:12px}.foot{margin-top:28px;color:var(--muted);font-size:11px}.bar{height:7px;background:#292a35;margin-top:7px}.bar i{display:block;height:100%;background:var(--red)}@media(max-width:720px){.grid{grid-template-columns:repeat(2,1fr)}.charts{grid-template-columns:1fr}.panel{padding:13px}}
+</style>
+</head>
+<body><main>
+<header class="top"><div class="kicker">NERV // PERSONNEL DATABASE · PUBLIC TELEMETRY</div><h1>DEVELOPMENT CONSOLE</h1><div>OPERATOR: <b>JOACOXZ712</b> &nbsp; / &nbsp; STATUS: <span class="status">LEARNING · BUILDING · REPEATING</span></div><img class="cat" src="../assets/git-cat.gif" alt="White cat walking through the NERV city"></header>
+<section class="grid">
+<div class="panel"><div class="label">PUBLIC REPOSITORIES</div><div class="metric" id="repos">--</div></div>
+<div class="panel"><div class="label">FOLLOWERS</div><div class="metric" id="followers">--</div></div>
+<div class="panel"><div class="label">FOLLOWING</div><div class="metric" id="following">--</div></div>
+<div class="panel"><div class="label">PUBLIC EVENTS FETCHED</div><div class="metric" id="events">--</div></div>
+</section>
+<section class="section panel"><h2>01 / ACTIVITY SIGNAL</h2><div class="controls"><button data-days="30">30 DAYS</button><button data-days="90" class="active">90 DAYS</button><button data-days="365">365 DAYS</button></div><canvas id="activity" width="1000" height="280" aria-label="Activity graph"></canvas><div class="muted" id="activity-note">Loading public GitHub events…</div></section>
+<section class="section charts">
+<div class="panel chartbox"><h2>02 / LANGUAGE DISTRIBUTION</h2><canvas id="languages" width="600" height="300"></canvas><div id="language-legend"></div></div>
+<div class="panel chartbox"><h2>03 / REPOSITORY RADAR</h2><div id="repo-list" class="muted">Loading repositories…</div></div>
+</section>
+<section class="section panel"><h2>04 / CURRENT DEVELOPMENT TRACKS</h2>
+<div class="repo"><span>DRakkar / Full-stack commerce</span><span class="status">REACT · POSTGRESQL</span></div>
+<div class="repo"><span>Steal A Crypto / Game systems</span><span class="status">ROBLOX · LUAU</span></div>
+<div class="repo"><span>ProjectOS / AI productivity</span><span class="status">PYTHON · LOCAL AI</span></div>
+</section>
+<div class="foot">DATA SOURCE: GITHUB PUBLIC REST API · PRIVATE ACTIVITY IS NOT INCLUDED · AUTO-REFRESH ON PAGE LOAD<br>UNOFFICIAL PERSONAL DASHBOARD // NERV DEVELOPMENT DIVISION</div>
+</main>
+<script>
+const user='Joacoxz712', colors=['#b52b43','#91aabd','#d77d8b','#697d91','#8f6471','#aaa7b0','#5c5261'];
+let allEvents=[], allRepos=[];
+async function get(path){const r=await fetch('https://api.github.com'+path,{headers:{Accept:'application/vnd.github+json'}});if(!r.ok)throw Error('GitHub API: '+r.status);return r.json()}
+function metric(id,n){document.getElementById(id).textContent=Number(n).toLocaleString()}
+function drawActivity(days){const c=document.getElementById('activity'),ctx=c.getContext('2d'),now=new Date(),map={};allEvents.forEach(e=>{const d=e.created_at.slice(0,10);map[d]=(map[d]||0)+1});ctx.clearRect(0,0,c.width,c.height);const pad=35,w=c.width-pad*2,h=c.height-65,step=w/days,max=Math.max(1,...Object.values(map));ctx.strokeStyle='#343440';ctx.fillStyle='#aaa7b0';ctx.font='12px monospace';[0,.25,.5,.75,1].forEach(v=>{let y=pad+h-v*h;ctx.beginPath();ctx.moveTo(pad,y);ctx.lineTo(c.width-pad,y);ctx.stroke();ctx.fillText(Math.round(max*v),5,y+4)});for(let i=0;i<days;i++){let d=new Date(now);d.setDate(now.getDate()-(days-1-i));let key=d.toISOString().slice(0,10),n=map[key]||0,bh=n/max*h,x=pad+i*step;ctx.fillStyle=n?colors[Math.min(4,n-1)]:'#292a35';ctx.fillRect(x,pad+h-bh,Math.max(2,step-2),bh||2)}ctx.fillStyle='#aaa7b0';ctx.fillText(days+' day window · recent public events',pad,c.height-12);document.getElementById('activity-note').textContent='Each bar represents public GitHub events on that date. This is not the complete contribution calendar.'}
+function drawLanguages(){const totals={};allRepos.forEach(r=>{if(r.language)totals[r.language]=(totals[r.language]||0)+1});const entries=Object.entries(totals).sort((a,b)=>b[1]-a[1]).slice(0,7),c=document.getElementById('languages'),ctx=c.getContext('2d');ctx.clearRect(0,0,c.width,c.height);const total=entries.reduce((s,e)=>s+e[1],0)||1;let a=-Math.PI/2;entries.forEach(([name,n],i)=>{let next=a+n/total*Math.PI*2;ctx.beginPath();ctx.arc(150,145,105,a,next);ctx.arc(150,145,58,next,a,true);ctx.closePath();ctx.fillStyle=colors[i%colors.length];ctx.fill();a=next});document.getElementById('language-legend').innerHTML=entries.map(([n,v],i)=>'<div class="repo"><span>'+n+'</span><span>'+v+' repos</span></div>').join('')||'No language data yet'}
+function renderRepos(){document.getElementById('repo-list').innerHTML=allRepos.slice(0,8).map(r=>'<div class="repo"><a href="'+r.html_url+'" target="_blank" rel="noreferrer">'+r.name+'</a><span class="muted">★ '+r.stargazers_count+'</span></div>').join('')}
+async function init(){try{const [profile,repos,events]=await Promise.all([get('/users/'+user),get('/users/'+user+'/repos?per_page=100&sort=updated'),get('/users/'+user+'/events/public?per_page=100')]);allRepos=repos;allEvents=events;metric('repos',profile.public_repos);metric('followers',profile.followers);metric('following',profile.following);metric('events',events.length);drawActivity(90);drawLanguages();renderRepos()}catch(e){document.getElementById('activity-note').textContent='Could not load GitHub public data: '+e.message}}
+document.querySelectorAll('[data-days]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-days]').forEach(x=>x.classList.remove('active'));b.classList.add('active');drawActivity(Number(b.dataset.days))}));
+init();
+</script></body></html>
