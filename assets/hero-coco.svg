@@ -1,41 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390">
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08090f"/><stop offset=".55" stop-color="#11121d"/><stop offset="1" stop-color="#1b101b"/></linearGradient>
- <radialGradient id="glow"><stop stop-color="#7f2444" stop-opacity=".5"/><stop offset="1" stop-color="#7f2444" stop-opacity="0"/></radialGradient>
- <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#9aa8b8" stroke-opacity=".09"/></pattern>
- <filter id="blur"><feGaussianBlur stdDeviation="26"/></filter>
+ <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080a11"/><stop offset=".56" stop-color="#11121c"/><stop offset="1" stop-color="#21121e"/></linearGradient>
+ <radialGradient id="wine"><stop stop-color="#9f3658" stop-opacity=".48"/><stop offset="1" stop-color="#9f3658" stop-opacity="0"/></radialGradient>
+ <linearGradient id="stroke" x2="1"><stop stop-color="#a33e60" stop-opacity="0"/><stop offset=".5" stop-color="#d17b91"/><stop offset="1" stop-color="#a33e60" stop-opacity="0"/></linearGradient>
+ <pattern id="micro" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#9ba4b8" opacity=".24"/></pattern>
+ <filter id="blur"><feGaussianBlur stdDeviation="30"/></filter>
  <style>
-  text{font-family:Comfortaa,'Josefin Sans',sans-serif}
-  .float{animation:float 5s ease-in-out infinite;transform-origin:980px 166px}
-  .blink{animation:blink 2.8s steps(2) infinite}
-  .scan{animation:scan 5s linear infinite}
-  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
-  @keyframes blink{0%,90%,100%{opacity:1}92%,96%{opacity:.15}}
-  @keyframes scan{0%{transform:translateY(-110px);opacity:0}20%{opacity:.4}80%{opacity:.2}100%{transform:translateY(110px);opacity:0}}
+ text{font-family:Comfortaa,'Josefin Sans',sans-serif}
+ .orbit{transform-origin:930px 180px;animation:turn 34s linear infinite}
+ .drift{animation:drift 5s ease-in-out infinite}
+ .blink{animation:blink 3.8s steps(2) infinite}
+ .scan{animation:scan 6s ease-in-out infinite}
+ @keyframes turn{to{transform:rotate(360deg)}}
+ @keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+ @keyframes blink{0%,90%,100%{opacity:1}92%,96%{opacity:.18}}
+ @keyframes scan{0%,100%{transform:translateY(0);opacity:0}45%{opacity:.45}55%{opacity:.45} }
  </style>
 </defs>
-<rect width="1200" height="360" rx="22" fill="url(#bg)"/>
-<rect width="1200" height="360" rx="22" fill="url(#grid)"/>
-<ellipse cx="980" cy="170" rx="270" ry="230" fill="url(#glow)" filter="url(#blur)"/>
-<path d="M0 14H1200" stroke="#9d3151" stroke-width="3"/>
-<path d="M46 52V307" stroke="#9d3151" stroke-width="2"/>
-<path d="M70 76H520M70 84H300" stroke="#6d7488" stroke-opacity=".38"/>
-<text x="76" y="66" fill="#bd6c83" font-size="12" letter-spacing="4">JOACO / PERSONAL ARCHIVE</text>
-<text x="68" y="174" fill="#f0edf2" font-size="78" font-weight="700" letter-spacing="-3">Coco<span fill="#a83e5d">.</span></text>
-<text x="74" y="218" fill="#b9b7c5" font-size="20" letter-spacing=".6">I make things, break things, then make them better.</text>
-<text x="75" y="273" fill="#7d8295" font-size="11" letter-spacing="2.4">CODE  /  WORLDBUILDING  /  EXPERIMENTS</text>
-<g class="float">
- <circle cx="980" cy="172" r="128" fill="#151724" stroke="#5d344e" stroke-width="1.5"/>
- <circle cx="980" cy="172" r="111" fill="none" stroke="#a84665" stroke-opacity=".55" stroke-dasharray="2 9"/>
- <circle cx="980" cy="172" r="88" fill="none" stroke="#74849a" stroke-opacity=".28"/>
- <g transform="translate(895 81)">
-  <path d="M25 78L34 12L82 46Q112 31 143 46L191 12L200 79Q218 111 201 151Q180 190 112 190Q45 190 23 151Q7 112 25 78Z" fill="#e8e4e8" stroke="#9a8c9b" stroke-width="3"/>
-  <path d="M47 111Q59 100 73 111M151 111Q165 100 177 111" fill="none" stroke="#4f405c" stroke-width="6" stroke-linecap="round"/>
-  <path d="M105 129L112 135L119 129" fill="none" stroke="#a33c5b" stroke-width="3" stroke-linecap="round"/>
-  <path d="M96 147Q112 157 128 147" fill="none" stroke="#a33c5b" stroke-width="3" stroke-linecap="round"/>
- </g>
+<rect width="1200" height="390" rx="22" fill="url(#night)"/>
+<rect width="1200" height="390" rx="22" fill="url(#micro)"/>
+<ellipse cx="940" cy="184" rx="300" ry="250" fill="url(#wine)" filter="url(#blur)"/>
+<path d="M0 14H1200" stroke="#a74767" stroke-width="2"/>
+<path d="M42 48V340M42 48H58M42 340H58" stroke="#a74767" stroke-width="1.4" opacity=".8"/>
+<text x="76" y="58" fill="#bd7188" font-size="11" letter-spacing="4">FIELD NOTES / 001 — PERSONAL SPACE</text>
+<text x="69" y="178" fill="#f2edf0" font-size="91" font-weight="700" letter-spacing="-5">Coco<tspan fill="#b34a6a">.</tspan></text>
+<text x="77" y="222" fill="#c7bec8" font-size="19" letter-spacing=".3">I turn curious ideas into things you can click, play or use.</text>
+<path d="M78 254H505" stroke="url(#stroke)" stroke-width="1.4"/>
+<text x="78" y="285" fill="#9a91a2" font-size="10" letter-spacing="3">WEB THINGS　/　GAME WORLDS　/　ODD EXPERIMENTS</text>
+<text x="78" y="337" fill="#656879" font-size="9" letter-spacing="2.2">NOT A FINISHED PRODUCT. ALWAYS A WORK IN PROGRESS.</text>
+<g class="orbit" fill="none" stroke="#a95775" opacity=".55"><ellipse cx="930" cy="180" rx="205" ry="82" transform="rotate(-31 930 180)" stroke-dasharray="3 9"/><ellipse cx="930" cy="180" rx="205" ry="82" transform="rotate(47 930 180)" stroke-dasharray="2 12"/><circle cx="930" cy="180" r="145" stroke="#8d8296" stroke-opacity=".25"/></g>
+<g class="drift">
+ <circle cx="930" cy="180" r="104" fill="#171622" stroke="#765064" stroke-width="1.5"/>
+ <circle cx="930" cy="180" r="91" fill="none" stroke="#c16b87" stroke-opacity=".5" stroke-dasharray="1 7"/>
+ <path d="M866 145L880 83L925 119Q957 101 984 120L1028 83L1040 148Q1055 190 1029 222Q1000 259 931 259Q859 259 832 221Q810 186 866 145Z" fill="#e7e1e7" stroke="#9a8d9f" stroke-width="2.5"/>
+ <path d="M866 180Q880 167 894 180M966 180Q980 167 994 180" fill="none" stroke="#51445b" stroke-width="5" stroke-linecap="round"/>
+ <path d="M923 194l7 6 7-6" fill="none" stroke="#a64a69" stroke-width="2.5" stroke-linecap="round"/>
+ <path d="M910 218Q930 229 950 218" fill="none" stroke="#a64a69" stroke-width="2.5" stroke-linecap="round"/>
 </g>
-<g class="blink"><circle cx="1112" cy="54" r="5" fill="#c14b6b"/><text x="1128" y="58" fill="#8991a6" font-size="9" letter-spacing="2">ONLINE</text></g>
-<path class="scan" d="M820 90H1140" stroke="#d16b87" stroke-opacity=".3"/>
-<text x="866" y="326" fill="#77788a" font-size="10" letter-spacing="3">A LITTLE CHAOS, A LOT OF CURIOSITY</text>
+<g class="blink"><circle cx="1110" cy="65" r="4" fill="#d07891"/><text x="1124" y="69" fill="#9d93a3" font-size="9" letter-spacing="2">ONLINE</text></g>
+<g fill="#c07891"><circle cx="763" cy="115" r="2"/><circle cx="1092" cy="270" r="2"/><circle cx="1058" cy="94" r="2"/></g>
+<path class="scan" d="M800 65H1090" stroke="#e2a0b2" stroke-width="1" opacity=".3"/>
+<text x="835" y="344" fill="#777486" font-size="9" letter-spacing="3">ARTIGAS, UY　·　BUILDING IN PUBLIC</text>
 </svg>
