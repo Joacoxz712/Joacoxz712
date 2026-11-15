@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="116" viewBox="0 0 1080 116">
+<defs><style>
+ .tech{transform-box:fill-box;transform-origin:center;transition:transform .22s ease,filter .22s ease}
+ .tech:hover{transform:translateY(-7px) scale(1.09);filter:drop-shadow(0 7px 8px #a83e5d66)}
+ @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+ .line{animation:pulse 3.5s ease-in-out infinite}
+</style></defs>
+<rect x="1" y="1" width="1078" height="114" rx="15" fill="#0d0e16" stroke="#30303f"/>
+<path d="M24 26H1056" stroke="#9c3b59" stroke-opacity=".55"/>
+<text x="26" y="18" fill="#a95b73" font-family="Comfortaa,'Josefin Sans',sans-serif" font-size="9" letter-spacing="2.6">TOOLS IN MY WORKFLOW</text>
+<g class="tech"><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" x="42" y="43" width="43" height="43"/></g>
+<g class="tech"><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" x="157" y="43" width="43" height="43"/></g>
+<g class="tech"><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" x="272" y="43" width="43" height="43"/></g>
+<g class="tech"><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" x="387" y="43" width="43" height="43"/></g>
+<g class="tech"><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" x="502" y="43" width="43" height="43"/></g>
+<g class="tech"><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" x="617" y="43" width="43" height="43"/></g>
+<g class="tech"><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" x="732" y="43" width="43" height="43" style="filter:invert(1)"/></g>
+<g class="tech"><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" x="847" y="43" width="43" height="43"/></g>
+<g class="tech"><image href="https://cdn.simpleicons.org/roblox/FFFFFF" x="962" y="43" width="43" height="43"/></g>
+<path class="line" d="M64 99H1016" stroke="#718094" stroke-opacity=".28" stroke-dasharray="2 9"/>
+</svg>
