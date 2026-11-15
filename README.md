@@ -63,7 +63,34 @@ I'm a developer interested in software engineering, creative tooling, game devel
 | **Steal A Crypto** | Roblox game development · Luau · gameplay systems · [Roblox project](https://www.roblox.com/games/79524496754754) |
 | **ProjectOS** | Project management · local AI · automation |
 
-## 04 / LIVE DEVELOPMENT CONSOLE
+## 04 / PERSONNEL ARCHIVE
+
+<div align="center">
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+**FIRST CHILD // REI AYANAMI**
+
+<img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" width="100%" alt="Rei Ayanami animated GIF"/>
+
+</td>
+<td width="50%" align="center">
+
+**FIFTH CHILD // KAWORU NAGISA**
+
+<img src="https://media1.tenor.com/m/9ByocAJi3EAAAAAd/kaworu-kaworu-nagisa.gif" width="100%" alt="Kaworu Nagisa animated GIF"/>
+
+</td>
+</tr>
+</table>
+
+<sub>EVANGELION ARCHIVE // External animated media hosted by Tenor.</sub>
+
+</div>
+
+## 05 / LIVE DEVELOPMENT CONSOLE
 
 Explore the interactive dashboard with activity history, language distribution and repository data:
 
@@ -73,7 +100,7 @@ Explore the interactive dashboard with activity history, language distribution a
 
 </div>
 
-## 05 / DEVELOPMENT LOG
+## 06 / DEVELOPMENT LOG
 
 <div align="center">
 
@@ -83,7 +110,7 @@ Explore the interactive dashboard with activity history, language distribution a
 
 </div>
 
-## 06 / DEBUGGING PHILOSOPHY
+## 07 / DEBUGGING PHILOSOPHY
 
 ```javascript
 if (codeWorking) {
