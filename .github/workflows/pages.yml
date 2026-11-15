@@ -26,6 +26,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Copy profile assets into Pages bundle
+        run: |
+          mkdir -p dashboard/assets
+          cp assets/git-cat.gif dashboard/assets/git-cat.gif
+          cp assets/cat-sleep.svg dashboard/assets/cat-sleep.svg
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dashboard
