@@ -112,16 +112,16 @@ A personal workspace experiment for planning projects, organizing tasks and expl
 
 <table>
 <tr>
-<td width="70%" valign="middle">
+<td width="72%" valign="middle">
 
-<h2>A small Evangelion-shaped corner</h2>
+<h2>A few things that keep me inspired</h2>
 
-Not a theme. Just a few frames from a series I love, tucked between the things I'm building.
+A little music, a few familiar frames, a quiet workspace and something new to build.
 
 </td>
-<td width="30%" align="center" valign="middle">
+<td width="28%" align="center" valign="middle">
 
-<img src="https://gifdb.com/images/high/evangelion-shinji-lcl-sea-v5dnk7rmk1gnpxll.gif" width="180" alt="Shinji floating on the red LCL sea"/>
+<img src="https://gifdb.com/images/high/evangelion-shinji-lcl-sea-v5dnk7rmk1gnpxll.gif" width="170" alt="Shinji floating on the red LCL sea"/>
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Not a theme. Just a few frames from a series I love, tucked between the things I
 
 <div align="center">
 
-<img src="https://media1.tenor.com/images/cb548b9e2e5b478593599d84cd69fc34/tenor.gif?itemid=5960136" width="210" alt="Kaworu Nagisa animated GIF"/>
+<img src="https://media1.tenor.com/images/cb548b9e2e5b478593599d84cd69fc34/tenor.gif?itemid=5960136" width="150" alt="Kaworu Nagisa animated GIF"/>
 
 <sub><a href="https://gifdb.com/gif/evangelion-3-0-kaworu-nagisa-u6ib2cxr7srtyfkt.html">Kaworu · GIF source</a></sub>
 
