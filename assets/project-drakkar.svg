@@ -1,24 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="250" viewBox="0 0 520 250">
-<style>@keyframes rise{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}@keyframes glow{0%,100%{opacity:.14}50%{opacity:.35}}.float{animation:rise 4s ease-in-out infinite;transform-origin:center}.glow{animation:glow 3s ease-in-out infinite}text{font-family:Comfortaa,'Josefin Sans',sans-serif}</style>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a0d15"/><stop offset="1" stop-color="#24121d"/></linearGradient><linearGradient id="red" x2="1"><stop stop-color="#87304d"/><stop offset="1" stop-color="#c05270"/></linearGradient></defs>
-<rect width="520" height="250" rx="20" fill="url(#bg)"/>
-<path d="M0 206L110 166l75 26 100-67 78 44 87-63 70 31v113H0Z" fill="#111622"/>
-<circle class="glow" cx="395" cy="103" r="100" fill="#a83d61"/>
-<g opacity=".28" stroke="#8c9aaf"><path d="M0 45H520M0 80H520M0 115H520M0 150H520M55 0V250M105 0V250M155 0V250M205 0V250M255 0V250M305 0V250M355 0V250M405 0V250M455 0V250"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="300" viewBox="0 0 620 300">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090b12"/><stop offset=".65" stop-color="#17121e"/><stop offset="1" stop-color="#2a1422"/></linearGradient><linearGradient id="wine" x2="1"><stop stop-color="#7c2947"/><stop offset="1" stop-color="#d16b88"/></linearGradient><style>text{font-family:Comfortaa,'Josefin Sans',sans-serif}.float{animation:float 5s ease-in-out infinite}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}</style></defs>
+<rect width="620" height="300" rx="20" fill="url(#bg)"/><path d="M0 42H620M0 258H620" stroke="#79445d" stroke-opacity=".45"/><path d="M32 0V300M588 0V300" stroke="#79445d" stroke-opacity=".25"/>
+<g opacity=".16" stroke="#b1a0b1"><path d="M0 90H620M0 135H620M0 180H620M0 225H620"/><path d="M90 0V300M180 0V300M270 0V300M360 0V300M450 0V300M540 0V300"/></g>
+<circle cx="492" cy="129" r="111" fill="#a33d60" opacity=".11"/><circle cx="492" cy="129" r="80" fill="none" stroke="#c36a86" stroke-opacity=".4" stroke-dasharray="2 8"/>
 <g class="float">
- <rect x="43" y="37" width="270" height="166" rx="12" fill="#151a27" stroke="#5a3a50"/>
- <rect x="58" y="51" width="240" height="24" rx="5" fill="#242335"/>
- <circle cx="72" cy="63" r="3" fill="#c45d78"/><circle cx="84" cy="63" r="3" fill="#78899c"/><circle cx="96" cy="63" r="3" fill="#78899c"/>
- <rect x="60" y="88" width="102" height="100" rx="7" fill="#202637"/>
- <path d="M77 161l23-38 21 23 18-29 12 44" fill="none" stroke="#c05b77" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
- <rect x="175" y="91" width="104" height="8" rx="4" fill="#9d4c69"/><rect x="175" y="109" width="86" height="5" rx="2" fill="#586579"/><rect x="175" y="123" width="94" height="5" rx="2" fill="#586579"/>
- <rect x="175" y="146" width="72" height="24" rx="6" fill="url(#red)"/>
+ <rect x="54" y="54" width="350" height="190" rx="13" fill="#11141e" stroke="#6b4257" stroke-width="1.4"/>
+ <rect x="69" y="68" width="320" height="27" rx="5" fill="#24202c"/><circle cx="83" cy="81" r="3" fill="#d16b88"/><circle cx="95" cy="81" r="3" fill="#887d91"/><circle cx="107" cy="81" r="3" fill="#887d91"/>
+ <rect x="70" y="108" width="128" height="119" rx="7" fill="#211d2b"/><path d="M84 194l28-48 24 29 22-37 26 56" fill="none" stroke="#d16b88" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="133" cy="132" r="13" fill="#8c3a57"/>
+ <rect x="213" y="112" width="161" height="9" rx="4" fill="#bb5576"/><rect x="213" y="132" width="125" height="5" rx="2" fill="#687184"/><rect x="213" y="146" width="143" height="5" rx="2" fill="#687184"/><rect x="213" y="174" width="70" height="27" rx="6" fill="url(#wine)"/><rect x="291" y="174" width="83" height="27" rx="6" fill="#30303d"/>
 </g>
-<g transform="translate(360 74)" fill="none" stroke="#c56b85" stroke-width="2">
- <path d="M55 0L104 28V84L55 112L6 84V28Z" fill="#1c1b2a"/>
- <path d="M55 0V112M6 28l98 56M104 28L6 84" opacity=".5"/>
- <circle cx="55" cy="56" r="17" fill="#a43d5d" stroke="#e29bad"/>
- <path d="M47 56h16m-8-8v16" stroke="#fff" stroke-linecap="round"/>
-</g>
-<text x="34" y="231" fill="#c68a9a" font-size="10" letter-spacing="3">DRAKKAR  /  DIGITAL COMMERCE</text>
+<g transform="translate(444 64)"><path d="M52 0L99 27V81L52 108L5 81V27Z" fill="#191824" stroke="#cb6d88" stroke-width="2"/><path d="M52 0V108M5 27l94 54M99 27L5 81" stroke="#8d526c" opacity=".7"/><circle cx="52" cy="54" r="18" fill="#a33d60" stroke="#e5a1b3"/><path d="M43 54h18m-9-9v18" stroke="#fff" stroke-width="2"/></g>
+<text x="34" y="282" fill="#d28aa0" font-size="10" letter-spacing="3">01 / DRAKKAR　—　DIGITAL COMMERCE</text>
 </svg>
