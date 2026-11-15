@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350">
+<defs>
+ <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbf7f1"/><stop offset="1" stop-color="#e9e1dd"/></linearGradient>
+ <linearGradient id="rose" x1="0" x2="1"><stop stop-color="#873849"/><stop offset="1" stop-color="#bb6573"/></linearGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8298a2" stroke-opacity=".13"/></pattern>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#45383a" flood-opacity=".12"/></filter>
+ <style>
+  .float{animation:float 4.8s ease-in-out infinite;transform-origin:990px 165px}
+  .pulse{animation:pulse 3.2s ease-in-out infinite}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+  text{font-family:Comfortaa,'Josefin Sans',sans-serif}
+ </style>
+</defs>
+<rect width="1200" height="350" rx="28" fill="url(#paper)"/>
+<rect width="1200" height="350" rx="28" fill="url(#grid)"/>
+<path d="M0 0H1200V12H0Z" fill="url(#rose)"/>
+<path d="M42 52V296" stroke="#a94a5c" stroke-width="3"/>
+<text x="72" y="76" fill="#a94a5c" font-size="13" letter-spacing="4">PERSONAL DEV LOG  /  2026</text>
+<text x="68" y="174" fill="#29252a" font-size="82" font-weight="700" letter-spacing="-3">Hey, I'm Coco.</text>
+<text x="74" y="220" fill="#667d87" font-size="22" letter-spacing=".7">I learn by building things that I actually care about.</text>
+<g transform="translate(74 258)">
+ <rect width="132" height="34" rx="17" fill="#f1e3e1" stroke="#d7b5b8"/>
+ <circle cx="17" cy="17" r="4" fill="#a94a5c" class="pulse"/>
+ <text x="30" y="22" fill="#74404b" font-size="11" letter-spacing="1.1">CURRENTLY BUILDING</text>
+</g>
+<g transform="translate(225 258)">
+ <rect width="104" height="34" rx="17" fill="#e3eaeb" stroke="#b7c7cb"/>
+ <text x="18" y="22" fill="#536e79" font-size="11" letter-spacing="1.1">WEB · GAMES</text>
+</g>
+<g class="float" filter="url(#shadow)">
+ <circle cx="970" cy="166" r="128" fill="#d7e0df"/>
+ <circle cx="970" cy="166" r="111" fill="none" stroke="#a94a5c" stroke-opacity=".35" stroke-dasharray="3 8"/>
+ <path d="M843 166H1097M970 39V293" stroke="#8298a2" stroke-opacity=".2"/>
+ <g transform="translate(885 75)">
+  <path d="M25 78L34 12L82 46Q112 31 143 46L191 12L200 79Q218 111 201 151Q180 190 112 190Q45 190 23 151Q7 112 25 78Z" fill="#fffdfb" stroke="#d8ceca" stroke-width="3"/>
+  <path d="M47 111Q59 100 73 111M151 111Q165 100 177 111" fill="none" stroke="#536e79" stroke-width="6" stroke-linecap="round"/>
+  <path d="M105 129L112 135L119 129" fill="none" stroke="#a94a5c" stroke-width="3" stroke-linecap="round"/>
+  <path d="M96 147Q112 157 128 147" fill="none" stroke="#a94a5c" stroke-width="3" stroke-linecap="round"/>
+  <path d="M22 135L0 127M22 148L2 154M203 135L225 127M203 148L223 154" fill="none" stroke="#c2b6b3" stroke-width="3" stroke-linecap="round"/>
+ </g>
+</g>
+<g transform="translate(1090 40)">
+ <path d="M0 0H64V64H0Z" fill="#a94a5c" opacity=".94"/>
+ <path d="M32 10V54M10 32H54" stroke="#fff7f2" stroke-width="3"/>
+</g>
+<text x="860" y="326" fill="#8b7d80" font-size="10" letter-spacing="3">CURIOSITY IS THE MAIN CHARACTER</text>
+</svg>
