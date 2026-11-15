@@ -1,116 +1,111 @@
 <div align="center">
 
-<img src="assets/nerv-header.svg" width="100%" alt="Joacoxz712 — developer profile"/>
+<img src="assets/rei-divider.svg" width="88%" alt="A soft red and blue line"/>
 
-### Hi, I'm Joaco ✦
+# Hello, Juanjo! ✦
 
-*I like building things, learning how they work, and making them a little better every day.*
+*I like making things, figuring out how they work, and giving every project a little personality.*
 
-[![GitHub](https://img.shields.io/badge/GitHub-Joacoxz712-29252b?style=flat-square&logo=github&logoColor=white)](https://github.com/Joacoxz712) [![Projects](https://img.shields.io/badge/Projects-in%20progress-a84b5b?style=flat-square)](#projects)
-
-<img src="assets/rei-divider.svg" width="100%" alt="Soft red and blue divider"/>
+<img src="assets/cat-sleep.svg" width="108" alt="A tiny white cat taking a nap"/>
 
 </div>
 
-## A little about me
+I'm interested in **software development, web experiences, game creation and automation**. I learn best by building real things, experimenting, and improving them along the way.
 
-I’m interested in **software development, game creation, automation and AI**. I enjoy learning by making real projects — from web apps to Roblox experiences — and improving them as I go.
+A few things I'm working on:
+- Building **Drakkar**, an e-commerce experience.
+- Creating **Steal A Crypto**, a Roblox game with its own world and gameplay systems.
+- Developing **ProjectOS**, a workspace for organizing projects and ideas.
 
-- Currently building: **Drakkar**, **Steal A Crypto** and **ProjectOS**
-- Learning path: stronger programming foundations, backend, TypeScript and AI
-- I like clean interfaces, thoughtful details and a little bit of personality. 🐈
+<div align="center">
+<img src="assets/rei-divider.svg" width="88%" alt=""/>
+</div>
 
-## Things I work with
+## Things I use
+
+I prefer learning by doing, so this is a short list of tools I've actually been working with — not a wishlist.
 
 <div align="center">
 
-**CORE**<br/>
-<img src="https://skillicons.dev/icons?i=js,html,css,python,c,react,vite,nodejs,express,postgres,git,github,linux&perline=7" alt="Core technologies"/>
+<img src="https://skillicons.dev/icons?i=js,html,css,react,vite,nodejs,express,postgres,git,github,lua&perline=6" alt="JavaScript, HTML, CSS, React, Vite, Node.js, Express, PostgreSQL, Git, GitHub and Lua"/>
 
-**ALSO EXPLORING**<br/>
-<img src="https://skillicons.dev/icons?i=ts,go&perline=4" alt="Technologies being explored"/>
-
-<sub>Technologies grow as I learn and build — this is a snapshot, not a checklist.</sub>
+<sub>Web development · Backend · Databases · Roblox / Luau</sub>
 
 </div>
 
-## Projects
+<div align="center">
+<img src="assets/rei-divider.svg" width="88%" alt=""/>
+</div>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+## A few things I've been building
+
+<a href="https://github.com/Drakkar-uy/drakkar"><img align="left" width="220" src="assets/project-drakkar.svg" alt="Drakkar — digital commerce illustration"/></a>
 
 ### Drakkar
-A full-stack e-commerce project focused on product experience, storefront design and reliable backend foundations.
 
-React · Node.js · PostgreSQL
+An e-commerce project focused on a clean storefront, thoughtful product pages, and a reliable full-stack foundation.
 
-[View repository](https://github.com/Drakkar-uy/drakkar)
+<sub>React · Vite · Node.js · Express · PostgreSQL</sub>
 
-</td>
-<td width="50%" valign="top">
+<a href="https://github.com/Drakkar-uy/drakkar"><img src="assets/profile-link.svg" width="142" alt="Take a look at Drakkar"/></a>
+
+<br clear="left"/>
+
+<a href="https://www.roblox.com/games/79524496754754"><img align="left" width="220" src="assets/project-crypto.svg" alt="Steal A Crypto — a neon Roblox city with a glowing crypto core"/></a>
 
 ### Steal A Crypto
-A Roblox game project about building a playful world, gameplay systems, progression and memorable moments.
 
-Roblox Studio · Luau
+A Roblox experience I'm shaping around a colorful cyber-city, progression, collectible crypto, and playful gameplay systems.
 
-[Open on Roblox](https://www.roblox.com/games/79524496754754)
+<sub>Roblox Studio · Luau · Game design</sub>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<a href="https://www.roblox.com/games/79524496754754"><img src="assets/profile-link.svg" width="142" alt="Take a look at Steal A Crypto"/></a>
+
+<br clear="left"/>
+
+<img align="left" width="220" src="assets/project-projectos.svg" alt="ProjectOS — a calm project workspace illustration"/>
 
 ### ProjectOS
-A personal project workspace exploring task organization, project planning and local AI assistance.
 
-JavaScript · AI · Automation
+A personal workspace experiment for planning projects, organizing tasks, and exploring local AI assistance.
 
-</td>
-<td width="50%" valign="top">
+<sub>Project planning · JavaScript · Automation · AI</sub>
 
-### More experiments
-Small tools, prototypes and ideas are part of the process. More projects will appear here as they become ready.
+<sub>Currently in development</sub>
 
-Learning · Building · Iterating
+<br clear="left"/>
 
-</td>
-</tr>
-</table>
+<div align="center">
+<img src="assets/rei-divider.svg" width="88%" alt=""/>
+</div>
 
-## A small corner of my world
+## A little Evangelion corner
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="50%">
+<img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" width="42%" alt="Rei Ayanami animated scene"/>　<img src="https://media1.tenor.com/images/cb548b9e2e5b478593599d84cd69fc34/tenor.gif?itemid=5960136" width="42%" alt="Kaworu Nagisa smiling, animated scene"/>
 
-**Rei · quiet focus**
+<sub>Rei Ayanami · Kaworu Nagisa</sub>
 
-<img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" width="100%" alt="Rei Ayanami GIF"/>
+</div>
 
-</td>
-<td align="center" width="50%">
+<div align="center">
+<img src="assets/rei-divider.svg" width="88%" alt=""/>
+</div>
 
-**Kaworu · gentle chaos**
+## A small reminder
 
-<img src="https://media1.tenor.com/m/9ByocAJi3EAAAAAd/kaworu-kaworu-nagisa.gif" width="100%" alt="Kaworu Nagisa GIF"/>
+<div align="center">
 
-</td>
-</tr>
-</table>
-
-<img src="assets/cat-sleep.svg" width="110" alt="A tiny sleeping white cat"/>
+<img src="assets/break-cat.svg" width="360" alt="A little white cat sleeping and reminding you to pause"/>
 
 *One step at a time. Remember to take breaks.*
 
 </div>
 
-## Currently
+## Current mindset
 
-~~~javascript
+```javascript
 while (curious) {
   learn();
   build();
@@ -118,12 +113,12 @@ while (curious) {
 
   if (theCatIsSleeping) takeABreak();
 }
-~~~
+
+// perfectCode is still loading...
+```
 
 <div align="center">
 
-[**A little more detail → interactive GitHub activity & cat companion**](https://joacoxz712.github.io/Joacoxz712/)
-
-<sub>Made with curiosity, coffee, and a suspicious amount of cat energy.</sub>
+<sub>Made slowly, with curiosity and a suspicious amount of cat energy. 🐈</sub>
 
 </div>
