@@ -1,148 +1,129 @@
 <div align="center">
 
-<img src="assets/nerv-header.svg" width="100%" alt="NERV developer division"/>
+<img src="assets/nerv-header.svg" width="100%" alt="Joacoxz712 — developer profile"/>
 
-### JOACOXZ712 · DEVELOPER / BUILDER
+### Hi, I'm Joaco ✦
 
-**Building useful things, learning constantly, occasionally debugging at 03:00.**
+*I like building things, learning how they work, and making them a little better every day.*
 
-`JavaScript` · `CSS` · `React` · `Node.js` · `Python` · `C` · `Luau`
+[![GitHub](https://img.shields.io/badge/GitHub-Joacoxz712-29252b?style=flat-square&logo=github&logoColor=white)](https://github.com/Joacoxz712) [![Projects](https://img.shields.io/badge/Projects-in%20progress-a84b5b?style=flat-square)](#projects)
 
-<img src="assets/rei-divider.svg" width="100%" alt="Rei-inspired NERV divider"/>
-
-</div>
-
-## 01 / PERSONNEL FILE
-
-I'm a developer interested in software engineering, creative tooling, game development and applied AI.
-
-- Building web applications and interactive experiences.
-- Exploring automation, backend development and AI-assisted workflows.
-- Learning by shipping projects, breaking things and fixing them.
-- Current focus: stronger fundamentals, cleaner architecture and better products.
-
-## 02 / TECHNICAL ARSENAL
-
-<div align="center">
-
-<img src="assets/tech-stack.svg" width="100%" alt="NERV technology map"/>
+<img src="assets/rei-divider.svg" width="100%" alt="Soft red and blue divider"/>
 
 </div>
 
-<table>
-<tr><td width="50%" valign="top">
+## A little about me
 
-**LANGUAGES & WEB**
+I’m interested in **software development, game creation, automation and AI**. I enjoy learning by making real projects — from web apps to Roblox experiences — and improving them as I go.
 
-- JavaScript · HTML · CSS
-- Python · C
-- Luau / Roblox scripting
-- TypeScript — currently learning
+- Currently building: **Drakkar**, **Steal A Crypto** and **ProjectOS**
+- Learning path: stronger programming foundations, backend, TypeScript and AI
+- I like clean interfaces, thoughtful details and a little bit of personality. 🐈
 
-</td><td width="50%" valign="top">
-
-**FRAMEWORKS & TOOLS**
-
-- React · Vite · Node.js · Express
-- PostgreSQL · Drizzle ORM · Neon
-- Git · GitHub · Linux
-- Vercel · Render · Roblox Studio
-
-</td></tr>
-</table>
-
-**NEXT OBJECTIVES**
-
-`Go` · `Advanced TypeScript` · `AI / Machine Learning` · `Data Engineering`
-
-## 03 / SELECTED PROJECTS
-
-| PROJECT | DEVELOPMENT FOCUS |
-|:--|:--|
-| **Drakkar** | Full-stack e-commerce · React · PostgreSQL |
-| **Steal A Crypto** | Roblox game development · Luau · gameplay systems · [Roblox project](https://www.roblox.com/games/79524496754754) |
-| **ProjectOS** | Project management · local AI · automation |
-
-## 04 / PERSONNEL ARCHIVE
+## Things I work with
 
 <div align="center">
+
+**CORE**<br/>
+<img src="https://skillicons.dev/icons?i=js,html,css,python,c,react,vite,nodejs,express,postgres,git,github,linux&perline=7" alt="Core technologies"/>
+
+**ALSO EXPLORING**<br/>
+<img src="https://skillicons.dev/icons?i=ts,go&perline=4" alt="Technologies being explored"/>
+
+<sub>Technologies grow as I learn and build — this is a snapshot, not a checklist.</sub>
+
+</div>
+
+## Projects
 
 <table>
 <tr>
-<td width="50%" align="center">
+<td width="50%" valign="top">
 
-**FIRST CHILD // REI AYANAMI**
+### Drakkar
+A full-stack e-commerce project focused on product experience, storefront design and reliable backend foundations.
 
-<img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" width="100%" alt="Rei Ayanami animated GIF"/>
+React · Node.js · PostgreSQL
+
+[View repository](https://github.com/Drakkar-uy/drakkar)
 
 </td>
-<td width="50%" align="center">
+<td width="50%" valign="top">
 
-**FIFTH CHILD // KAWORU NAGISA**
+### Steal A Crypto
+A Roblox game project about building a playful world, gameplay systems, progression and memorable moments.
 
-<img src="https://media1.tenor.com/m/9ByocAJi3EAAAAAd/kaworu-kaworu-nagisa.gif" width="100%" alt="Kaworu Nagisa animated GIF"/>
+Roblox Studio · Luau
+
+[Open on Roblox](https://www.roblox.com/games/79524496754754)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ProjectOS
+A personal project workspace exploring task organization, project planning and local AI assistance.
+
+JavaScript · AI · Automation
+
+</td>
+<td width="50%" valign="top">
+
+### More experiments
+Small tools, prototypes and ideas are part of the process. More projects will appear here as they become ready.
+
+Learning · Building · Iterating
 
 </td>
 </tr>
 </table>
 
-<sub>EVANGELION ARCHIVE // External animated media hosted by Tenor.</sub>
-
-</div>
-
-## 05 / LIVE DEVELOPMENT CONSOLE
-
-Explore the interactive dashboard with a project activity journey, animated white cat companion, activity history, language distribution and repository data:
+## A small corner of my world
 
 <div align="center">
 
-[OPEN NERV DEVELOPMENT CONSOLE](https://joacoxz712.github.io/Joacoxz712/)
+<table>
+<tr>
+<td align="center" width="50%">
+
+**Rei · quiet focus**
+
+<img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" width="100%" alt="Rei Ayanami GIF"/>
+
+</td>
+<td align="center" width="50%">
+
+**Kaworu · gentle chaos**
+
+<img src="https://media1.tenor.com/m/9ByocAJi3EAAAAAd/kaworu-kaworu-nagisa.gif" width="100%" alt="Kaworu Nagisa GIF"/>
+
+</td>
+</tr>
+</table>
+
+<img src="assets/cat-sleep.svg" width="110" alt="A tiny sleeping white cat"/>
+
+*One step at a time. Remember to take breaks.*
 
 </div>
 
-## 06 / DEVELOPMENT LOG
+## Currently
 
-The Git-Cat now follows public activity signals across repositories. Its dashboard journey is interactive: choose a repository and watch the companion move along its activity route. This represents observable public activity, not estimated project completion.
+~~~javascript
+while (curious) {
+  learn();
+  build();
+  improve();
 
-<div align="center">
-
-<img src="assets/git-cat.gif" width="100%" alt="White pixel cat on a NERV red activity landscape"/>
-
-<sub>GIT-CAT // White pixel cat exploring a night city. Animation generated by GitHub Actions.</sub>
-
-</div>
-
-## 07 / DEBUGGING PHILOSOPHY
-
-```javascript
-if (codeWorking) {
-    while (codeQuality < perfectCode) {
-        codeQuality++;
-    }
+  if (theCatIsSleeping) takeABreak();
 }
-
-// ERROR: perfectCode not found.
-// Developer is still learning. 🐈
-```
-
-```python
-while True:
-    learn()
-    build()
-    improve()
-
-    if cat_is_sleeping:
-        take_break()
-```
+~~~
 
 <div align="center">
 
-<img src="assets/kaworu-divider.svg" width="100%" alt="Minimal monochrome NERV divider"/>
+[**A little more detail → interactive GitHub activity & cat companion**](https://joacoxz712.github.io/Joacoxz712/)
 
-<sub>「God's in his heaven. All's right with the world.」</sub>
-
-**SYSTEM STATUS:** `LEARNING` · `BUILDING` · `REPEATING`
-
-<img src="assets/cat-sleep.svg" width="110" alt="Sleeping white pixel cat"/>
+<sub>Made with curiosity, coffee, and a suspicious amount of cat energy.</sub>
 
 </div>
