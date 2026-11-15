@@ -1,23 +1,27 @@
 <div align="center">
 
-<img src="assets/hero-coco.svg" width="100%" alt="Coco's personal developer profile"/>
+<img src="assets/hero-coco.svg" width="100%" alt="Coco — personal space"/>
 
 </div>
 
 <table>
 <tr>
-<td width="73%" valign="middle">
+<td width="64%" valign="top">
 
-<h2>Hey, I'm Coco.</h2>
+<h2>Hey. I'm Coco.</h2>
 
-I spend a lot of time turning ideas into things that actually work. Sometimes that's a website, sometimes a game system, sometimes a tool that makes the next project easier.
+I'm usually somewhere between having an idea and trying to make it real.
 
-I like the part where a rough idea slowly becomes something real.
+I like building things that feel considered: a storefront with its own character, a game world with little details to discover, or a tool that makes a messy process easier.
+
+I don't really want to stay in one box. I want to understand how things work, experiment, and get a little better with every version.
 
 </td>
-<td width="27%" align="center" valign="middle">
+<td width="36%" align="center" valign="middle">
 
-<img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" width="158" alt="Rei Ayanami"/>
+<img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" width="190" alt="Rei Ayanami"/>
+
+<sub>quiet mind · noisy ideas</sub>
 
 </td>
 </tr>
@@ -27,19 +31,36 @@ I like the part where a rough idea slowly becomes something real.
 <img src="assets/profile-divider.svg" width="100%" alt=""/>
 </div>
 
-<h2 align="center">The tools I reach for</h2>
+<h2 align="center">My workbench</h2>
 
 <div align="center">
 
-<img src="assets/tech-icons-dark.svg" width="100%" alt="CSS, JavaScript, HTML, Vite, React, Git, GitHub, Lua and Roblox icons"/>
+<img src="assets/tech-icons-dark.svg" width="100%" alt="CSS, JavaScript, HTML, Vite, React, Git, GitHub, Luau and Roblox"/>
 
 </div>
 
-<h2 align="center">Things I'm curious to learn</h2>
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**What pulls me in**
+
+Interfaces with personality. Systems that click together. Game mechanics that make you want to try one more time. The tiny details that make a project feel alive.
+
+</td>
+<td width="50%" valign="top">
+
+**What I'm chasing**
+
+A stronger foundation in programming, better ways to structure ideas, and the ability to take a project from a rough sketch all the way to something people can use.
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
-<img src="assets/learning-path.svg" width="100%" alt="Python, C, C++ and Java"/>
+<img src="assets/learning-path.svg" width="100%" alt="Learning roadmap: Python, C, C++ and Java"/>
 
 </div>
 
@@ -47,57 +68,68 @@ I like the part where a rough idea slowly becomes something real.
 <img src="assets/profile-divider.svg" width="100%" alt=""/>
 </div>
 
-<h2 align="center">Selected work</h2>
+<h2 align="center">Selected work <sub> / things taking shape</sub></h2>
+
+<p align="center"><sub>Not a collection of tutorials. Just a few ideas I'm putting real time into.</sub></p>
 
 <table>
 <tr>
-<td width="48%" valign="middle">
-<a href="https://drakkaruruguay.com/"><img src="assets/project-drakkar.svg" width="100%" alt="Drakkar"/></a>
+<td width="52%" valign="middle">
+<a href="https://drakkaruruguay.com/"><img src="assets/project-drakkar.svg" width="100%" alt="Drakkar — original project artwork"/></a>
 </td>
 <td valign="middle">
 
-<h3>01　Drakkar</h3>
+<h3>01 — Drakkar</h3>
 
-An e-commerce project where I'm shaping the storefront, product experience and the full stack behind it.
+**A storefront with a point of view.**
 
-<sub>React / Vite / Node.js / Express / PostgreSQL</sub>
+An e-commerce project focused on the full experience: product discovery, presentation, and the systems working behind the scenes.
 
-<br/><br/>
+<sub>REACT　·　VITE　·　NODE.JS　·　EXPRESS　·　POSTGRESQL</sub>
+
+<br/>
+
 <a href="https://drakkaruruguay.com/"><img src="assets/button-open.svg" alt="Open Drakkar"/></a>
 
 </td>
 </tr>
 <tr>
-<td width="48%" valign="middle">
-<a href="https://www.roblox.com/games/79524496754754"><img src="assets/project-crypto.svg" width="100%" alt="Steal A Crypto"/></a>
+<td width="52%" valign="middle">
+<a href="https://www.roblox.com/games/79524496754754"><img src="assets/project-crypto.svg" width="100%" alt="Steal A Crypto — original project artwork"/></a>
 </td>
 <td valign="middle">
 
-<h3>02　Steal A Crypto</h3>
+<h3>02 — Steal A Crypto</h3>
 
-A Roblox game about building a strange little crypto empire, exploring a neon city and growing your setup.
+**A city built around one strange idea.**
 
-<sub>Roblox Studio / Luau / Game systems</sub>
+A Roblox game about building a crypto empire, exploring a neon city, upgrading your base and discovering how its systems fit together.
 
-<br/><br/>
+<sub>ROBLOX STUDIO　·　LUAU　·　GAME SYSTEMS</sub>
+
+<br/>
+
 <a href="https://www.roblox.com/games/79524496754754"><img src="assets/button-game-dark.svg" alt="Enter Steal A Crypto"/></a>
 
 </td>
 </tr>
 <tr>
-<td width="48%" valign="middle">
-<img src="assets/project-projectos.svg" width="100%" alt="ProjectOS"/>
+<td width="52%" valign="middle">
+<img src="assets/project-projectos.svg" width="100%" alt="ProjectOS — original project artwork"/>
 </td>
 <td valign="middle">
 
-<h3>03　ProjectOS</h3>
+<h3>03 — ProjectOS</h3>
 
-A project workspace experiment: tasks, planning, connected ideas and an AI assistant that helps keep the work moving.
+**A workspace for getting ideas out of your head.**
 
-<sub>Productivity / Automation / AI</sub>
+An experiment in project management: tasks, connected ideas, planning flows and an AI assistant designed to help move work forward.
 
-<br/><br/>
-<sub>In development</sub>
+<sub>PRODUCTIVITY　·　AUTOMATION　·　AI</sub>
+
+<br/>
+
+<sub>IN DEVELOPMENT</sub>
 
 </td>
 </tr>
@@ -109,14 +141,14 @@ A project workspace experiment: tasks, planning, connected ideas and an AI assis
 
 <table>
 <tr>
-<td width="70%" valign="middle">
+<td width="68%" valign="middle">
 
-<h2>Somewhere between focus and daydreaming</h2>
+<h2>Things that keep me inspired</h2>
 
-A few familiar frames, a quiet playlist, and then back to making things.
+A late-night idea, a soundtrack on repeat, a scene that stays in my head longer than expected. Then I go back to the editor and try to make something of it.
 
 </td>
-<td width="30%" align="center" valign="middle">
+<td width="32%" align="center" valign="middle">
 
 <img src="https://gifdb.com/images/high/evangelion-shinji-lcl-sea-v5dnk7rmk1gnpxll.gif" width="112" alt="Shinji"/>
 <img src="https://media1.tenor.com/images/cb548b9e2e5b478593599d84cd69fc34/tenor.gif?itemid=5960136" width="112" alt="Kaworu"/>
@@ -129,21 +161,22 @@ A few familiar frames, a quiet playlist, and then back to making things.
 
 <img src="assets/break-cat.svg" width="360" alt="A sleeping white cat"/>
 
-<em>One step at a time.</em>
+<em>Take a breath. Then one more commit.</em>
 
 </div>
 
 <details>
-<summary><strong>little loop running in the background</strong></summary>
+<summary><strong>a tiny process running somewhere</strong></summary>
 
 ```javascript
-while (curious) {
-  learn();
-  build();
-  improve();
-
-  if (theCatIsSleeping) takeABreak();
-}
+const nextVersion = () => {
+  notice something;
+  get curious;
+  try it;
+  break it;
+  understand why;
+  make it better;
+};
 ```
 
 </details>
@@ -152,6 +185,6 @@ while (curious) {
 
 <img src="assets/profile-divider.svg" width="100%" alt=""/>
 
-<sub>still figuring things out. that's the fun part.</sub>
+<sub>made slowly, with curiosity — Coco / UY</sub>
 
 </div>
