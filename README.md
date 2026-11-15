@@ -47,7 +47,7 @@ An e-commerce project focused on a clean storefront, thoughtful product pages, a
 
 <sub>React · Vite · Node.js · Express · PostgreSQL</sub>
 
-<a href="https://github.com/Drakkar-uy/drakkar"><img src="assets/profile-link.svg" width="142" alt="Take a look at Drakkar"/></a>
+<a href="https://github.com/Drakkar-uy/drakkar"><img src="assets/button-drakkar.svg" width="142" alt="Take a look at Drakkar"/></a>
 
 <br clear="left"/>
 
@@ -59,7 +59,7 @@ A Roblox experience I'm shaping around a colorful cyber-city, progression, colle
 
 <sub>Roblox Studio · Luau · Game design</sub>
 
-<a href="https://www.roblox.com/games/79524496754754"><img src="assets/profile-link.svg" width="142" alt="Take a look at Steal A Crypto"/></a>
+<a href="https://www.roblox.com/games/79524496754754"><img src="assets/button-roblox.svg" width="142" alt="Enter Steal A Crypto on Roblox"/></a>
 
 <br clear="left"/>
 
