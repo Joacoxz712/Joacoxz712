@@ -1,35 +1,23 @@
 <div align="center">
 
-<img src="assets/hero-coco.svg" width="100%" alt="Hey, I'm Coco. I learn by building things I care about."/>
-
-<table>
-<tr>
-<td align="center"><a href="https://github.com/Joacoxz712"><img src="https://img.shields.io/badge/GitHub-Joacoxz712-536e79?style=flat-square&logo=github&logoColor=white" alt="GitHub profile"/></a></td>
-<td align="center"><img src="https://img.shields.io/badge/Based_in-Uruguay-a94a5c?style=flat-square" alt="Based in Uruguay"/></td>
-<td align="center"><img src="https://img.shields.io/badge/Always-learning-e8ded8?style=flat-square&labelColor=536e79" alt="Always learning"/></td>
-</tr>
-</table>
+<img src="assets/hero-coco.svg" width="100%" alt="Coco's personal developer profile"/>
 
 </div>
 
 <table>
 <tr>
-<td width="72%" valign="middle">
+<td width="73%" valign="middle">
 
-<h2> A little about me </h2>
+<h2>Hey, I'm Coco.</h2>
 
-I'm interested in **software development, creative web experiences, game creation and automation**.
+I spend a lot of time turning ideas into things that actually work. Sometimes that's a website, sometimes a game system, sometimes a tool that makes the next project easier.
 
-I like learning by making real projects, trying ideas, breaking things, fixing them and slowly turning rough concepts into something I can be proud of.
-
-Right now, most of my energy goes into **Drakkar**, **Steal A Crypto** and **ProjectOS**.
+I like the part where a rough idea slowly becomes something real.
 
 </td>
-<td width="28%" align="center" valign="middle">
+<td width="27%" align="center" valign="middle">
 
-<img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" width="170" alt="Rei Ayanami animated GIF"/>
-
-<sub>quiet focus mode</sub>
+<img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" width="158" alt="Rei Ayanami"/>
 
 </td>
 </tr>
@@ -39,19 +27,19 @@ Right now, most of my energy goes into **Drakkar**, **Steal A Crypto** and **Pro
 <img src="assets/profile-divider.svg" width="100%" alt=""/>
 </div>
 
-<h2 align="center">My current toolkit</h2>
+<h2 align="center">The tools I reach for</h2>
 
 <div align="center">
 
-<img src="assets/toolkit-coco.svg" width="100%" alt="CSS, JavaScript, HTML, Vite, React, Git, GitHub, Luau and Roblox"/>
+<img src="assets/tech-icons-dark.svg" width="100%" alt="CSS, JavaScript, HTML, Vite, React, Git, GitHub, Lua and Roblox icons"/>
 
 </div>
 
-<h2 align="center">Things I want to learn next</h2>
+<h2 align="center">Things I'm curious to learn</h2>
 
 <div align="center">
 
-<img src="assets/learning-path.svg" width="100%" alt="Future learning goals: Python, C, C++ and Java"/>
+<img src="assets/learning-path.svg" width="100%" alt="Python, C, C++ and Java"/>
 
 </div>
 
@@ -59,72 +47,79 @@ Right now, most of my energy goes into **Drakkar**, **Steal A Crypto** and **Pro
 <img src="assets/profile-divider.svg" width="100%" alt=""/>
 </div>
 
-<h2 align="center">Selected projects</h2>
+<h2 align="center">Selected work</h2>
 
 <table>
 <tr>
-<td width="46%" valign="middle">
-<a href="https://drakkaruruguay.com/"><img src="assets/project-drakkar.svg" width="100%" alt="Drakkar concept preview"/></a>
+<td width="48%" valign="middle">
+<a href="https://drakkaruruguay.com/"><img src="assets/project-drakkar.svg" width="100%" alt="Drakkar"/></a>
 </td>
 <td valign="middle">
-<h3>01 / Drakkar</h3>
-An e-commerce project focused on a clean storefront, thoughtful product pages and a full-stack foundation.
 
-<sub>React · Vite · Node.js · Express · PostgreSQL</sub>
+<h3>01　Drakkar</h3>
 
-<br/>
+An e-commerce project where I'm shaping the storefront, product experience and the full stack behind it.
+
+<sub>React / Vite / Node.js / Express / PostgreSQL</sub>
+
+<br/><br/>
 <a href="https://drakkaruruguay.com/"><img src="assets/button-open.svg" alt="Open Drakkar"/></a>
+
 </td>
 </tr>
 <tr>
-<td width="46%" valign="middle">
-<a href="https://www.roblox.com/games/79524496754754"><img src="assets/project-crypto.svg" width="100%" alt="Steal A Crypto concept preview"/></a>
+<td width="48%" valign="middle">
+<a href="https://www.roblox.com/games/79524496754754"><img src="assets/project-crypto.svg" width="100%" alt="Steal A Crypto"/></a>
 </td>
 <td valign="middle">
-<h3>02 / Steal A Crypto</h3>
-A Roblox game in development, built around a colorful cyber-city, progression, collectible crypto and playful systems.
 
-<sub>Roblox Studio · Luau · Game design</sub>
+<h3>02　Steal A Crypto</h3>
 
-<br/>
-<a href="https://www.roblox.com/games/79524496754754"><img src="assets/button-roblox.svg" alt="Play Steal A Crypto"/></a>
+A Roblox game about building a strange little crypto empire, exploring a neon city and growing your setup.
+
+<sub>Roblox Studio / Luau / Game systems</sub>
+
+<br/><br/>
+<a href="https://www.roblox.com/games/79524496754754"><img src="assets/button-game-dark.svg" alt="Enter Steal A Crypto"/></a>
+
 </td>
 </tr>
 <tr>
-<td width="46%" valign="middle">
-<img src="assets/project-projectos.svg" width="100%" alt="ProjectOS concept preview"/>
+<td width="48%" valign="middle">
+<img src="assets/project-projectos.svg" width="100%" alt="ProjectOS"/>
 </td>
 <td valign="middle">
-<h3>03 / ProjectOS</h3>
-A personal workspace experiment for planning projects, organizing tasks and exploring local AI assistance.
 
-<sub>Project planning · Automation · AI</sub>
+<h3>03　ProjectOS</h3>
 
-<br/>
+A project workspace experiment: tasks, planning, connected ideas and an AI assistant that helps keep the work moving.
+
+<sub>Productivity / Automation / AI</sub>
+
+<br/><br/>
 <sub>In development</sub>
+
 </td>
 </tr>
 </table>
 
 <div align="center">
-<img src="assets/concept-note.svg" width="100%" alt="Project artwork is currently a concept preview; real screenshots will be added later."/>
+<img src="assets/profile-divider.svg" width="100%" alt=""/>
 </div>
 
 <table>
 <tr>
-<td width="72%" valign="middle">
+<td width="70%" valign="middle">
 
-<h2>A few things that keep me inspired</h2>
+<h2>Somewhere between focus and daydreaming</h2>
 
-A little music, a few familiar frames, a quiet workspace and something new to build.
+A few familiar frames, a quiet playlist, and then back to making things.
 
 </td>
-<td width="28%" align="center" valign="middle">
+<td width="30%" align="center" valign="middle">
 
-<img src="https://gifdb.com/images/high/evangelion-shinji-lcl-sea-v5dnk7rmk1gnpxll.gif" width="118" alt="Shinji floating on the red LCL sea"/>
-<img src="https://media1.tenor.com/images/cb548b9e2e5b478593599d84cd69fc34/tenor.gif?itemid=5960136" width="118" alt="Kaworu Nagisa animated GIF"/>
-
-<sub><a href="https://gifdb.com/gif/evangelion-shinji-lcl-sea-v5dnk7rmk1gnpxll.html">Shinji</a> · <a href="https://gifdb.com/gif/evangelion-3-0-kaworu-nagisa-u6ib2cxr7srtyfkt.html">Kaworu</a> · GIF sources</sub>
+<img src="https://gifdb.com/images/high/evangelion-shinji-lcl-sea-v5dnk7rmk1gnpxll.gif" width="112" alt="Shinji"/>
+<img src="https://media1.tenor.com/images/cb548b9e2e5b478593599d84cd69fc34/tenor.gif?itemid=5960136" width="112" alt="Kaworu"/>
 
 </td>
 </tr>
@@ -132,14 +127,14 @@ A little music, a few familiar frames, a quiet workspace and something new to bu
 
 <div align="center">
 
-<img src="assets/break-cat.svg" width="360" alt="A small white cat taking a break"/>
+<img src="assets/break-cat.svg" width="360" alt="A sleeping white cat"/>
 
-<em>One step at a time. Remember to take breaks.</em>
+<em>One step at a time.</em>
 
 </div>
 
 <details>
-<summary><strong>A tiny piece of my brain</strong></summary>
+<summary><strong>little loop running in the background</strong></summary>
 
 ```javascript
 while (curious) {
@@ -149,8 +144,6 @@ while (curious) {
 
   if (theCatIsSleeping) takeABreak();
 }
-
-// perfectCode is still loading...
 ```
 
 </details>
@@ -159,6 +152,6 @@ while (curious) {
 
 <img src="assets/profile-divider.svg" width="100%" alt=""/>
 
-<sub>Made with curiosity, a little chaos and a suspicious amount of cat energy.</sub>
+<sub>still figuring things out. that's the fun part.</sub>
 
 </div>
