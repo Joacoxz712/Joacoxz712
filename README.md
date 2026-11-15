@@ -1,145 +1,150 @@
 <div align="center">
 
-<img src="assets/profile-divider.svg" width="88%" alt=""/>
+<img src="assets/hero-coco.svg" width="100%" alt="Hey, I'm Coco. I learn by building things I care about."/>
 
-# Hello, Coco! ✦
-
-*Building things, learning as I go, and making the internet a little more interesting.*
-
-<img src="assets/cat-sleep.svg" width="108" alt="A tiny white cat taking a nap"/>
+<table>
+<tr>
+<td align="center"><a href="https://github.com/Joacoxz712"><img src="https://img.shields.io/badge/GitHub-Joacoxz712-536e79?style=flat-square&logo=github&logoColor=white" alt="GitHub profile"/></a></td>
+<td align="center"><img src="https://img.shields.io/badge/Based_in-Uruguay-a94a5c?style=flat-square" alt="Based in Uruguay"/></td>
+<td align="center"><img src="https://img.shields.io/badge/Always-learning-e8ded8?style=flat-square&labelColor=536e79" alt="Always learning"/></td>
+</tr>
+</table>
 
 </div>
 
 <table>
 <tr>
-<td width="76%" valign="middle">
+<td width="72%" valign="middle">
 
-I'm interested in **software development, web experiences, game creation and automation**. I learn by building real things, experimenting, and improving them along the way.
+<h2> A little about me </h2>
 
-Currently spending time on **Drakkar**, **Steal A Crypto** and **ProjectOS**. Each one lets me explore a different side of development, from e-commerce to game systems and creative tools.
+I'm interested in **software development, creative web experiences, game creation and automation**.
+
+I like learning by making real projects, trying ideas, breaking things, fixing them and slowly turning rough concepts into something I can be proud of.
+
+Right now, most of my energy goes into **Drakkar**, **Steal A Crypto** and **ProjectOS**.
 
 </td>
-<td width="24%" align="center" valign="middle">
-<img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" width="150" alt="Rei Ayanami"/>
+<td width="28%" align="center" valign="middle">
+
+<img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" width="170" alt="Rei Ayanami animated GIF"/>
+
+<sub>quiet focus mode</sub>
+
 </td>
 </tr>
 </table>
 
 <div align="center">
-<img src="assets/profile-divider.svg" width="88%" alt=""/>
+<img src="assets/profile-divider.svg" width="100%" alt=""/>
 </div>
 
-## Things I use
-
-<sub>Tools and technologies I'm actively working with</sub>
+<h2 align="center">My current toolkit</h2>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=css,js,html,vite,react,git,github,lua&perline=8" alt="CSS, JavaScript, HTML, Vite, React, Git, GitHub and Lua"/>
-
-<sub>Web development · Roblox development · Version control</sub>
+<img src="assets/toolkit-coco.svg" width="100%" alt="CSS, JavaScript, HTML, Vite, React, Git, GitHub, Luau and Roblox"/>
 
 </div>
 
-<div align="center">
-
-<a href="https://gifdb.com/gif/evangelion-unit-01-roar-md3l2kpsj6eynifu.html">
-<img src="https://gifdb.com/images/branded/high/evangelion-unit-01-roar-md3l2kpsj6eynifu.gif" width="118" alt="Evangelion Unit 01 roaring"/>
-</a>
-
-<sub>Unit 01 · <a href="https://gifdb.com/gif/evangelion-unit-01-roar-md3l2kpsj6eynifu.html">GIF via GIFDB</a></sub>
-
-</div>
-
-## On my learning list
+<h2 align="center">Things I want to learn next</h2>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,c,cpp,java&perline=4" alt="Python, C, C++ and Java"/>
-
-<sub>Technologies I want to explore next</sub>
+<img src="assets/learning-path.svg" width="100%" alt="Future learning goals: Python, C, C++ and Java"/>
 
 </div>
 
 <div align="center">
-<img src="assets/profile-divider.svg" width="88%" alt=""/>
+<img src="assets/profile-divider.svg" width="100%" alt=""/>
 </div>
 
-## Things I've been building
+<h2 align="center">Selected projects</h2>
 
 <table>
 <tr>
 <td width="46%" valign="middle">
-<a href="https://drakkaruruguay.com/">
-<img src="assets/project-drakkar.svg" width="100%" alt="Drakkar project preview"/>
-</a>
+<a href="https://drakkaruruguay.com/"><img src="assets/project-drakkar.svg" width="100%" alt="Drakkar concept preview"/></a>
 </td>
 <td valign="middle">
-<strong>Drakkar</strong>
-
-An e-commerce project focused on a clean storefront, thoughtful product pages, and a reliable full-stack foundation.
+<h3>01 / Drakkar</h3>
+An e-commerce project focused on a clean storefront, thoughtful product pages and a full-stack foundation.
 
 <sub>React · Vite · Node.js · Express · PostgreSQL</sub>
 
-<a href="https://drakkaruruguay.com/"><img src="assets/button-drakkar.svg" alt="Explore Drakkar"/></a>
+<br/>
+<a href="https://drakkaruruguay.com/"><img src="assets/button-open.svg" alt="Open Drakkar"/></a>
 </td>
 </tr>
 <tr>
 <td width="46%" valign="middle">
-<a href="https://www.roblox.com/games/79524496754754">
-<img src="assets/project-crypto.svg" width="100%" alt="Steal A Crypto project preview"/>
-</a>
+<a href="https://www.roblox.com/games/79524496754754"><img src="assets/project-crypto.svg" width="100%" alt="Steal A Crypto concept preview"/></a>
 </td>
 <td valign="middle">
-<strong>Steal A Crypto</strong>
-
-A Roblox experience I'm shaping around a colorful cyber-city, progression, collectible crypto, and playful gameplay systems.
+<h3>02 / Steal A Crypto</h3>
+A Roblox game in development, built around a colorful cyber-city, progression, collectible crypto and playful systems.
 
 <sub>Roblox Studio · Luau · Game design</sub>
 
-<a href="https://www.roblox.com/games/79524496754754"><img src="assets/button-roblox.svg" alt="Enter the game"/></a>
+<br/>
+<a href="https://www.roblox.com/games/79524496754754"><img src="assets/button-roblox.svg" alt="Play Steal A Crypto"/></a>
 </td>
 </tr>
 <tr>
 <td width="46%" valign="middle">
-<img src="assets/project-projectos.svg" width="100%" alt="ProjectOS project preview"/>
+<img src="assets/project-projectos.svg" width="100%" alt="ProjectOS concept preview"/>
 </td>
 <td valign="middle">
-<strong>ProjectOS</strong>
+<h3>03 / ProjectOS</h3>
+A personal workspace experiment for planning projects, organizing tasks and exploring local AI assistance.
 
-A personal workspace experiment for planning projects, organizing tasks, and exploring local AI assistance.
+<sub>Project planning · Automation · AI</sub>
 
-<sub>Project planning · JavaScript · Automation · AI</sub>
-
-<sub>Currently in development</sub>
+<br/>
+<sub>In development</sub>
 </td>
 </tr>
 </table>
 
+<div align="center">
+<img src="assets/concept-note.svg" width="100%" alt="Project artwork is currently a concept preview; real screenshots will be added later."/>
+</div>
+
 <table>
 <tr>
-<td width="76%" valign="middle">
+<td width="70%" valign="middle">
 
-## A little note to self
+<h2>A small Evangelion-shaped corner</h2>
 
-Keep making small things. Keep asking questions. Don't rush the process.
+Not a theme. Just a few frames from a series I love, tucked between the things I'm building.
 
 </td>
-<td width="24%" align="center" valign="middle">
-<img src="https://media1.tenor.com/images/cb548b9e2e5b478593599d84cd69fc34/tenor.gif?itemid=5960136" width="150" alt="Kaworu Nagisa"/>
+<td width="30%" align="center" valign="middle">
+
+<img src="https://gifdb.com/images/high/evangelion-shinji-lcl-sea-v5dnk7rmk1gnpxll.gif" width="180" alt="Shinji floating on the red LCL sea"/>
+
 </td>
 </tr>
 </table>
 
 <div align="center">
 
-<img src="assets/break-cat.svg" width="360" alt="A little white cat sleeping and reminding you to pause"/>
+<img src="https://media1.tenor.com/images/cb548b9e2e5b478593599d84cd69fc34/tenor.gif?itemid=5960136" width="210" alt="Kaworu Nagisa animated GIF"/>
 
-*One step at a time. Remember to take breaks.*
+<sub><a href="https://gifdb.com/gif/evangelion-3-0-kaworu-nagisa-u6ib2cxr7srtyfkt.html">Kaworu · GIF source</a></sub>
 
 </div>
 
-A tiny bit of code that belongs somewhere between the projects and the coffee:
+<div align="center">
+
+<img src="assets/break-cat.svg" width="360" alt="A small white cat taking a break"/>
+
+<em>One step at a time. Remember to take breaks.</em>
+
+</div>
+
+<details>
+<summary><strong>A tiny piece of my brain</strong></summary>
 
 ```javascript
 while (curious) {
@@ -153,10 +158,12 @@ while (curious) {
 // perfectCode is still loading...
 ```
 
+</details>
+
 <div align="center">
 
-<img src="assets/profile-divider.svg" width="88%" alt=""/>
+<img src="assets/profile-divider.svg" width="100%" alt=""/>
 
-<sub>Made slowly, with curiosity and a suspicious amount of cat energy. 🐈</sub>
+<sub>Made with curiosity, a little chaos and a suspicious amount of cat energy.</sub>
 
 </div>
