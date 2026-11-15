@@ -1,7 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="250" viewBox="0 0 520 250">
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="250" viewBox="0 0 520 250"><style>
+ @keyframes ambientFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+ @keyframes ambientPulse{0%,100%{opacity:.16}50%{opacity:.34}}
+ svg:hover{filter:drop-shadow(0 10px 15px #4b3a3c33)}
+ .ambient{animation:ambientFloat 4.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+ .ambientGlow{animation:ambientPulse 3.6s ease-in-out infinite}
+ </style>
 <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f4e8df"/><stop offset="1" stop-color="#d8c2b8"/></linearGradient><linearGradient id="red" x2="1"><stop stop-color="#8e3447"/><stop offset="1" stop-color="#c16a78"/></linearGradient></defs>
 <rect width="520" height="250" rx="28" fill="url(#bg)"/>
-<circle cx="430" cy="42" r="76" fill="#fff" opacity=".24"/><path d="M0 196 Q120 158 245 198 T520 180 V250 H0Z" fill="#c9aaa0" opacity=".5"/>
+<circle class="ambientGlow" cx="430" cy="42" r="76" fill="#fff" opacity=".24"/><path d="M0 196 Q120 158 245 198 T520 180 V250 H0Z" fill="#c9aaa0" opacity=".5"/>
 <rect x="44" y="36" width="245" height="164" rx="15" fill="#fffaf6" opacity=".92"/>
 <rect x="64" y="56" width="90" height="8" rx="4" fill="#a54b5c"/><rect x="64" y="73" width="150" height="5" rx="2.5" fill="#d7c8c2"/>
 <rect x="64" y="94" width="94" height="82" rx="9" fill="#e8d8cf"/><path d="M82 150l22-34 20 22 14-15 14 26" fill="none" stroke="#9d5964" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
