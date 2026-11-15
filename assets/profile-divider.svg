@@ -1,6 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="46" viewBox="0 0 1200 46">
-<defs><linearGradient id="line" x1="0" x2="1"><stop stop-color="#a94a5c" stop-opacity="0"/><stop offset=".5" stop-color="#a94a5c" stop-opacity=".7"/><stop offset="1" stop-color="#a94a5c" stop-opacity="0"/></linearGradient></defs>
-<path d="M0 23H1200" stroke="url(#line)" stroke-width="1.5"/>
-<g fill="#a94a5c"><circle cx="600" cy="23" r="5"/><circle cx="570" cy="23" r="2"/><circle cx="630" cy="23" r="2"/></g>
-<path d="M600 8l3 11 11 4-11 3-3 11-3-11-11-3 11-4z" fill="none" stroke="#a6bac7" stroke-opacity=".7" stroke-width="1.2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="44" viewBox="0 0 1200 44">
+<defs><linearGradient id="fade" x1="0" x2="1"><stop stop-color="#a94a5c" stop-opacity="0"/><stop offset=".5" stop-color="#a94a5c" stop-opacity=".72"/><stop offset="1" stop-color="#a94a5c" stop-opacity="0"/></linearGradient><style>@keyframes scan{0%{transform:translateX(-80px);opacity:0}40%{opacity:.8}100%{transform:translateX(80px);opacity:0}}.scan{animation:scan 4s ease-in-out infinite}</style></defs>
+<path d="M0 22H1200" stroke="url(#fade)" stroke-width="1.4"/>
+<path d="M0 17H1200M0 27H1200" stroke="#8298a2" stroke-opacity=".12"/>
+<circle cx="600" cy="22" r="8" fill="#fbf7f1" stroke="#a94a5c" stroke-width="2"/>
+<path d="M600 8V36M586 22H614" stroke="#a94a5c" stroke-width="1.5"/>
+<circle class="scan" cx="600" cy="22" r="2.5" fill="#536e79"/>
 </svg>
