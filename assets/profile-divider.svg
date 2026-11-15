@@ -1,7 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="42" viewBox="0 0 1200 42">
-<defs><linearGradient id="f" x1="0" x2="1"><stop stop-color="#9b3555" stop-opacity="0"/><stop offset=".5" stop-color="#9b3555" stop-opacity=".7"/><stop offset="1" stop-color="#9b3555" stop-opacity="0"/></linearGradient><style>@keyframes pulse{0%,100%{opacity:.2}50%{opacity:1}}.p{animation:pulse 2.8s ease-in-out infinite}</style></defs>
-<path d="M0 21H1200" stroke="url(#f)" stroke-width="1.3"/>
-<path d="M600 9l12 12-12 12-12-12z" fill="#11121b" stroke="#a84867" stroke-width="1.4"/>
-<circle class="p" cx="600" cy="21" r="3" fill="#e0a0b1"/>
-<path d="M0 16H280M920 26H1200" stroke="#768095" stroke-opacity=".12"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="54" viewBox="0 0 1200 54">
+<defs><linearGradient id="fade" x2="1"><stop stop-color="#a33d60" stop-opacity="0"/><stop offset=".22" stop-color="#a33d60" stop-opacity=".48"/><stop offset=".5" stop-color="#d08a9d" stop-opacity=".8"/><stop offset=".78" stop-color="#a33d60" stop-opacity=".48"/><stop offset="1" stop-color="#a33d60" stop-opacity="0"/></linearGradient><style>.spark{animation:glow 3s ease-in-out infinite}@keyframes glow{0%,100%{opacity:.25}50%{opacity:1}}</style></defs>
+<path d="M0 27H1200" stroke="url(#fade)" stroke-width="1.2"/>
+<path d="M535 27h-40l-9-9-9 9 9 9 9-9m210 0h-40l-9-9-9 9 9 9 9-9" fill="none" stroke="#87536c" stroke-opacity=".7"/>
+<path d="M600 12l15 15-15 15-15-15z" fill="#11121b" stroke="#c06a86" stroke-width="1.4"/>
+<path class="spark" d="M600 20l7 7-7 7-7-7z" fill="#d58ba0"/>
+<circle cx="480" cy="27" r="2" fill="#b75d7a"/><circle cx="720" cy="27" r="2" fill="#b75d7a"/>
 </svg>
