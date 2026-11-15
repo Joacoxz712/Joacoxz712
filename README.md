@@ -2,11 +2,13 @@
 
 <img src="assets/hero-coco.svg" width="100%" alt="Coco — personal space"/>
 
+<img src="https://readme-typing-svg.demolab.com?font=Comfortaa&weight=600&size=30&pause=1100&color=E8B6D2&center=true&vCenter=true&width=700&height=58&lines=Hello%2C+I+am+Coco;Building+ideas+into+real+things;Curious+by+default." alt="Hello, I am Coco — animated introduction"/>
+
 </div>
 
 <table>
 <tr>
-<td width="64%" valign="top">
+<td width="66%" valign="top">
 
 <h2>Hey. I'm Coco.</h2>
 
@@ -17,9 +19,9 @@ I like building things that feel considered: a storefront with its own character
 I don't really want to stay in one box. I want to understand how things work, experiment, and get a little better with every version.
 
 </td>
-<td width="36%" align="center" valign="middle">
+<td width="34%" align="center" valign="middle">
 
-<img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" width="190" alt="Rei Ayanami"/>
+<img src="assets/git-cat.gif" width="190" alt="Animated pixel cat"/>
 
 <sub>quiet mind · noisy ideas</sub>
 
@@ -31,11 +33,21 @@ I don't really want to stay in one box. I want to understand how things work, ex
 <img src="assets/profile-divider.svg" width="100%" alt=""/>
 </div>
 
-<h2 align="center">My workbench</h2>
+<h2 align="center">The workbench</h2>
 
 <div align="center">
 
-<img src="assets/tech-icons-dark.svg" width="100%" alt="CSS, JavaScript, HTML, Vite, React, Git, GitHub, Luau and Roblox"/>
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=html,css,js,lua&theme=dark" alt="HTML, CSS, JavaScript and Lua"/>
+
+**Frameworks & runtime**
+
+<img src="https://skillicons.dev/icons?i=react,vite,nodejs,express&theme=dark" alt="React, Vite, Node.js and Express"/>
+
+**Tools & platforms**
+
+<img src="https://skillicons.dev/icons?i=git,github,robloxstudio&theme=dark" alt="Git, GitHub and Roblox Studio"/>
 
 </div>
 
@@ -134,6 +146,37 @@ An experiment in project management: tasks, connected ideas, planning flows and 
 </td>
 </tr>
 </table>
+
+<div align="center">
+<img src="assets/profile-divider.svg" width="100%" alt=""/>
+</div>
+
+<h2 align="center">A little arcade break</h2>
+
+<div align="center">
+
+<img src="https://www.classicgaming.cc/classics/pac-man/images/web/web-lisnovski-runner.gif" height="118" alt="Pac-Man running through the maze"/>
+<img src="assets/git-cat.gif" height="118" alt="Pixel cat animation"/>
+<img src="https://github.com/user-attachments/assets/e3b5e1fe-0b4c-47d6-b21f-1fe4d2023556" height="118" alt="Blade Runner inspired neon city pixel art"/>
+
+<sub>one more round · one more commit</sub>
+
+</div>
+
+<div align="center">
+<img src="assets/profile-divider.svg" width="100%" alt=""/>
+</div>
+
+<h2 align="center">GitHub activity</h2>
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Joacoxz712&show_icons=true&hide_border=true&bg_color=00000000&title_color=e8b6d2&icon_color=c7a6e8&text_color=c9c3d2&rank_icon=github" height="165" alt="GitHub statistics"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joacoxz712&layout=compact&hide_border=true&bg_color=00000000&title_color=e8b6d2&text_color=c9c3d2" height="165" alt="Most used programming languages"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Joacoxz712&bg_color=00000000&color=c9c3d2&line=c7a6e8&point=e8b6d2&area=true&hide_border=true" width="100%" alt="Contribution activity graph"/>
+
+</div>
 
 <div align="center">
 <img src="assets/profile-divider.svg" width="100%" alt=""/>
