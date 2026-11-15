@@ -1,17 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="250" viewBox="0 0 520 250"><style>
- @keyframes ambientFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
- @keyframes ambientPulse{0%,100%{opacity:.16}50%{opacity:.34}}
- svg:hover{filter:drop-shadow(0 10px 15px #4b3a3c33)}
- .ambient{animation:ambientFloat 4.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
- .ambientGlow{animation:ambientPulse 3.6s ease-in-out infinite}
- </style>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e8e5e1"/><stop offset="1" stop-color="#c9d5d8"/></linearGradient></defs>
-<rect width="520" height="250" rx="28" fill="url(#bg)"/><circle cx="438" cy="48" r="82" fill="#fff" opacity=".28"/>
-<rect x="46" y="36" width="304" height="172" rx="16" fill="#fbfaf7"/><rect x="46" y="36" width="304" height="27" rx="16" fill="#e5d9d5"/><circle cx="65" cy="49" r="4" fill="#b86b78"/><circle cx="80" cy="49" r="4" fill="#c6b6b0"/><circle cx="95" cy="49" r="4" fill="#c6b6b0"/>
-<rect x="65" y="81" width="78" height="108" rx="9" fill="#f0e9e4"/><rect x="78" y="95" width="50" height="6" rx="3" fill="#a64b5b"/><rect x="78" y="110" width="39" height="4" rx="2" fill="#bdb4b0"/><rect x="78" y="123" width="45" height="4" rx="2" fill="#bdb4b0"/><rect x="78" y="150" width="50" height="25" rx="6" fill="#d9e2e2"/>
-<rect x="158" y="81" width="172" height="45" rx="9" fill="#e8eff0"/><rect x="173" y="94" width="78" height="6" rx="3" fill="#728d98"/><rect x="173" y="108" width="128" height="4" rx="2" fill="#b4c2c4"/>
-<rect x="158" y="137" width="80" height="52" rx="9" fill="#f1e1e2"/><rect x="249" y="137" width="81" height="52" rx="9" fill="#e9e4d8"/><path d="M177 173l13-14 12 8 18-20" fill="none" stroke="#a64b5b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<g class="ambient" transform="translate(372 119)" fill="#fff"><path d="M0 23l9-20 17 0 9 20v27H0z"/><path d="M5 5L0-5l15 8 15-8-5 10" fill="#fff"/><path d="M9 25l5 2 5-2" stroke="#9a5965" stroke-width="2" fill="none"/><circle cx="12" cy="18" r="2" fill="#9a5965"/><circle cx="22" cy="18" r="2" fill="#9a5965"/></g>
-<path d="M392 75q-14-16 0-24 14 8 0 24m23 14q-9-10 0-16 9 6 0 16" fill="#a64b5b" opacity=".7"/>
-<text x="46" y="231" fill="#536a72" font-family="Comfortaa, 'Josefin Sans', sans-serif" font-size="11" letter-spacing="3">PROJECTOS · PERSONAL WORKSPACE</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="250" viewBox="0 0 520 250">
+<style>@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}@keyframes pulse{0%,100%{opacity:.15}50%{opacity:.38}}.float{animation:float 4.5s ease-in-out infinite}.pulse{animation:pulse 3s ease-in-out infinite}text{font-family:Comfortaa,'Josefin Sans',sans-serif}</style>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090d15"/><stop offset="1" stop-color="#151c2a"/></linearGradient></defs>
+<rect width="520" height="250" rx="20" fill="url(#bg)"/>
+<path d="M0 34H520M0 216H520" stroke="#64798b" stroke-opacity=".28"/>
+<circle class="pulse" cx="426" cy="66" r="83" fill="#7a365b"/>
+<g class="float">
+ <rect x="42" y="33" width="328" height="177" rx="12" fill="#171d2a" stroke="#526679"/>
+ <path d="M42 63H370" stroke="#526679"/>
+ <circle cx="59" cy="48" r="4" fill="#b14b69"/><circle cx="73" cy="48" r="4" fill="#708498"/><circle cx="87" cy="48" r="4" fill="#708498"/>
+ <rect x="59" y="79" width="82" height="113" rx="6" fill="#25283a"/>
+ <rect x="73" y="94" width="52" height="6" rx="3" fill="#bd5574"/><rect x="73" y="110" width="41" height="4" rx="2" fill="#77889b"/><rect x="73" y="122" width="48" height="4" rx="2" fill="#77889b"/><rect x="73" y="151" width="53" height="26" rx="5" fill="#33404d"/>
+ <rect x="156" y="79" width="195" height="47" rx="7" fill="#202b38"/><path d="M171 109l22-15 21 8 25-13 26 12 31-17 37 15" fill="none" stroke="#9d5271" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+ <rect x="156" y="137" width="92" height="55" rx="7" fill="#252238"/><rect x="259" y="137" width="92" height="55" rx="7" fill="#1d3039"/>
+ <path d="M173 174l16-17 17 10 23-22" fill="none" stroke="#a95878" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(404 126)" fill="#e4e4e9"><path d="M0 18L9 0h20l9 18v36H0Z"/><path d="M5 4L0-8l19 9 19-9-5 12" fill="#e4e4e9"/><path d="M9 25l10 4 10-4" fill="none" stroke="#70475d" stroke-width="2"/><circle cx="13" cy="18" r="2" fill="#70475d"/><circle cx="25" cy="18" r="2" fill="#70475d"/></g>
+<text x="33" y="232" fill="#8298ac" font-size="10" letter-spacing="3">PROJECTOS  /  PERSONAL WORKSPACE</text>
 </svg>
