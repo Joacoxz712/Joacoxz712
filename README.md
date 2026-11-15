@@ -39,15 +39,17 @@ I don't really want to stay in one box. I want to understand how things work, ex
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=html,css,js,lua&theme=dark" alt="HTML, CSS, JavaScript and Lua"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript"/> <img src="https://img.shields.io/badge/Luau-00A2FF?style=flat-square&logo=roblox&logoColor=white" alt="Luau"/>
 
 **Frameworks & runtime**
 
-<img src="https://skillicons.dev/icons?i=react,vite,nodejs,express&theme=dark" alt="React, Vite, Node.js and Express"/>
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/> <img src="https://img.shields.io/badge/Express-111111?style=flat-square&logo=express&logoColor=white" alt="Express"/>
 
 **Tools & platforms**
 
-<img src="https://skillicons.dev/icons?i=git,github,robloxstudio&theme=dark" alt="Git, GitHub and Roblox Studio"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/> <img src="https://img.shields.io/badge/Roblox_Studio-111111?style=flat-square&logo=roblox&logoColor=white" alt="Roblox Studio"/>
+
+<sub>Currently exploring: Python · C · C++ · Java</sub>
 
 </div>
 
@@ -174,7 +176,11 @@ An experiment in project management: tasks, connected ideas, planning flows and 
 <img src="https://github-readme-stats.vercel.app/api?username=Joacoxz712&show_icons=true&hide_border=true&bg_color=00000000&title_color=e8b6d2&icon_color=c7a6e8&text_color=c9c3d2&rank_icon=github" height="165" alt="GitHub statistics"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joacoxz712&layout=compact&hide_border=true&bg_color=00000000&title_color=e8b6d2&text_color=c9c3d2" height="165" alt="Most used programming languages"/>
 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Joacoxz712&theme=transparent&hide_border=true&ring=e8b6d2&fire=c7a6e8&currStreakLabel=e8b6d2&sideLabels=c9c3d2&dates=91899f" width="75%" alt="GitHub contribution streak"/>
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Joacoxz712&bg_color=00000000&color=c9c3d2&line=c7a6e8&point=e8b6d2&area=true&hide_border=true" width="100%" alt="Contribution activity graph"/>
+
+<img src="https://raw.githubusercontent.com/Joacoxz712/Joacoxz712/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated contribution snake"/>
 
 </div>
 
