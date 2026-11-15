@@ -1,7 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="82" viewBox="0 0 1080 82">
-<rect x="1" y="1" width="1078" height="80" rx="13" fill="#0d1018" stroke="#343342"/>
-<text x="24" y="28" fill="#9c6175" font-family="Comfortaa,'Josefin Sans',sans-serif" font-size="9" letter-spacing="2.4">ON MY RADAR</text>
-<g fill="#c8c4d0" font-family="Comfortaa,'Josefin Sans',sans-serif" font-size="13"><text x="590" y="48">Python</text><text x="704" y="48">C</text><text x="792" y="48">C++</text><text x="900" y="48">Java</text></g>
-<g fill="#a84867"><circle cx="570" cy="43" r="3"/><circle cx="684" cy="43" r="3"/><circle cx="772" cy="43" r="3"/><circle cx="880" cy="43" r="3"/></g>
-<path d="M24 51H520" stroke="#718094" stroke-opacity=".3" stroke-dasharray="2 7"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="116" viewBox="0 0 1080 116">
+<defs><style>text{font-family:Comfortaa,'Josefin Sans',sans-serif}.node{animation:soft 3.5s ease-in-out infinite}.n2{animation-delay:.7s}.n3{animation-delay:1.4s}.n4{animation-delay:2.1s}@keyframes soft{0%,100%{opacity:.55}50%{opacity:1}}</style></defs>
+<rect x="1" y="1" width="1078" height="114" rx="16" fill="#0d0e16" stroke="#39313f"/>
+<text x="25" y="27" fill="#c2768e" font-size="10" letter-spacing="3">OPEN TABS IN MY BRAIN</text>
+<text x="25" y="52" fill="#777889" font-size="10" letter-spacing="1">Things I want to understand next</text>
+<path d="M76 79H1005" stroke="#594052" stroke-width="1.5" stroke-dasharray="3 7"/>
+<g class="node"><circle cx="170" cy="79" r="6" fill="#c16a87"/><text x="170" y="101" fill="#e0d5dd" font-size="12" text-anchor="middle">Python</text></g>
+<g class="node n2"><circle cx="415" cy="79" r="6" fill="#c16a87"/><text x="415" y="101" fill="#e0d5dd" font-size="12" text-anchor="middle">C</text></g>
+<g class="node n3"><circle cx="660" cy="79" r="6" fill="#c16a87"/><text x="660" y="101" fill="#e0d5dd" font-size="12" text-anchor="middle">C++</text></g>
+<g class="node n4"><circle cx="905" cy="79" r="6" fill="#c16a87"/><text x="905" y="101" fill="#e0d5dd" font-size="12" text-anchor="middle">Java</text></g>
 </svg>
