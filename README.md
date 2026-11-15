@@ -168,7 +168,7 @@ An experiment in project management: tasks, connected ideas, planning flows and 
 
 <img src="https://www.classicgaming.cc/classics/pac-man/images/web/web-lisnovski-runner.gif" height="118" alt="Pac-Man running through the maze"/>
 <img src="assets/git-cat.gif" height="118" alt="Pixel cat animation"/>
-<img src="https://raw.githubusercontent.com/jattu8602/jattu8602/main/unicorn.gif" height="118" alt="Pixel-art unicorn"/>
+<img src="https://github.com/user-attachments/assets/e3b5e1fe-0b4c-47d6-b21f-1fe4d2023556" height="118" alt="Neon night city pixel art"/>
 
 <sub>one more round · one more commit</sub>
 
