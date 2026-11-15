@@ -2,6 +2,8 @@
 
 <img src="assets/hero-coco.svg" width="100%" alt="Coco — personal space"/>
 
+<img src="https://raw.githubusercontent.com/jattu8602/jattu8602/main/welcome-header.gif" width="78%" alt="Animated welcome banner"/>
+
 <img src="https://readme-typing-svg.demolab.com?font=Comfortaa&weight=600&size=30&pause=1100&color=E8B6D2&center=true&vCenter=true&width=700&height=58&lines=Hello%2C+I+am+Coco;Building+ideas+into+real+things;Curious+by+default." alt="Hello, I am Coco — animated introduction"/>
 
 </div>
@@ -21,7 +23,9 @@ I don't really want to stay in one box. I want to understand how things work, ex
 </td>
 <td width="34%" align="center" valign="middle">
 
-<img src="assets/git-cat.gif" width="190" alt="Animated pixel cat"/>
+<img src="assets/git-cat.gif" width="170" alt="Animated pixel cat"/>
+<br/>
+<img src="https://raw.githubusercontent.com/jattu8602/jattu8602/main/cat-typing.gif" width="150" alt="A cat typing at a computer"/>
 
 <sub>quiet mind · noisy ideas</sub>
 
@@ -39,19 +43,24 @@ I don't really want to stay in one box. I want to understand how things work, ex
 
 **Languages**
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript"/> <img src="https://img.shields.io/badge/Luau-00A2FF?style=flat-square&logo=roblox&logoColor=white" alt="Luau"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111"/>
+<img src="https://img.shields.io/badge/Luau-00A2FF?style=flat-square&logo=robloxstudio&logoColor=white"/>
 
 **Frameworks & runtime**
 
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/> <img src="https://img.shields.io/badge/Express-111111?style=flat-square&logo=express&logoColor=white" alt="Express"/>
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express-222222?style=flat-square&logo=express&logoColor=white"/>
 
 **Tools & platforms**
 
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/> <img src="https://img.shields.io/badge/Roblox_Studio-111111?style=flat-square&logo=roblox&logoColor=white" alt="Roblox Studio"/>
-
-<sub>Currently exploring: Python · C · C++ · Java</sub>
-
-</div>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Roblox_Studio-111111?style=flat-square&logo=robloxstudio&logoColor=white"/>
+<img src="https://img.shields.io/badge/Fedora-51A2DA?style=flat-square&logo=fedora&logoColor=white"/></div>
 
 <table>
 <tr>
@@ -159,7 +168,7 @@ An experiment in project management: tasks, connected ideas, planning flows and 
 
 <img src="https://www.classicgaming.cc/classics/pac-man/images/web/web-lisnovski-runner.gif" height="118" alt="Pac-Man running through the maze"/>
 <img src="assets/git-cat.gif" height="118" alt="Pixel cat animation"/>
-<img src="https://github.com/user-attachments/assets/e3b5e1fe-0b4c-47d6-b21f-1fe4d2023556" height="118" alt="Blade Runner inspired neon city pixel art"/>
+<img src="https://raw.githubusercontent.com/jattu8602/jattu8602/main/unicorn.gif" height="118" alt="Pixel-art unicorn"/>
 
 <sub>one more round · one more commit</sub>
 
@@ -179,6 +188,18 @@ An experiment in project management: tasks, connected ideas, planning flows and 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Joacoxz712&theme=transparent&hide_border=true&ring=e8b6d2&fire=c7a6e8&currStreakLabel=e8b6d2&sideLabels=c9c3d2&dates=91899f" width="75%" alt="GitHub contribution streak"/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Joacoxz712&bg_color=00000000&color=c9c3d2&line=c7a6e8&point=e8b6d2&area=true&hide_border=true" width="100%" alt="Contribution activity graph"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Joacoxz712&theme=tokyonight" width="100%" alt="GitHub profile contribution summary"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Joacoxz712&theme=transparent&hide_border=true&ring=e8b6d2&fire=c7a6e8&currStreakLabel=e8b6d2" width="80%" alt="GitHub contribution streak"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jattu8602/jattu8602/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jattu8602/jattu8602/output/pacman-contribution-graph.svg">
+  <img src="https://raw.githubusercontent.com/jattu8602/jattu8602/output/pacman-contribution-graph-dark.svg" width="100%" alt="Pac-Man eating the contribution graph"/>
+</picture>
+
+<img src="https://raw.githubusercontent.com/Ahtisham-1214/Ahtisham-1214/snake/github-snake-dark.svg" width="100%" alt="Animated contribution snake"/>
 
 <img src="https://raw.githubusercontent.com/Joacoxz712/Joacoxz712/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated contribution snake"/>
 
