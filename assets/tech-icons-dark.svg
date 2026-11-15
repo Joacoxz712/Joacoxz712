@@ -1,21 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="116" viewBox="0 0 1080 116">
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="174" viewBox="0 0 1080 174">
 <defs><style>
- .tech{transform-box:fill-box;transform-origin:center;transition:transform .22s ease,filter .22s ease}
- .tech:hover{transform:translateY(-7px) scale(1.09);filter:drop-shadow(0 7px 8px #a83e5d66)}
- @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
- .line{animation:pulse 3.5s ease-in-out infinite}
+ text{font-family:Comfortaa,'Josefin Sans',sans-serif}
+ .tech{transform-box:fill-box;transform-origin:center;transition:transform .25s ease,filter .25s ease}
+ .tech:hover{transform:translateY(-8px) scale(1.1);filter:drop-shadow(0 8px 9px #b34c6c88)}
+ .beam{animation:beam 5s ease-in-out infinite}
+ @keyframes beam{0%,100%{opacity:.12}50%{opacity:.55}}
 </style></defs>
-<rect x="1" y="1" width="1078" height="114" rx="15" fill="#0d0e16" stroke="#30303f"/>
-<path d="M24 26H1056" stroke="#9c3b59" stroke-opacity=".55"/>
-<text x="26" y="18" fill="#a95b73" font-family="Comfortaa,'Josefin Sans',sans-serif" font-size="9" letter-spacing="2.6">TOOLS IN MY WORKFLOW</text>
-<g class="tech"><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" x="42" y="43" width="43" height="43"/></g>
-<g class="tech"><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" x="157" y="43" width="43" height="43"/></g>
-<g class="tech"><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" x="272" y="43" width="43" height="43"/></g>
-<g class="tech"><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" x="387" y="43" width="43" height="43"/></g>
-<g class="tech"><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" x="502" y="43" width="43" height="43"/></g>
-<g class="tech"><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" x="617" y="43" width="43" height="43"/></g>
-<g class="tech"><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" x="732" y="43" width="43" height="43" style="filter:invert(1)"/></g>
-<g class="tech"><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" x="847" y="43" width="43" height="43"/></g>
-<g class="tech"><image href="https://cdn.simpleicons.org/roblox/FFFFFF" x="962" y="43" width="43" height="43"/></g>
-<path class="line" d="M64 99H1016" stroke="#718094" stroke-opacity=".28" stroke-dasharray="2 9"/>
+<rect x="1" y="1" width="1078" height="172" rx="17" fill="#0c0d15" stroke="#38303e"/>
+<path d="M20 37H1060" stroke="#a74767" stroke-opacity=".7"/>
+<text x="25" y="25" fill="#c2768e" font-size="10" letter-spacing="3">THE CURRENT TOOLBOX</text>
+<text x="1052" y="25" fill="#6e7183" font-size="9" text-anchor="end" letter-spacing="1.5">09 OBJECTS / 01 WORKBENCH</text>
+<g class="tech"><rect x="23" y="51" width="108" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" x="55" y="65" width="44" height="44"/><text x="77" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">CSS</text></g>
+<g class="tech"><rect x="140" y="51" width="108" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" x="172" y="65" width="44" height="44"/><text x="194" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">JS</text></g>
+<g class="tech"><rect x="257" y="51" width="108" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" x="289" y="65" width="44" height="44"/><text x="311" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">HTML</text></g>
+<g class="tech"><rect x="374" y="51" width="108" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" x="406" y="65" width="44" height="44"/><text x="428" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">VITE</text></g>
+<g class="tech"><rect x="491" y="51" width="108" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" x="523" y="65" width="44" height="44"/><text x="545" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">REACT</text></g>
+<g class="tech"><rect x="608" y="51" width="108" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" x="640" y="65" width="44" height="44"/><text x="662" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">GIT</text></g>
+<g class="tech"><rect x="725" y="51" width="108" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" x="757" y="65" width="44" height="44" style="filter:invert(1)"/><text x="779" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">GITHUB</text></g>
+<g class="tech"><rect x="842" y="51" width="108" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" x="874" y="65" width="44" height="44"/><text x="896" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">LUAU</text></g>
+<g class="tech"><rect x="959" y="51" width="98" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.simpleicons.org/roblox/FFFFFF" x="986" y="65" width="44" height="44"/><text x="1008" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">ROBLOX</text></g>
+<path class="beam" d="M25 158H1055" stroke="#cf6e8a" stroke-width="1" stroke-dasharray="2 8"/>
 </svg>
