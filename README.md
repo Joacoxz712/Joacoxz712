@@ -23,6 +23,12 @@ I'm a developer interested in software engineering, creative tooling, game devel
 
 ## 02 / TECHNICAL ARSENAL
 
+<div align="center">
+
+<img src="assets/tech-stack.svg" width="100%" alt="NERV technology map"/>
+
+</div>
+
 <table>
 <tr><td width="50%" valign="top">
 
@@ -54,7 +60,7 @@ I'm a developer interested in software engineering, creative tooling, game devel
 | PROJECT | DEVELOPMENT FOCUS |
 |:--|:--|
 | **Drakkar** | Full-stack e-commerce · React · PostgreSQL |
-| **Steal A Crypto** | Roblox game development · Luau · gameplay systems |
+| **Steal A Crypto** | Roblox game development · Luau · gameplay systems · [Roblox project](https://www.roblox.com/games/79524496754754) |
 | **ProjectOS** | Project management · local AI · automation |
 
 ## 04 / LIVE DEVELOPMENT CONSOLE
