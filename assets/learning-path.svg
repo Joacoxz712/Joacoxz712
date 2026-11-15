@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="76" viewBox="0 0 1040 76">
-<rect width="1040" height="76" rx="18" fill="#eef1f0" stroke="#cbd5d4"/>
-<text x="25" y="30" fill="#536e79" font-family="Comfortaa,'Josefin Sans',sans-serif" font-size="10" letter-spacing="2.4">NEXT ON THE LEARNING PATH</text>
-<g font-family="Comfortaa,'Josefin Sans',sans-serif" font-size="13" fill="#52666d"><text x="600" y="46">Python</text><text x="700" y="46">C</text><text x="770" y="46">C++</text><text x="870" y="46">Java</text></g>
-<g fill="#a94a5c"><circle cx="580" cy="41" r="3"/><circle cx="680" cy="41" r="3"/><circle cx="750" cy="41" r="3"/><circle cx="850" cy="41" r="3"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="82" viewBox="0 0 1080 82">
+<rect x="1" y="1" width="1078" height="80" rx="13" fill="#0d1018" stroke="#343342"/>
+<text x="24" y="28" fill="#9c6175" font-family="Comfortaa,'Josefin Sans',sans-serif" font-size="9" letter-spacing="2.4">ON MY RADAR</text>
+<g fill="#c8c4d0" font-family="Comfortaa,'Josefin Sans',sans-serif" font-size="13"><text x="590" y="48">Python</text><text x="704" y="48">C</text><text x="792" y="48">C++</text><text x="900" y="48">Java</text></g>
+<g fill="#a84867"><circle cx="570" cy="43" r="3"/><circle cx="684" cy="43" r="3"/><circle cx="772" cy="43" r="3"/><circle cx="880" cy="43" r="3"/></g>
+<path d="M24 51H520" stroke="#718094" stroke-opacity=".3" stroke-dasharray="2 7"/>
 </svg>
