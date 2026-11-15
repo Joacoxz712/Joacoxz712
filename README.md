@@ -169,14 +169,18 @@ A late-night idea, a soundtrack on repeat, a scene that stays in my head longer 
 <summary><strong>a tiny process running somewhere</strong></summary>
 
 ```javascript
-const nextVersion = () => {
-  notice something;
-  get curious;
-  try it;
-  break it;
-  understand why;
-  make it better;
-};
+const loop = [
+  "notice something",
+  "get curious",
+  "make a prototype",
+  "break it",
+  "understand why",
+  "make it better"
+];
+
+for (const step of loop) {
+  keepGoing(step);
+}
 ```
 
 </details>
