@@ -92,7 +92,7 @@ I'm a developer interested in software engineering, creative tooling, game devel
 
 ## 05 / LIVE DEVELOPMENT CONSOLE
 
-Explore the interactive dashboard with activity history, language distribution and repository data:
+Explore the interactive dashboard with a project activity journey, animated white cat companion, activity history, language distribution and repository data:
 
 <div align="center">
 
@@ -101,6 +101,8 @@ Explore the interactive dashboard with activity history, language distribution a
 </div>
 
 ## 06 / DEVELOPMENT LOG
+
+The Git-Cat now follows public activity signals across repositories. Its dashboard journey is interactive: choose a repository and watch the companion move along its activity route. This represents observable public activity, not estimated project completion.
 
 <div align="center">
 
