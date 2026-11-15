@@ -1,23 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="174" viewBox="0 0 1080 174">
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="150" viewBox="0 0 1080 150">
 <defs><style>
  text{font-family:Comfortaa,'Josefin Sans',sans-serif}
- .tech{transform-box:fill-box;transform-origin:center;transition:transform .25s ease,filter .25s ease}
- .tech:hover{transform:translateY(-8px) scale(1.1);filter:drop-shadow(0 8px 9px #b34c6c88)}
+ .tech{transform-box:fill-box;transform-origin:center;animation:levitate 4.6s ease-in-out infinite;transition:transform .25s ease,filter .25s ease}
+ .t2{animation-delay:.25s}.t3{animation-delay:.5s}.t4{animation-delay:.75s}.t5{animation-delay:1s}.t6{animation-delay:1.25s}.t7{animation-delay:1.5s}.t8{animation-delay:1.75s}.t9{animation-delay:2s}
+ .tech:hover{transform:translateY(-9px) scale(1.12);filter:drop-shadow(0 8px 10px #b34c6c99)}
  .beam{animation:beam 5s ease-in-out infinite}
+ @keyframes levitate{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
  @keyframes beam{0%,100%{opacity:.12}50%{opacity:.55}}
 </style></defs>
-<rect x="1" y="1" width="1078" height="172" rx="17" fill="#0c0d15" stroke="#38303e"/>
+<rect x="1" y="1" width="1078" height="148" rx="17" fill="#0c0d15" stroke="#38303e"/>
 <path d="M20 37H1060" stroke="#a74767" stroke-opacity=".7"/>
 <text x="25" y="25" fill="#c2768e" font-size="10" letter-spacing="3">THE CURRENT TOOLBOX</text>
 <text x="1052" y="25" fill="#6e7183" font-size="9" text-anchor="end" letter-spacing="1.5">09 OBJECTS / 01 WORKBENCH</text>
-<g class="tech"><rect x="23" y="51" width="108" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" x="55" y="65" width="44" height="44"/><text x="77" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">CSS</text></g>
-<g class="tech"><rect x="140" y="51" width="108" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" x="172" y="65" width="44" height="44"/><text x="194" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">JS</text></g>
-<g class="tech"><rect x="257" y="51" width="108" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" x="289" y="65" width="44" height="44"/><text x="311" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">HTML</text></g>
-<g class="tech"><rect x="374" y="51" width="108" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" x="406" y="65" width="44" height="44"/><text x="428" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">VITE</text></g>
-<g class="tech"><rect x="491" y="51" width="108" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" x="523" y="65" width="44" height="44"/><text x="545" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">REACT</text></g>
-<g class="tech"><rect x="608" y="51" width="108" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" x="640" y="65" width="44" height="44"/><text x="662" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">GIT</text></g>
-<g class="tech"><rect x="725" y="51" width="108" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" x="757" y="65" width="44" height="44" style="filter:invert(1)"/><text x="779" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">GITHUB</text></g>
-<g class="tech"><rect x="842" y="51" width="108" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" x="874" y="65" width="44" height="44"/><text x="896" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">LUAU</text></g>
-<g class="tech"><rect x="959" y="51" width="98" height="96" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.simpleicons.org/roblox/FFFFFF" x="986" y="65" width="44" height="44"/><text x="1008" y="128" fill="#c9bfca" font-size="10" text-anchor="middle" letter-spacing="1">ROBLOX</text></g>
-<path class="beam" d="M25 158H1055" stroke="#cf6e8a" stroke-width="1" stroke-dasharray="2 8"/>
+<g class="tech"><rect x="23" y="51" width="108" height="76" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" x="55" y="67" width="44" height="44"/></g>
+<g class="tech t2"><rect x="140" y="51" width="108" height="76" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" x="172" y="67" width="44" height="44"/></g>
+<g class="tech t3"><rect x="257" y="51" width="108" height="76" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" x="289" y="67" width="44" height="44"/></g>
+<g class="tech t4"><rect x="374" y="51" width="108" height="76" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" x="406" y="67" width="44" height="44"/></g>
+<g class="tech t5"><rect x="491" y="51" width="108" height="76" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" x="523" y="67" width="44" height="44"/></g>
+<g class="tech t6"><rect x="608" y="51" width="108" height="76" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" x="640" y="67" width="44" height="44"/></g>
+<g class="tech t7"><rect x="725" y="51" width="108" height="76" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" x="757" y="67" width="44" height="44" style="filter:invert(1)"/></g>
+<g class="tech t8"><rect x="842" y="51" width="108" height="76" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" x="874" y="67" width="44" height="44"/></g>
+<g class="tech t9"><rect x="959" y="51" width="98" height="76" rx="11" fill="#171722" stroke="#514052"/><image href="https://cdn.simpleicons.org/roblox/FFFFFF" x="986" y="67" width="44" height="44"/></g>
+<path class="beam" d="M25 138H1055" stroke="#cf6e8a" stroke-width="1" stroke-dasharray="2 8"/>
 </svg>
