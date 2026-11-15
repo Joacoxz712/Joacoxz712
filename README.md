@@ -121,19 +121,14 @@ A little music, a few familiar frames, a quiet workspace and something new to bu
 </td>
 <td width="28%" align="center" valign="middle">
 
-<img src="https://gifdb.com/images/high/evangelion-shinji-lcl-sea-v5dnk7rmk1gnpxll.gif" width="170" alt="Shinji floating on the red LCL sea"/>
+<img src="https://gifdb.com/images/high/evangelion-shinji-lcl-sea-v5dnk7rmk1gnpxll.gif" width="118" alt="Shinji floating on the red LCL sea"/>
+<img src="https://media1.tenor.com/images/cb548b9e2e5b478593599d84cd69fc34/tenor.gif?itemid=5960136" width="118" alt="Kaworu Nagisa animated GIF"/>
+
+<sub><a href="https://gifdb.com/gif/evangelion-shinji-lcl-sea-v5dnk7rmk1gnpxll.html">Shinji</a> · <a href="https://gifdb.com/gif/evangelion-3-0-kaworu-nagisa-u6ib2cxr7srtyfkt.html">Kaworu</a> · GIF sources</sub>
 
 </td>
 </tr>
 </table>
-
-<div align="center">
-
-<img src="https://media1.tenor.com/images/cb548b9e2e5b478593599d84cd69fc34/tenor.gif?itemid=5960136" width="150" alt="Kaworu Nagisa animated GIF"/>
-
-<sub><a href="https://gifdb.com/gif/evangelion-3-0-kaworu-nagisa-u6ib2cxr7srtyfkt.html">Kaworu · GIF source</a></sub>
-
-</div>
 
 <div align="center">
 
