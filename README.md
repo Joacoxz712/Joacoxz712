@@ -41,6 +41,16 @@ Currently spending time on **Drakkar**, **Steal A Crypto** and **ProjectOS**. Ea
 
 </div>
 
+<div align="center">
+
+<a href="https://gifdb.com/gif/evangelion-unit-01-roar-md3l2kpsj6eynifu.html">
+<img src="https://gifdb.com/images/branded/high/evangelion-unit-01-roar-md3l2kpsj6eynifu.gif" width="118" alt="Evangelion Unit 01 roaring"/>
+</a>
+
+<sub>Unit 01 · <a href="https://gifdb.com/gif/evangelion-unit-01-roar-md3l2kpsj6eynifu.html">GIF via GIFDB</a></sub>
+
+</div>
+
 ## On my learning list
 
 <div align="center">
