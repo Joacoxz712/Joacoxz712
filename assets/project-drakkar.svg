@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="250" viewBox="0 0 520 250">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f4e8df"/><stop offset="1" stop-color="#d8c2b8"/></linearGradient><linearGradient id="red" x2="1"><stop stop-color="#8e3447"/><stop offset="1" stop-color="#c16a78"/></linearGradient></defs>
+<rect width="520" height="250" rx="28" fill="url(#bg)"/>
+<circle cx="430" cy="42" r="76" fill="#fff" opacity=".24"/><path d="M0 196 Q120 158 245 198 T520 180 V250 H0Z" fill="#c9aaa0" opacity=".5"/>
+<rect x="44" y="36" width="245" height="164" rx="15" fill="#fffaf6" opacity=".92"/>
+<rect x="64" y="56" width="90" height="8" rx="4" fill="#a54b5c"/><rect x="64" y="73" width="150" height="5" rx="2.5" fill="#d7c8c2"/>
+<rect x="64" y="94" width="94" height="82" rx="9" fill="#e8d8cf"/><path d="M82 150l22-34 20 22 14-15 14 26" fill="none" stroke="#9d5964" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="172" y="99" width="94" height="8" rx="4" fill="#6e5154"/><rect x="172" y="117" width="72" height="5" rx="2.5" fill="#c8b8b2"/><rect x="172" y="132" width="82" height="5" rx="2.5" fill="#c8b8b2"/><rect x="172" y="154" width="63" height="20" rx="10" fill="url(#red)"/>
+<path d="M335 88h104l-12 112h-80z" fill="#9b4557"/><path d="M335 88l52-33 52 33" fill="#bd7480"/><path d="M358 105h58" stroke="#f8e9e4" stroke-width="4" opacity=".8"/><path d="M358 121h45" stroke="#f8e9e4" stroke-width="3" opacity=".55"/><circle cx="387" cy="161" r="21" fill="#f2ddd5"/><path d="M378 161h18m-9-9v18" stroke="#9b4557" stroke-width="3" stroke-linecap="round"/>
+<text x="44" y="226" fill="#71414a" font-family="Comfortaa, sans-serif" font-size="11" letter-spacing="3">DRakkar · DIGITAL COMMERCE</text>
+</svg>
