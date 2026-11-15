@@ -1,15 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="250" viewBox="0 0 520 250"><style>
- @keyframes ambientFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
- @keyframes ambientPulse{0%,100%{opacity:.16}50%{opacity:.34}}
- svg:hover{filter:drop-shadow(0 10px 15px #4b3a3c33)}
- .ambient{animation:ambientFloat 4.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
- .ambientGlow{animation:ambientPulse 3.6s ease-in-out infinite}
- </style>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#171820"/><stop offset="1" stop-color="#29212b"/></linearGradient><linearGradient id="core" x2="1" y2="1"><stop stop-color="#6fe2e0"/><stop offset="1" stop-color="#b1f3e9"/></linearGradient></defs>
-<rect width="520" height="250" rx="28" fill="url(#bg)"/><circle class="ambientGlow" cx="382" cy="104" r="90" fill="#a7475b" opacity=".12"/><path d="M0 208L90 168l55 24 83-58 76 42 75-65 141 54v85H0Z" fill="#13141c"/>
-<g fill="#343440"><path d="M32 125h55v82H32zM95 90h48v117H95zM160 140h58v67h-58zM414 94h64v113h-64zM351 130h49v77h-49z"/></g>
-<g stroke="#a94d63" stroke-width="2" opacity=".75"><path d="M59 138v55m58-88v102m72-52v52m257-91v91m-70-62v62"/></g>
-<path d="M260 66l54 31v62l-54 31-54-31V97z" fill="url(#core)" opacity=".95"/><path d="M260 66v124m-54-93l108 62m0-62l-108 62" stroke="#24424a" stroke-width="2" opacity=".65"/><circle cx="260" cy="128" r="17" fill="#1c2a32"/><path d="M252 128h16m-8-8v16" stroke="#aaf2e9" stroke-width="3" stroke-linecap="round"/>
-<path d="M30 32h90m-90 8h54M397 34h91m-91 8h48" stroke="#d26b7e" stroke-width="2" opacity=".8"/>
-<text x="32" y="231" fill="#d9cdd2" font-family="Comfortaa, 'Josefin Sans', sans-serif" font-size="11" letter-spacing="3">STEAL A CRYPTO · ROBLOX</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="300" viewBox="0 0 620 300">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090e16"/><stop offset="1" stop-color="#14202a"/></linearGradient><linearGradient id="core" x2="1" y2="1"><stop stop-color="#5dd7d2"/><stop offset="1" stop-color="#c1f4df"/></linearGradient><style>text{font-family:Comfortaa,'Josefin Sans',sans-serif}.pulse{animation:pulse 3.5s ease-in-out infinite}.float{animation:float 4.5s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.12}50%{opacity:.4}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}</style></defs>
+<rect width="620" height="300" rx="20" fill="url(#bg)"/><path d="M0 42H620M0 258H620" stroke="#51727c" stroke-opacity=".4"/><g opacity=".14" stroke="#8ab2b9"><path d="M0 90H620M0 135H620M0 180H620M0 225H620"/><path d="M90 0V300M180 0V300M270 0V300M360 0V300M450 0V300M540 0V300"/></g>
+<circle class="pulse" cx="350" cy="140" r="142" fill="#4fd2ce"/><path d="M0 238L92 180l62 32 90-74 78 50 84-92 120 78 94-31v157H0Z" fill="#0c151d"/>
+<g fill="#25323d" stroke="#5a7680" stroke-opacity=".5"><path d="M35 132h58v106H35zM105 92h52v146h-52zM168 151h65v87h-65zM464 111h68v127h-68zM544 150h45v88h-45z"/></g>
+<g class="float"><path d="M350 63l68 39v78l-68 39-68-39v-78z" fill="url(#core)" stroke="#d5fff4" stroke-width="2"/><path d="M350 63v156m-68-117l136 78m0-78l-136 78" stroke="#254a53" stroke-width="2" opacity=".6"/><circle cx="350" cy="141" r="22" fill="#172d37"/><path d="M340 141h20m-10-10v20" stroke="#aaf5e9" stroke-width="3" stroke-linecap="round"/></g>
+<path d="M34 66H155m-121 9h74M468 65h118m-118 9h73" stroke="#71d8d0" stroke-width="2" opacity=".6"/>
+<text x="34" y="282" fill="#9eddd8" font-size="10" letter-spacing="3">02 / STEAL A CRYPTO　—　ROBLOX GAME WORLD</text>
 </svg>
