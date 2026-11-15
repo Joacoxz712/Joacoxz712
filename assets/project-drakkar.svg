@@ -1,17 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="250" viewBox="0 0 520 250"><style>
- @keyframes ambientFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
- @keyframes ambientPulse{0%,100%{opacity:.16}50%{opacity:.34}}
- svg:hover{filter:drop-shadow(0 10px 15px #4b3a3c33)}
- .ambient{animation:ambientFloat 4.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
- .ambientGlow{animation:ambientPulse 3.6s ease-in-out infinite}
- </style>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f4e8df"/><stop offset="1" stop-color="#d8c2b8"/></linearGradient><linearGradient id="red" x2="1"><stop stop-color="#8e3447"/><stop offset="1" stop-color="#c16a78"/></linearGradient></defs>
-<rect width="520" height="250" rx="28" fill="url(#bg)"/>
-<circle class="ambientGlow" cx="430" cy="42" r="76" fill="#fff" opacity=".24"/><path d="M0 196 Q120 158 245 198 T520 180 V250 H0Z" fill="#c9aaa0" opacity=".5"/>
-<rect x="44" y="36" width="245" height="164" rx="15" fill="#fffaf6" opacity=".92"/>
-<rect x="64" y="56" width="90" height="8" rx="4" fill="#a54b5c"/><rect x="64" y="73" width="150" height="5" rx="2.5" fill="#d7c8c2"/>
-<rect x="64" y="94" width="94" height="82" rx="9" fill="#e8d8cf"/><path d="M82 150l22-34 20 22 14-15 14 26" fill="none" stroke="#9d5964" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="172" y="99" width="94" height="8" rx="4" fill="#6e5154"/><rect x="172" y="117" width="72" height="5" rx="2.5" fill="#c8b8b2"/><rect x="172" y="132" width="82" height="5" rx="2.5" fill="#c8b8b2"/><rect x="172" y="154" width="63" height="20" rx="10" fill="url(#red)"/>
-<path d="M335 88h104l-12 112h-80z" fill="#9b4557"/><path d="M335 88l52-33 52 33" fill="#bd7480"/><path d="M358 105h58" stroke="#f8e9e4" stroke-width="4" opacity=".8"/><path d="M358 121h45" stroke="#f8e9e4" stroke-width="3" opacity=".55"/><circle cx="387" cy="161" r="21" fill="#f2ddd5"/><path d="M378 161h18m-9-9v18" stroke="#9b4557" stroke-width="3" stroke-linecap="round"/>
-<text x="44" y="226" fill="#71414a" font-family="Comfortaa, 'Josefin Sans', sans-serif" font-size="11" letter-spacing="3">DRakkar · DIGITAL COMMERCE</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="250" viewBox="0 0 520 250">
+<style>@keyframes rise{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}@keyframes glow{0%,100%{opacity:.14}50%{opacity:.35}}.float{animation:rise 4s ease-in-out infinite;transform-origin:center}.glow{animation:glow 3s ease-in-out infinite}text{font-family:Comfortaa,'Josefin Sans',sans-serif}</style>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a0d15"/><stop offset="1" stop-color="#24121d"/></linearGradient><linearGradient id="red" x2="1"><stop stop-color="#87304d"/><stop offset="1" stop-color="#c05270"/></linearGradient></defs>
+<rect width="520" height="250" rx="20" fill="url(#bg)"/>
+<path d="M0 206L110 166l75 26 100-67 78 44 87-63 70 31v113H0Z" fill="#111622"/>
+<circle class="glow" cx="395" cy="103" r="100" fill="#a83d61"/>
+<g opacity=".28" stroke="#8c9aaf"><path d="M0 45H520M0 80H520M0 115H520M0 150H520M55 0V250M105 0V250M155 0V250M205 0V250M255 0V250M305 0V250M355 0V250M405 0V250M455 0V250"/></g>
+<g class="float">
+ <rect x="43" y="37" width="270" height="166" rx="12" fill="#151a27" stroke="#5a3a50"/>
+ <rect x="58" y="51" width="240" height="24" rx="5" fill="#242335"/>
+ <circle cx="72" cy="63" r="3" fill="#c45d78"/><circle cx="84" cy="63" r="3" fill="#78899c"/><circle cx="96" cy="63" r="3" fill="#78899c"/>
+ <rect x="60" y="88" width="102" height="100" rx="7" fill="#202637"/>
+ <path d="M77 161l23-38 21 23 18-29 12 44" fill="none" stroke="#c05b77" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+ <rect x="175" y="91" width="104" height="8" rx="4" fill="#9d4c69"/><rect x="175" y="109" width="86" height="5" rx="2" fill="#586579"/><rect x="175" y="123" width="94" height="5" rx="2" fill="#586579"/>
+ <rect x="175" y="146" width="72" height="24" rx="6" fill="url(#red)"/>
+</g>
+<g transform="translate(360 74)" fill="none" stroke="#c56b85" stroke-width="2">
+ <path d="M55 0L104 28V84L55 112L6 84V28Z" fill="#1c1b2a"/>
+ <path d="M55 0V112M6 28l98 56M104 28L6 84" opacity=".5"/>
+ <circle cx="55" cy="56" r="17" fill="#a43d5d" stroke="#e29bad"/>
+ <path d="M47 56h16m-8-8v16" stroke="#fff" stroke-linecap="round"/>
+</g>
+<text x="34" y="231" fill="#c68a9a" font-size="10" letter-spacing="3">DRAKKAR  /  DIGITAL COMMERCE</text>
 </svg>
