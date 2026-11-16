@@ -15,11 +15,10 @@
 <g filter="url(#shadow)">
   <rect x="3" y="3" width="244" height="90" rx="25" fill="url(#fill)"/>
   <text x="125" y="29" text-anchor="middle" fill="#39334f" font-family="Josefin Sans, sans-serif" font-size="15" font-weight="700" letter-spacing=".25">EXPLORE MY REPOSITORIES</text>
-  <g transform="translate(0 1)" shape-rendering="crispEdges">
-    <path d="M116 39h8v-8h8v8h8v-4h8v8h-4v8h-4v8h-4v8h-4v8h-8v-8h-4v-8h-4v-8h-4v-8h4z"
-      fill="#fff" stroke="#171321" stroke-width="3" stroke-linejoin="miter"/>
-    <path d="M116 43h-4v8h4v-8m28 0h4v8h-4v-8" fill="#fff" stroke="#171321" stroke-width="2"/>
-    <path d="M120 75h16" fill="none" stroke="#171321" stroke-width="3"/>
+  <g transform="translate(125 61) rotate(-135)" shape-rendering="crispEdges">
+    <path d="M-12 -19 L-12 17 L-3 9 L3 22 L10 19 L4 6 L16 6 Z"
+      fill="#fff" stroke="#171321" stroke-width="2.8" stroke-linejoin="miter"/>
+    <path d="M-8 -12 L-8 9 L-3 4 L3 17 L6 16 L0 3 L10 3 Z" fill="#fff"/>
   </g>
 </g>
 </svg>
