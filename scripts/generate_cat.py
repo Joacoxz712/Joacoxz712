@@ -25,7 +25,6 @@ today = datetime.now(timezone.utc).date()
 frames = []
 for frame in range(FRAME_COUNT):
     im = Image.new('RGB', (W,H), (8,9,14)); d = ImageDraw.Draw(im)
-    # NERV night skyline and muted red moon
     d.ellipse((520,18,612,110), fill=(75,30,48))
     d.ellipse((542,5,630,92), fill=(8,9,14))
     buildings = [(0,90,70,205),(55,68,125,205),(110,105,170,205),(155,52,220,205),(210,85,275,205),(265,110,330,205),(325,72,390,205),(385,96,450,205),(445,55,510,205),(500,100,570,205),(560,78,630,205),(620,110,720,205)]
@@ -35,17 +34,14 @@ for frame in range(FRAME_COUNT):
             for wx in range(x1+8,x2-6,16):
                 if (wx//8+wy//7+j)%5==0: d.rectangle((wx,wy,wx+4,wy+7), fill=(104,119,137))
         if j in (1,4,8,10): d.rectangle((x1+5,y1+7,x1+12,y1+10), fill=(165,31,53))
-    # Rooftop catwalk
     d.rectangle((0,204,W,260), fill=(20,22,31)); d.line((0,204,W,204), fill=(120,48,62), width=2)
     for x in range(0,W,40):
         d.line((x,205,x,230), fill=(49,52,64), width=2)
         d.line((x,230,x+40,230), fill=(49,52,64), width=2)
-    # Activity heat marks along the path, based on recent public events.
     for i in range(70):
         day=(today-timedelta(days=69-i)).isoformat(); count=activity.get(day,0)
         x=15+i*9
         if count: d.rectangle((x,240,x+4,240+min(count,4)*3), fill=(165,31,53))
-    # Cat walks across the roof and loops; alternating pixel legs and tail.
     cx=40 + int(frame/(FRAME_COUNT-1)*620); cy=176
     white=(244,243,240); red=(190,55,70)
     d.ellipse((cx-15,cy+16,cx+23,cy+27), fill=(5,6,10))
