@@ -32,7 +32,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 </td>
 <td width="32%" align="center" valign="middle">
-<img src="assets/inspiration/resource-04.jpg" width="100%" alt="A visual detail from my collection"/>
+<img src="assets/rounded/resource-04.png" width="100%" alt="A visual detail from my collection"/>
 </td>
 </tr>
 </table>
