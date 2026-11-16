@@ -7,8 +7,7 @@
 <p><em>developer in progress · curious mind · Uruguay 🇺🇾</em></p>
 
 <a href="https://www.drakkaruruguay.com/">Drakkar</a> &nbsp;·&nbsp;
-<a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store">Steal A Crypto</a> &nbsp;·&nbsp;
-<a href="#projectos">ProjectOS</a>
+<a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store">Steal A Crypto</a>
 
 <br/><br/>
 
