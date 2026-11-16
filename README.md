@@ -206,6 +206,6 @@ A soundtrack on repeat, a scene that stays in my head, a late-night idea ✦ and
 
 <br/>
 
-<a href="#repositories"><img src="assets/footer-explore.svg" width="100%" alt="Aquí puedes explorar mis repositorios — flecha hacia abajo"/></a>
+<a href="#repositories"><img src="assets/footer-explore.svg" width="250" alt="Explore my repositories"/></a>
 
 </div>
