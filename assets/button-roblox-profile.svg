@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="112" viewBox="0 0 420 112">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#27C7E8"/><stop offset="1" stop-color="#2675E8"/></linearGradient><filter id="s" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="7" stdDeviation="6" flood-color="#2675E8" flood-opacity=".28"/></filter></defs>
+<rect x="5" y="5" width="410" height="102" rx="30" fill="url(#g)" filter="url(#s)"/>
+<g transform="translate(76 56) rotate(15)"><rect x="-25" y="-25" width="50" height="50" rx="5" fill="#fff"/><rect x="-8" y="-8" width="16" height="16" fill="#2675E8"/></g>
+<text x="246" y="67" fill="#fff" font-family="Comfortaa,Arial,sans-serif" font-size="24" font-weight="700" text-anchor="middle" letter-spacing="1">ROBLOX</text>
+<text x="246" y="86" fill="#E7F8FF" font-family="Arial,sans-serif" font-size="10" text-anchor="middle" letter-spacing="2">MY PROFILE</text></svg>
