@@ -90,50 +90,63 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 ---
 
-## Selected projects
-
-<p align="center"><em>Ideas in motion — designed, built and still evolving.</em></p>
-
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=600&size=19&pause=1100&color=E8B6D2&center=true&vCenter=true&width=650&height=38&lines=Two+worlds%2C+one+builder.;From+web+experiences+to+game+worlds.;Always+building+the+next+thing." alt="Project section animation"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=31&pause=1800&color=E8B6D2&center=true&vCenter=true&width=700&height=58&lines=Projects+in+motion" alt="Projects in motion"/>
+
+<sub><em>Two different playgrounds. One endless process of building, experimenting and improving.</em></sub>
+
+<br/><br/>
+
 </div>
 
 <table>
   <tr>
-    <td width="48%" valign="top" align="center">
+    <td width="50%" valign="top" align="center">
       <a href="https://www.drakkaruruguay.com/">
         <img src="https://www.drakkaruruguay.com/og/drakkar-cover.jpg" width="100%" alt="Drakkar — online store preview"/>
       </a>
-      <br/>
-      <img src="https://img.shields.io/badge/01-ECOMMERCE-E8B6D2?style=for-the-badge&labelColor=252331"/>
-      <h3>Drakkar</h3>
-      <p>A real storefront shaped around product discovery, visual presentation and the systems that make an online shop work.</p>
-      <p><sub>REACT · VITE · NODE.JS · EXPRESS · POSTGRESQL</sub></p>
-      <a href="https://www.drakkaruruguay.com/">EXPLORE THE STORE ↗</a>
       <br/><br/>
-      <img src="assets/inspiration/resource-07.gif" width="42%" alt="Animated Drakkar accent"/>
+      <img src="https://readme-typing-svg.demolab.com?font=Comfortaa&weight=700&size=27&pause=999999&color=E8B6D2&center=true&vCenter=true&width=390&height=48&lines=Drakkar" alt="Drakkar"/>
+      <p><em>An e-commerce experience focused on product discovery, visual presentation and the engineering behind a real storefront.</em></p>
+      <img src="https://skillicons.dev/icons?i=react,vite,nodejs,express,postgres&perline=5" height="43" alt="React, Vite, Node.js, Express and PostgreSQL"/>
+      <br/><br/>
+      <a href="https://www.drakkaruruguay.com/">
+        <img src="assets/button-drakkar.svg" width="220" alt="Explore Drakkar"/>
+      </a>
     </td>
-    <td width="4%"></td>
-    <td width="48%" valign="top" align="center">
+    <td width="50%" valign="top" align="center">
       <a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store">
         <img src="https://tr.rbxcdn.com/180DAY-ec7f4a042bca74bbbf6aad98a43ef84e/768/432/Image/Webp/noFilter" width="100%" alt="Steal A Crypto — Roblox game thumbnail"/>
       </a>
-      <br/>
-      <img src="https://img.shields.io/badge/02-GAME%20DEVELOPMENT-8DEBFF?style=for-the-badge&labelColor=182A3A"/>
-      <h3>Steal A Crypto</h3>
-      <p>A neon city built around crypto, upgrades and progression. Build your base, collect, expand and explore a world with its own systems.</p>
-      <p><sub>ROBLOX STUDIO · LUAU · GAME SYSTEMS</sub></p>
-      <a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store">ENTER THE GAME ↗</a>
       <br/><br/>
-      <img src="assets/inspiration/resource-08.gif" width="42%" alt="Animated game accent"/>
+      <img src="https://readme-typing-svg.demolab.com?font=Comfortaa&weight=700&size=25&pause=999999&color=8DEBFF&center=true&vCenter=true&width=390&height=48&lines=Steal+A+Crypto" alt="Steal A Crypto"/>
+      <p><em>A neon city where players build bases, collect crypto, upgrade their setup and progress through a world of custom game systems.</em></p>
+      <img src="https://skillicons.dev/icons?i=robloxstudio,lua&perline=2" height="43" alt="Roblox Studio and LuaU"/>
+      <br/><br/>
+      <a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store">
+        <img src="assets/button-roblox.svg" width="220" alt="Play Steal A Crypto"/>
+      </a>
     </td>
   </tr>
 </table>
 
 <div align="center">
-  <img src="assets/inspiration/resource-09.gif" width="25%" alt="Animated transition"/>
-  &nbsp;&nbsp;
-  <img src="assets/inspiration/resource-05.gif" width="25%" alt="Animated transition"/>
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Comfortaa&weight=600&size=17&pause=1600&color=B9A9C8&center=true&vCenter=true&width=600&height=34&lines=A+little+visual+intermission;Not+everything+needs+to+be+code." alt="Visual intermission"/>
+
+<br/><br/>
+
+<img src="assets/inspiration/resource-07.gif" width="22%" alt="Animated visual accent"/>
+&nbsp;&nbsp;
+<img src="assets/inspiration/resource-08.gif" width="22%" alt="Animated visual accent"/>
+&nbsp;&nbsp;
+<img src="assets/inspiration/resource-09.gif" width="22%" alt="Animated visual accent"/>
+&nbsp;&nbsp;
+<img src="assets/inspiration/resource-05.gif" width="22%" alt="Animated visual accent"/>
+
 </div>
 
 ---
