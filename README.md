@@ -139,20 +139,34 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 <br/><br/>
 
-<img src="assets/inspiration/resource-07.gif" width="22%" alt="Animated visual accent"/>
+<img src="assets/inspiration/resource-07.gif" width="47%" alt="Animated visual accent"/>
 &nbsp;&nbsp;
-<img src="assets/inspiration/resource-08.gif" width="22%" alt="Animated visual accent"/>
+<img src="assets/inspiration/resource-08.gif" width="47%" alt="Animated visual accent"/>
+
+<br/><br/>
+
+<img src="assets/inspiration/resource-09.gif" width="47%" alt="Animated visual accent"/>
 &nbsp;&nbsp;
-<img src="assets/inspiration/resource-09.gif" width="22%" alt="Animated visual accent"/>
-&nbsp;&nbsp;
-<img src="assets/inspiration/resource-05.gif" width="22%" alt="Animated visual accent"/>
+<img src="assets/inspiration/resource-05.gif" width="47%" alt="Animated visual accent"/>
+
+<br/><br/>
+
+<img src="assets/inspiration/resource-11.gif" width="64%" alt="A final animated visual accent"/>
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="assets/inspiration/resource-11.gif" width="42%" alt="A final animated visual accent"/>
+
+## A little arcade break
+
+<img src="https://www.classicgaming.cc/classics/pac-man/images/web/web-lisnovski-runner.gif" height="145" alt="Pac-Man"/>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="assets/git-cat.gif" height="145" alt="Pixel cat"/>
+
+<em><strong>One more round. One more commit.</strong></em>
+
 </div>
 
 ---
