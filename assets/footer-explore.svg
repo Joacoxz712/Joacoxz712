@@ -14,9 +14,8 @@
 </defs>
 <g filter="url(#shadow)">
   <rect x="3" y="3" width="244" height="50" rx="25" fill="url(#fill)"/>
-  <circle cx="29" cy="28" r="12" fill="#fff" opacity=".32"/>
-  <path d="M23 25.5h12v8H23zM25 23h8M29 21v2M26 29h1m4 0h1" fill="none" stroke="#3c3859" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="133" y="33" text-anchor="middle" fill="#39334f" font-family="Comfortaa, Josefin Sans, sans-serif" font-size="12.2" font-weight="700" letter-spacing=".45">EXPLORE MY REPOSITORIES</text>
-  <path d="M222 23v11m-5-5 5 5 5-5" fill="none" stroke="#39334f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M27 17l2.5 7.5L37 27l-7.5 2.5L27 37l-2.5-7.5L17 27l7.5-2.5L27 17Z" fill="#fff" opacity=".88"/>
+  <text x="133" y="33" text-anchor="middle" fill="#39334f" font-family="Josefin Sans, sans-serif" font-size="15" font-weight="700" letter-spacing=".25">EXPLORE MY REPOSITORIES</text>
+  <path d="M222 18l2.1 6.4 6.4 2.1-6.4 2.1-2.1 6.4-2.1-6.4-6.4-2.1 6.4-2.1 2.1-6.4Z" fill="#fff" opacity=".88"/>
 </g>
 </svg>
