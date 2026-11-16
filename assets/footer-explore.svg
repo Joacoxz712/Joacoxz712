@@ -1,11 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="980" height="112" viewBox="0 0 980 112">
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="58" viewBox="0 0 250 58">
 <defs>
-  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8deBff"/><stop offset=".48" stop-color="#e8b6d2"/><stop offset="1" stop-color="#c7a6ff"/></linearGradient>
-  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="fill" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#a5f6ff"/>
+    <stop offset=".48" stop-color="#e8b6d2"/>
+    <stop offset="1" stop-color="#c7a6ff"/>
+  </linearGradient>
+  <filter id="shadow" x="-20%" y="-40%" width="140%" height="190%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+    <feOffset dy="4"/>
+    <feComponentTransfer><feFuncA type="linear" slope=".3"/></feComponentTransfer>
+    <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
 </defs>
-<rect x="2" y="2" width="976" height="108" rx="28" fill="#15131d" stroke="url(#shine)" stroke-width="2"/>
-<path d="M28 20H952" stroke="url(#shine)" stroke-opacity=".38"/>
-<text x="490" y="48" text-anchor="middle" font-family="Josefin Sans, sans-serif" font-size="29" font-weight="700" fill="url(#shine)" filter="url(#glow)">✦  AQUÍ PUEDES EXPLORAR MIS REPOSITORIOS  ✦</text>
-<text x="490" y="86" text-anchor="middle" font-family="Comfortaa, sans-serif" font-size="22" fill="#f2edf2">Descubrí lo que estoy construyendo</text>
-<path d="M490 91v11m-7-7 7 7 7-7" fill="none" stroke="#8deBff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<g filter="url(#shadow)">
+  <rect x="3" y="3" width="244" height="50" rx="25" fill="url(#fill)"/>
+  <circle cx="29" cy="28" r="12" fill="#fff" opacity=".32"/>
+  <path d="M23 25.5h12v8H23zM25 23h8M29 21v2M26 29h1m4 0h1" fill="none" stroke="#3c3859" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="133" y="33" text-anchor="middle" fill="#39334f" font-family="Comfortaa, Josefin Sans, sans-serif" font-size="12.2" font-weight="700" letter-spacing=".45">EXPLORE MY REPOSITORIES</text>
+  <path d="M222 23v11m-5-5 5 5 5-5" fill="none" stroke="#39334f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
 </svg>
