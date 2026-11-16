@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="620" height="300" viewBox="0 0 620 300">
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a0d15"/><stop offset="1" stop-color="#1b1a2b"/></linearGradient><style>text{font-family:Comfortaa,'Josefin Sans',sans-serif}.float{animation:float 5s ease-in-out infinite}.pulse{animation:pulse 3.2s ease-in-out infinite}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}@keyframes pulse{0%,100%{opacity:.15}50%{opacity:.48}}</style></defs>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a0d15"/><stop offset="1" stop-color="#1b1a2b"/></linearGradient><style>text{font-family:"Comic Sans MS","Josefin Sans",cursive}.float{animation:float 5s ease-in-out infinite}.pulse{animation:pulse 3.2s ease-in-out infinite}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}@keyframes pulse{0%,100%{opacity:.15}50%{opacity:.48}}</style></defs>
 <rect width="620" height="300" rx="20" fill="url(#bg)"/><path d="M0 42H620M0 258H620" stroke="#58657c" stroke-opacity=".42"/><path d="M32 0V300M588 0V300" stroke="#58657c" stroke-opacity=".25"/>
 <circle class="pulse" cx="486" cy="126" r="110" fill="#925070"/>
 <g class="float"><rect x="53" y="52" width="390" height="192" rx="13" fill="#131a27" stroke="#63748b" stroke-width="1.4"/><path d="M53 83H443" stroke="#63748b"/><circle cx="71" cy="67" r="4" fill="#c36a86"/><circle cx="85" cy="67" r="4" fill="#72859c"/><circle cx="99" cy="67" r="4" fill="#72859c"/>
@@ -7,5 +7,5 @@
 <rect x="173" y="99" width="253" height="57" rx="7" fill="#202a39"/><path d="M190 138l30-22 28 13 36-21 34 15 37-24 52 21" fill="none" stroke="#c16a87" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="173" y="168" width="117" height="60" rx="7" fill="#272238"/><rect x="302" y="168" width="124" height="60" rx="7" fill="#1c3039"/><path d="M190 209l19-20 20 12 28-24" fill="none" stroke="#b66b8c" stroke-width="3" stroke-linecap="round"/></g>
 <g transform="translate(478 127)" fill="#e5e2e8"><path d="M0 18L9 0h34l9 18v42H0Z"/><path d="M5 4L0-8l26 10 26-10-5 12" fill="#e5e2e8"/><path d="M13 27l13 5 13-5" fill="none" stroke="#714c66" stroke-width="2"/><circle cx="17" cy="19" r="2" fill="#714c66"/><circle cx="35" cy="19" r="2" fill="#714c66"/></g>
-<text x="34" y="282" fill="#a5a5bd" font-size="10" letter-spacing="3">03 / PROJECTOS　—　A WORKSPACE IN PROGRESS</text>
+<text x="34" y="282" fill="#a5a5bd" font-size="16" letter-spacing="2.5">03 / PROJECTOS　—　A WORKSPACE IN PROGRESS</text>
 </svg>
