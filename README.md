@@ -18,7 +18,7 @@
 
 ---
 
-## A bit about me
+<img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=27&pause=999999&color=E8B6D2&left=true&vCenter=true&width=560&height=42&lines=A+bit+about+me" alt="A bit about me"/>
 
 <table>
 <tr>
@@ -45,25 +45,25 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 ---
 
-## What I work with
+<img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=27&pause=999999&color=E8B6D2&left=true&vCenter=true&width=560&height=42&lines=What+I+work+with" alt="What I work with"/>
 
 <div align="center">
 
-**Languages**
+<img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=19&pause=999999&color=E8B6D2&center=true&vCenter=true&width=260&height=32&lines=Languages" alt="Languages"/>
 
 <img src="https://img.shields.io/badge/HTML5-EF6C45?style=flat&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS3-4B91D1?style=flat&logo=css3&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-E8D46A?style=flat&logo=javascript&logoColor=222"/>
 <img src="https://img.shields.io/badge/Luau-299BD7?style=flat&logo=robloxstudio&logoColor=white"/>
 
-**Frameworks & runtime**
+<img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=19&pause=999999&color=E8B6D2&center=true&vCenter=true&width=360&height=32&lines=Frameworks+%26+runtime" alt="Frameworks and runtime"/>
 
 <img src="https://img.shields.io/badge/React-252A34?style=flat&logo=react&logoColor=61DAFB"/>
 <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white"/>
 <img src="https://img.shields.io/badge/Node.js-438A56?style=flat&logo=nodedotjs&logoColor=white"/>
 <img src="https://img.shields.io/badge/Express-333333?style=flat&logo=express&logoColor=white"/>
 
-**Tools & platforms**
+<img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=19&pause=999999&color=E8B6D2&center=true&vCenter=true&width=300&height=32&lines=Tools+%26+platforms" alt="Tools and platforms"/>
 
 <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub-24292F?style=flat&logo=github&logoColor=white"/>
@@ -152,7 +152,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 <div align="center">
 
-## A little arcade break
+<img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=27&pause=999999&color=E8B6D2&center=true&vCenter=true&width=560&height=42&lines=A+little+arcade+break" alt="A little arcade break"/>
 
 <img src="https://media1.tenor.com/m/Pjo1KC6fRPEAAAAd/sonic.gif" height="150" alt="Sonic running"/>
 
@@ -163,7 +163,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 ---
 
-## GitHub activity
+<img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=27&pause=999999&color=E8B6D2&left=true&vCenter=true&width=560&height=42&lines=GitHub+activity" alt="GitHub activity"/>
 
 <div align="center">
 
@@ -184,7 +184,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 <div align="center">
 
-## Outside the editor
+<img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=27&pause=999999&color=E8B6D2&center=true&vCenter=true&width=560&height=42&lines=Outside+the+editor" alt="Outside the editor"/>
 
 A soundtrack on repeat, a scene that stays in my head, a late-night idea ✦ and then back to making things.
 
