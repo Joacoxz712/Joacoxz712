@@ -1,61 +1,596 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#090a10"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<title>Joaco · projects & little things</title>
-<style>
-:root{color-scheme:dark;--bg:#111015;--panel:#1b1920;--panel2:#15141a;--line:#39323a;--red:#a94a5c;--red2:#d58b98;--muted:#bdb4b8;--white:#f5f0ed;--blue:#a6bac7;--cat-progress:0%}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% -18%,#38232b 0,transparent 48%),var(--bg);color:var(--white);font:18px/1.65 'Josefin Sans','Comic Sans MS',cursive}
-main{max-width:1080px;margin:auto;padding:30px 22px 64px}.top{position:relative;overflow:hidden;border:0;border-top:2px solid var(--red);border-radius:0;padding:34px 12px;background:linear-gradient(120deg,#211b22,#17161d)}
-.kicker{color:#d65b70;letter-spacing:.22em;font-size:14px}.top h1{font:700 clamp(34px,5.5vw,58px)/1.1 'Comic Sans MS','Josefin Sans',cursive;letter-spacing:.04em;margin:12px 0}.muted{color:var(--muted)}.status{color:#e28b98}.topline{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}.signal{font-size:14px;color:#e28b98;border:1px solid #663040;padding:5px 9px}
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}.panel{background:var(--panel);border:0;border-bottom:1px solid #473443;border-radius:0;padding:22px;min-width:0}.metric{font:700 38px 'Comic Sans MS','Josefin Sans',cursive;color:var(--white)}.label{font-size:13px;letter-spacing:.12em;color:var(--muted)}.section{margin-top:22px}.section h2{font-size:18px;letter-spacing:.12em;color:var(--red2);border-bottom:1px solid var(--line);padding-bottom:10px;margin-top:0}.charts{display:grid;grid-template-columns:1fr 1fr;gap:12px}.chartbox canvas{width:100%;height:250px;display:block}.controls{display:flex;gap:8px;flex-wrap:wrap}.controls button,.project-filters button{background:#181923;border:1px solid #49404b;color:var(--white);padding:7px 11px;cursor:pointer;font:inherit;font-size:12px}.controls button.active,.controls button:hover,.project-filters button.active{border-color:var(--red);background:#321722}.repo{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:10px 0}.repo:last-child{border:0}.repo a{color:var(--white);text-decoration:none}.repo a:hover{color:#ef8a99}.cat{width:100%;max-height:250px;object-fit:cover;border:0;margin-top:14px;background:#090a10}
-.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.project-card{border:0;border-left:2px solid #8d526c;border-radius:0;background:var(--panel2);padding:18px;min-width:0}.project-card h3{font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:0 0 5px}.project-card a{color:var(--white);text-decoration:none}.project-card a:hover{color:#ef8a99}.project-meta{display:flex;justify-content:space-between;gap:8px;font-size:13px;color:var(--muted)}.bar{height:5px;background:#292a35;margin-top:10px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,#762033,#df6378);width:0;transition:width .6s ease}
-.journey{position:relative;min-height:164px;border:0;border-top:1px solid #68465e;border-radius:0;background:linear-gradient(180deg,#211b22,#12131a);padding:18px 18px 14px;overflow:hidden}.journey-sky{position:absolute;inset:0;background:linear-gradient(180deg,transparent 62%,#151821 62%);opacity:.8;pointer-events:none}.cityline{position:absolute;left:0;right:0;bottom:40px;height:68px;opacity:.7;background:linear-gradient(90deg,transparent 0 2%,#1b202c 2% 8%,transparent 8% 10%,#171b26 10% 18%,transparent 18% 20%,#20212b 20% 30%,transparent 30% 33%,#191d28 33% 45%,transparent 45% 47%,#20212b 47% 57%,transparent 57% 59%,#171b26 59% 71%,transparent 71% 73%,#20212b 73% 85%,transparent 85% 88%,#191d28 88% 98%,transparent 98%);clip-path:polygon(0 38%,8% 38%,8% 0,18% 0,18% 48%,28% 48%,28% 15%,39% 15%,39% 45%,50% 45%,50% 5%,61% 5%,61% 39%,73% 39%,73% 0,84% 0,84% 40%,100% 40%,100% 100%,0 100%)}
-.road{position:absolute;left:4%;right:4%;bottom:27px;height:2px;background:#69404b}.road:after{content:"";position:absolute;inset:-2px 0;background:repeating-linear-gradient(90deg,transparent 0 18px,#e28b98 18px 28px,transparent 28px 42px);opacity:.7}
-.cat-runner{position:absolute;bottom:28px;left:var(--cat-progress);transform:translateX(-50%);width:76px;height:56px;object-fit:contain;transition:left .9s cubic-bezier(.2,.8,.2,1);filter:drop-shadow(0 3px 6px #000)}
-.stages{position:relative;display:flex;justify-content:space-between;margin-top:108px;font-size:12px;letter-spacing:.12em;color:var(--muted)}.stage{display:flex;flex-direction:column;gap:4px}.stage b{color:#e28b98;font-weight:500}.journey-caption{position:relative;z-index:2;font-size:11px;color:var(--muted)}
-.project-filters{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}
-.anime-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.anime-card{border:0;border-top:1px solid #68465e;border-radius:0;background:#17151c;padding:16px;min-width:0}.anime-card img{width:100%;height:210px;object-fit:cover;display:block;border:0}.anime-card h3{font-size:11px;letter-spacing:.16em;color:#e28b98;margin:10px 0 4px}.anime-card p{font-size:14px;color:var(--muted);margin:0}
-.feed{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}.feed-item{padding:10px 0;border-bottom:1px solid var(--line);min-width:0}.feed-item b{font-size:11px;color:#e28b98}.feed-item div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:11px}.foot{margin-top:26px;color:var(--muted);font-size:10px}.empty{padding:20px;color:var(--muted);text-align:center}
-@media(max-width:760px){main{padding:16px 12px 40px}.grid{grid-template-columns:repeat(2,1fr)}.charts{grid-template-columns:1fr}.project-grid{grid-template-columns:1fr 1fr}.feed{grid-template-columns:1fr}.panel{padding:14px}.anime-grid{grid-template-columns:1fr}.anime-card img{height:190px}.cat{max-height:190px}}
-@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
-</style>
-</head>
-<body><main>
-<header class="top"><div class="topline"><div class="kicker">COCO'S CORNER · PROJECTS, IDEAS & LITTLE THINGS</div><span class="signal">● SYSTEM ONLINE</span></div><h1>A LITTLE WORK IN PROGRESS</h1><div>COCO <b>·</b> learning by making things, one project at a time · Uruguay 🇺🇾</div><img class="cat" src="assets/git-cat.gif" alt="White pixel cat walking through a NERV city" onerror="this.alt='Git-Cat asset unavailable';this.style.display='none'"></header>
-<section class="grid">
-<div class="panel"><div class="label">PUBLIC REPOSITORIES</div><div class="metric" id="repos">--</div></div>
-<div class="panel"><div class="label">FOLLOWERS</div><div class="metric" id="followers">--</div></div>
-<div class="panel"><div class="label">FOLLOWING</div><div class="metric" id="following">--</div></div>
-<div class="panel"><div class="label">PUBLIC EVENTS FETCHED</div><div class="metric" id="events">--</div></div>
-</section>
-<section class="section panel"><h2>01 / CAT'S DEVELOPMENT JOURNEY</h2><div class="journey" id="journey" style="--cat-progress:4%"><div class="journey-sky"></div><div class="cityline"></div><div class="journey-caption" id="journey-caption">The cat is checking the public activity signal…</div><div class="road"></div><img class="cat-runner" id="cat-runner" src="assets/cat-sleep.svg" alt="White cat companion"><div class="stages"><span class="stage"><b>01</b>EXPLORE</span><span class="stage"><b>02</b>BUILD</span><span class="stage"><b>03</b>REFINE</span><span class="stage"><b>04</b>SHIP</span></div></div><p class="muted" style="font-size:10px">The cat's position reflects public GitHub activity for the selected project, not a fabricated completion percentage.</p><div class="project-filters" id="project-filters"><button class="active" data-project="all">ALL SIGNALS</button></div><div class="project-grid" id="project-grid"><div class="empty">Loading project signals…</div></div></section>
-<section class="section panel"><h2>02 / ACTIVITY SIGNAL</h2><div class="controls"><button data-days="7">7 DAYS</button><button data-days="30" class="active">30 DAYS</button><button data-days="90">90 DAYS</button></div><canvas id="activity" width="1000" height="280" aria-label="Public activity graph"></canvas><div class="muted" id="activity-note" style="font-size:10px">Loading public GitHub events…</div></section>
-<section class="section charts">
-<div class="panel chartbox"><h2>03 / LANGUAGE DISTRIBUTION</h2><canvas id="languages" width="600" height="300"></canvas><div id="language-legend"></div><p class="muted" style="font-size:10px">Repository count by primary language, not code volume.</p></div>
-<div class="panel chartbox"><h2>04 / REPOSITORY RADAR</h2><div id="repo-list" class="muted">Loading repositories…</div></div>
-</section>
-<section class="section panel"><h2>05 / RECENT ACTIVITY LOG</h2><div class="feed" id="activity-feed"><div class="empty">Loading latest public events…</div></div></section>
-<section class="section panel"><h2>06 / PERSONNEL ARCHIVE</h2><div class="anime-grid"><article class="anime-card"><img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" alt="Rei Ayanami animated GIF" loading="lazy"><h3>FIRST CHILD // REI AYANAMI</h3><p>Quiet signal · Ayanami archive</p></article><article class="anime-card"><img src="https://media1.tenor.com/m/9ByocAJi3EAAAAAd/kaworu-kaworu-nagisa.gif" alt="Kaworu Nagisa animated GIF" loading="lazy"><h3>FIFTH CHILD // KAWORU NAGISA</h3><p>Unknown signal · Nagisa archive</p></article></div></section>
-<div class="foot">DATA SOURCE: GITHUB PUBLIC REST API · PUBLIC EVENTS ONLY · EVENT API RETURNS A LIMITED RECENT WINDOW<br>UNOFFICIAL PERSONAL DASHBOARD // JOACO'S LITTLE CORNER · CAT POSITION = RELATIVE PUBLIC ACTIVITY</div>
-</main>
-<script>
-const user='Joacoxz712',colors=['#b52b43','#91aabd','#d77d8b','#697d91','#8f6471','#aaa7b0','#5c5261'];
-let allEvents=[],allRepos=[],selectedProject='all',selectedDays=30;
-async function get(path){const r=await fetch('https://api.github.com'+path,{headers:{Accept:'application/vnd.github+json'}});if(!r.ok)throw Error('GitHub API: '+r.status);return r.json()}
-function metric(id,n){document.getElementById(id).textContent=Number(n).toLocaleString()}
-function inWindow(e,days){return (Date.now()-new Date(e.created_at).getTime())<=days*86400000}
-function eventMap(days){const m={};allEvents.filter(e=>inWindow(e,days)).forEach(e=>{const d=e.created_at.slice(0,10);m[d]=(m[d]||0)+1});return m}
-function drawActivity(days){selectedDays=days;const c=document.getElementById('activity'),ctx=c.getContext('2d'),now=new Date(),map=eventMap(days);ctx.clearRect(0,0,c.width,c.height);const pad=38,w=c.width-pad*2,h=c.height-62,step=w/days,max=Math.max(1,...Object.values(map));ctx.strokeStyle='#343440';ctx.fillStyle='#aaa7b0';ctx.font='12px monospace';[0,.25,.5,.75,1].forEach(v=>{let y=pad+h-v*h;ctx.beginPath();ctx.moveTo(pad,y);ctx.lineTo(c.width-pad,y);ctx.stroke();ctx.fillText(Math.round(max*v),5,y+4)});for(let i=0;i<days;i++){let d=new Date(now);d.setDate(now.getDate()-(days-1-i));let key=d.toISOString().slice(0,10),n=map[key]||0,bh=n/max*h,x=pad+i*step;ctx.fillStyle=n?colors[Math.min(4,n-1)]:'#292a35';ctx.fillRect(x,pad+h-bh,Math.max(2,step-2),Math.max(2,bh))}ctx.fillStyle='#aaa7b0';ctx.fillText(days+' day window · public events in fetched window',pad,c.height-10);document.getElementById('activity-note').textContent='Only recent public events returned by GitHub are included; this is not the complete contribution calendar.'}
-function drawLanguages(){const totals={};allRepos.forEach(r=>{if(r.language)totals[r.language]=(totals[r.language]||0)+1});const entries=Object.entries(totals).sort((a,b)=>b[1]-a[1]).slice(0,7),c=document.getElementById('languages'),ctx=c.getContext('2d');ctx.clearRect(0,0,c.width,c.height);const total=entries.reduce((s,e)=>s+e[1],0)||1;let a=-Math.PI/2;entries.forEach(([name,n],i)=>{let next=a+n/total*Math.PI*2;ctx.beginPath();ctx.arc(150,145,105,a,next);ctx.arc(150,145,58,next,a,true);ctx.closePath();ctx.fillStyle=colors[i%colors.length];ctx.fill();a=next});document.getElementById('language-legend').innerHTML=entries.map(([n,v],i)=>'<div class="repo"><span>'+n+'</span><span>'+v+' repos</span></div>').join('')||'No language data yet'}
-function safe(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
-function renderRepos(){document.getElementById('repo-list').innerHTML=allRepos.slice(0,8).map(r=>'<div class="repo"><a href="'+r.html_url+'" target="_blank" rel="noreferrer">'+safe(r.name)+'</a><span class="muted">★ '+r.stargazers_count+'</span></div>').join('')||'<div class="empty">No public repositories found.</div>'}
-function projectSignals(){const map={};allEvents.forEach(e=>{const name=e.repo?.name;if(!name)return;map[name]=(map[name]||0)+1});return Object.entries(map).sort((a,b)=>b[1]-a[1]).slice(0,9)}
-function renderProjects(){const signals=projectSignals(),max=Math.max(1,...signals.map(x=>x[1]));const filters=document.getElementById('project-filters');filters.innerHTML='<button data-project="all" class="'+(selectedProject==='all'?'active':'')+'">ALL SIGNALS</button>'+signals.map(([n])=>'<button data-project="'+safe(n)+'" class="'+(selectedProject===n?'active':'')+'">'+safe(n.split('/').pop())+'</button>').join('');filters.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{selectedProject=b.dataset.project;renderProjects()}));const selected=selectedProject==='all'?signals.reduce((n,x)=>n+x[1],0):(signals.find(x=>x[0]===selectedProject)?.[1]||0);const ratio=selectedProject==='all'?Math.min(1,selected/max/Math.max(1,signals.length/2)):selected/max;document.getElementById('journey').style.setProperty('--cat-progress',(5+Math.max(0,Math.min(1,ratio))*88)+'%');document.getElementById('journey-caption').textContent=selectedProject==='all'?'The cat is following the overall public activity trail.': 'The cat is exploring '+selectedProject.split('/').pop()+' · '+selected+' public events in the fetched window.';document.getElementById('project-grid').innerHTML=signals.map(([name,count])=>{const r=allRepos.find(x=>x.full_name===name);return '<article class="project-card"><h3><a href="'+(r?.html_url||'https://github.com/'+name)+'" target="_blank" rel="noreferrer">'+safe(name.split('/').pop())+'</a></h3><div class="project-meta"><span>'+count+' public events</span><span>'+(r?.language?safe(r.language):'Various')+'</span></div><div class="bar"><i style="width:'+(count/max*100)+'%"></i></div></article>'}).join('')||'<div class="empty">No recent public project events found. The cat is resting.</div>'}
-function renderFeed(){const items=allEvents.slice(0,12);document.getElementById('activity-feed').innerHTML=items.map(e=>'<article class="feed-item"><b>'+safe(e.type.replace('Event','').toUpperCase())+'</b><div><a style="color:var(--white);text-decoration:none" href="https://github.com/'+safe(e.repo?.name||user)+'" target="_blank" rel="noreferrer">'+safe(e.repo?.name||'Profile activity')+'</a></div><small class="muted">'+new Date(e.created_at).toLocaleString()+'</small></article>').join('')||'<div class="empty">No public events returned.</div>'}
-async function init(){try{const [profile,repos,events]=await Promise.all([get('/users/'+user),get('/users/'+user+'/repos?per_page=100&sort=updated'),get('/users/'+user+'/events/public?per_page=100')]);allRepos=repos;allEvents=events;metric('repos',profile.public_repos);metric('followers',profile.followers);metric('following',profile.following);metric('events',events.length);drawActivity(30);drawLanguages();renderRepos();renderProjects();renderFeed()}catch(e){document.getElementById('activity-note').textContent='Could not load GitHub public data: '+e.message;document.getElementById('project-grid').innerHTML='<div class="empty">'+safe(e.message)+'</div>'}}
-document.querySelectorAll('[data-days]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-days]').forEach(x=>x.classList.remove('active'));b.classList.add('active');drawActivity(Number(b.dataset.days))}));
-init();
-setInterval(init,10*60*1000);
-</script></body></html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#090a10">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Joaco · projects & little things</title>
+    <style>
+      :root {
+      color-scheme:dark;
+      --bg:#111015;
+      --panel:#1b1920;
+      --panel2:#15141a;
+      --line:#39323a;
+      --red:#a94a5c;
+      --red2:#d58b98;
+      --muted:#bdb4b8;
+      --white:#f5f0ed;
+      --blue:#a6bac7;
+      --cat-progress:0%
+      }
+      * {
+      box-sizing:border-box
+      }
+      body {
+      margin:0;
+      background:radial-gradient(ellipse at 50% -18%,#38232b 0,transparent 48%),var(--bg);
+      color:var(--white);
+      font:18px/1.65 'Josefin Sans','Comic Sans MS',cursive
+      }
+      main {
+      max-width:1080px;
+      margin:auto;
+      padding:30px 22px 64px
+      }
+      .top {
+      position:relative;
+      overflow:hidden;
+      border:0;
+      border-top:2px solid var(--red);
+      border-radius:0;
+      padding:34px 12px;
+      background:linear-gradient(120deg,#211b22,#17161d)
+      }
+      .kicker {
+      color:#d65b70;
+      letter-spacing:.22em;
+      font-size:14px
+      }
+      .top h1 {
+      font:700 clamp(34px,5.5vw,58px)/1.1 'Comic Sans MS','Josefin Sans',cursive;
+      letter-spacing:.04em;
+      margin:12px 0
+      }
+      .muted {
+      color:var(--muted)
+      }
+      .status {
+      color:#e28b98
+      }
+      .topline {
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      align-items:center;
+      flex-wrap:wrap
+      }
+      .signal {
+      font-size:14px;
+      color:#e28b98;
+      border:1px solid #663040;
+      padding:5px 9px
+      }
+      .grid {
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:12px;
+      margin:16px 0
+      }
+      .panel {
+      background:var(--panel);
+      border:0;
+      border-bottom:1px solid #473443;
+      border-radius:0;
+      padding:22px;
+      min-width:0
+      }
+      .metric {
+      font:700 38px 'Comic Sans MS','Josefin Sans',cursive;
+      color:var(--white)
+      }
+      .label {
+      font-size:13px;
+      letter-spacing:.12em;
+      color:var(--muted)
+      }
+      .section {
+      margin-top:22px
+      }
+      .section h2 {
+      font-size:18px;
+      letter-spacing:.12em;
+      color:var(--red2);
+      border-bottom:1px solid var(--line);
+      padding-bottom:10px;
+      margin-top:0
+      }
+      .charts {
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:12px
+      }
+      .chartbox canvas {
+      width:100%;
+      height:250px;
+      display:block
+      }
+      .controls {
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap
+      }
+      .controls button,.project-filters button {
+      background:#181923;
+      border:1px solid #49404b;
+      color:var(--white);
+      padding:7px 11px;
+      cursor:pointer;
+      font:inherit;
+      font-size:12px
+      }
+      .controls button.active,.controls button:hover,.project-filters button.active {
+      border-color:var(--red);
+      background:#321722
+      }
+      .repo {
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      border-bottom:1px solid var(--line);
+      padding:10px 0
+      }
+      .repo:last-child {
+      border:0
+      }
+      .repo a {
+      color:var(--white);
+      text-decoration:none
+      }
+      .repo a:hover {
+      color:#ef8a99
+      }
+      .cat {
+      width:100%;
+      max-height:250px;
+      object-fit:cover;
+      border:0;
+      margin-top:14px;
+      background:#090a10
+      }
+      .project-grid {
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:10px
+      }
+      .project-card {
+      border:0;
+      border-left:2px solid #8d526c;
+      border-radius:0;
+      background:var(--panel2);
+      padding:18px;
+      min-width:0
+      }
+      .project-card h3 {
+      font-size:12px;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      margin:0 0 5px
+      }
+      .project-card a {
+      color:var(--white);
+      text-decoration:none
+      }
+      .project-card a:hover {
+      color:#ef8a99
+      }
+      .project-meta {
+      display:flex;
+      justify-content:space-between;
+      gap:8px;
+      font-size:13px;
+      color:var(--muted)
+      }
+      .bar {
+      height:5px;
+      background:#292a35;
+      margin-top:10px;
+      overflow:hidden
+      }
+      .bar i {
+      display:block;
+      height:100%;
+      background:linear-gradient(90deg,#762033,#df6378);
+      width:0;
+      transition:width .6s ease
+      }
+      .journey {
+      position:relative;
+      min-height:164px;
+      border:0;
+      border-top:1px solid #68465e;
+      border-radius:0;
+      background:linear-gradient(180deg,#211b22,#12131a);
+      padding:18px 18px 14px;
+      overflow:hidden
+      }
+      .journey-sky {
+      position:absolute;
+      inset:0;
+      background:linear-gradient(180deg,transparent 62%,#151821 62%);
+      opacity:.8;
+      pointer-events:none
+      }
+      .cityline {
+      position:absolute;
+      left:0;
+      right:0;
+      bottom:40px;
+      height:68px;
+      opacity:.7;
+      background:linear-gradient(90deg,transparent 0 2%,#1b202c 2% 8%,transparent 8% 10%,#171b26 10% 18%,transparent 18% 20%,#20212b 20% 30%,transparent 30% 33%,#191d28 33% 45%,transparent 45% 47%,#20212b 47% 57%,transparent 57% 59%,#171b26 59% 71%,transparent 71% 73%,#20212b 73% 85%,transparent 85% 88%,#191d28 88% 98%,transparent 98%);
+      clip-path:polygon(0 38%,8% 38%,8% 0,18% 0,18% 48%,28% 48%,28% 15%,39% 15%,39% 45%,50% 45%,50% 5%,61% 5%,61% 39%,73% 39%,73% 0,84% 0,84% 40%,100% 40%,100% 100%,0 100%)
+      }
+      .road {
+      position:absolute;
+      left:4%;
+      right:4%;
+      bottom:27px;
+      height:2px;
+      background:#69404b
+      }
+      .road:after {
+      content:"";
+      position:absolute;
+      inset:-2px 0;
+      background:repeating-linear-gradient(90deg,transparent 0 18px,#e28b98 18px 28px,transparent 28px 42px);
+      opacity:.7
+      }
+      .cat-runner {
+      position:absolute;
+      bottom:28px;
+      left:var(--cat-progress);
+      transform:translateX(-50%);
+      width:76px;
+      height:56px;
+      object-fit:contain;
+      transition:left .9s cubic-bezier(.2,.8,.2,1);
+      filter:drop-shadow(0 3px 6px #000)
+      }
+      .stages {
+      position:relative;
+      display:flex;
+      justify-content:space-between;
+      margin-top:108px;
+      font-size:12px;
+      letter-spacing:.12em;
+      color:var(--muted)
+      }
+      .stage {
+      display:flex;
+      flex-direction:column;
+      gap:4px
+      }
+      .stage b {
+      color:#e28b98;
+      font-weight:500
+      }
+      .journey-caption {
+      position:relative;
+      z-index:2;
+      font-size:11px;
+      color:var(--muted)
+      }
+      .project-filters {
+      display:flex;
+      gap:7px;
+      flex-wrap:wrap;
+      margin:12px 0
+      }
+      .anime-grid {
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:12px
+      }
+      .anime-card {
+      border:0;
+      border-top:1px solid #68465e;
+      border-radius:0;
+      background:#17151c;
+      padding:16px;
+      min-width:0
+      }
+      .anime-card img {
+      width:100%;
+      height:210px;
+      object-fit:cover;
+      display:block;
+      border:0
+      }
+      .anime-card h3 {
+      font-size:11px;
+      letter-spacing:.16em;
+      color:#e28b98;
+      margin:10px 0 4px
+      }
+      .anime-card p {
+      font-size:14px;
+      color:var(--muted);
+      margin:0
+      }
+      .feed {
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:0 18px
+      }
+      .feed-item {
+      padding:10px 0;
+      border-bottom:1px solid var(--line);
+      min-width:0
+      }
+      .feed-item b {
+      font-size:11px;
+      color:#e28b98
+      }
+      .feed-item div {
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      font-size:11px
+      }
+      .foot {
+      margin-top:26px;
+      color:var(--muted);
+      font-size:10px
+      }
+      .empty {
+      padding:20px;
+      color:var(--muted);
+      text-align:center
+      }
+      @media(max-width:760px) {
+      main {
+      padding:16px 12px 40px
+      }
+      .grid {
+      grid-template-columns:repeat(2,1fr)
+      }
+      .charts {
+      grid-template-columns:1fr
+      }
+      .project-grid {
+      grid-template-columns:1fr 1fr
+      }
+      .feed {
+      grid-template-columns:1fr
+      }
+      .panel {
+      padding:14px
+      }
+      .anime-grid {
+      grid-template-columns:1fr
+      }
+      .anime-card img {
+      height:190px
+      }
+      .cat {
+      max-height:190px
+      }
+      }
+      @media(prefers-reduced-motion:reduce) {
+      * {
+      scroll-behavior:auto!important;
+      transition:none!important
+      }
+      }
+      </style>
+  </head>
+  <body>
+    <main>
+      <header class="top">
+        <div class="topline">
+          <div class="kicker">COCO'S CORNER · PROJECTS, IDEAS & LITTLE THINGS</div>
+          <span class="signal">● SYSTEM ONLINE</span>
+        </div>
+        <h1>A LITTLE WORK IN PROGRESS</h1>
+        <div>COCO <b>·</b> learning by making things, one project at a time · Uruguay 🇺🇾</div>
+        <img class="cat" src="assets/git-cat.gif" alt="White pixel cat walking through a NERV city" onerror="this.alt='Git-Cat asset unavailable';this.style.display='none'">
+      </header>
+      <section class="grid">
+        <div class="panel">
+          <div class="label">PUBLIC REPOSITORIES</div>
+          <div class="metric" id="repos">--</div>
+        </div>
+        <div class="panel">
+          <div class="label">FOLLOWERS</div>
+          <div class="metric" id="followers">--</div>
+        </div>
+        <div class="panel">
+          <div class="label">FOLLOWING</div>
+          <div class="metric" id="following">--</div>
+        </div>
+        <div class="panel">
+          <div class="label">PUBLIC EVENTS FETCHED</div>
+          <div class="metric" id="events">--</div>
+        </div>
+      </section>
+      <section class="section panel">
+        <h2>01 / CAT'S DEVELOPMENT JOURNEY</h2>
+        <div class="journey" id="journey" style="--cat-progress:4%">
+          <div class="journey-sky">
+          </div>
+          <div class="cityline">
+          </div>
+          <div class="journey-caption" id="journey-caption">The cat is checking the public activity signal…</div>
+          <div class="road">
+          </div>
+          <img class="cat-runner" id="cat-runner" src="assets/cat-sleep.svg" alt="White cat companion">
+          <div class="stages">
+            <span class="stage">
+              <b>01</b>EXPLORE</span>
+              <span class="stage">
+                <b>02</b>BUILD</span>
+                <span class="stage">
+                  <b>03</b>REFINE</span>
+                  <span class="stage">
+                    <b>04</b>SHIP</span>
+                  </div>
+                </div>
+                <p class="muted" style="font-size:10px">The cat's position reflects public GitHub activity for the selected project, not a fabricated completion percentage.</p>
+                <div class="project-filters" id="project-filters">
+                  <button class="active" data-project="all">ALL SIGNALS</button>
+                </div>
+                <div class="project-grid" id="project-grid">
+                  <div class="empty">Loading project signals…</div>
+                </div>
+              </section>
+              <section class="section panel">
+                <h2>02 / ACTIVITY SIGNAL</h2>
+                <div class="controls">
+                  <button data-days="7">7 DAYS</button>
+                  <button data-days="30" class="active">30 DAYS</button>
+                  <button data-days="90">90 DAYS</button>
+                </div>
+                <canvas id="activity" width="1000" height="280" aria-label="Public activity graph">
+                </canvas>
+                <div class="muted" id="activity-note" style="font-size:10px">Loading public GitHub events…</div>
+              </section>
+              <section class="section charts">
+                <div class="panel chartbox">
+                  <h2>03 / LANGUAGE DISTRIBUTION</h2>
+                  <canvas id="languages" width="600" height="300">
+                  </canvas>
+                  <div id="language-legend">
+                  </div>
+                  <p class="muted" style="font-size:10px">Repository count by primary language, not code volume.</p>
+                </div>
+                <div class="panel chartbox">
+                  <h2>04 / REPOSITORY RADAR</h2>
+                  <div id="repo-list" class="muted">Loading repositories…</div>
+                </div>
+              </section>
+              <section class="section panel">
+                <h2>05 / RECENT ACTIVITY LOG</h2>
+                <div class="feed" id="activity-feed">
+                  <div class="empty">Loading latest public events…</div>
+                </div>
+              </section>
+              <section class="section panel">
+                <h2>06 / PERSONNEL ARCHIVE</h2>
+                <div class="anime-grid">
+                  <article class="anime-card">
+                    <img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" alt="Rei Ayanami animated GIF" loading="lazy">
+                    <h3>FIRST CHILD // REI AYANAMI</h3>
+                    <p>Quiet signal · Ayanami archive</p>
+                  </article>
+                  <article class="anime-card">
+                    <img src="https://media1.tenor.com/m/9ByocAJi3EAAAAAd/kaworu-kaworu-nagisa.gif" alt="Kaworu Nagisa animated GIF" loading="lazy">
+                    <h3>FIFTH CHILD // KAWORU NAGISA</h3>
+                    <p>Unknown signal · Nagisa archive</p>
+                  </article>
+                </div>
+              </section>
+              <div class="foot">DATA SOURCE: GITHUB PUBLIC REST API · PUBLIC EVENTS ONLY · EVENT API RETURNS A LIMITED RECENT WINDOW<br>UNOFFICIAL PERSONAL DASHBOARD // JOACO'S LITTLE CORNER · CAT POSITION = RELATIVE PUBLIC ACTIVITY</div>
+            </main>
+            <script>
+              const user='Joacoxz712',colors=['#b52b43','#91aabd','#d77d8b','#697d91','#8f6471','#aaa7b0','#5c5261'];
+              let allEvents=[],allRepos=[],selectedProject='all',selectedDays=30;
+              async function get(path) {
+              const r=await fetch('https://api.github.com'+path, {
+              headers: {
+              Accept:'application/vnd.github+json'
+              }
+              } );
+              if(!r.ok)throw Error('GitHub API: '+r.status);
+              return r.json()
+              }
+              function metric(id,n) {
+              document.getElementById(id).textContent=Number(n).toLocaleString()
+              }
+              function inWindow(e,days) {
+              return (Date.now()-new Date(e.created_at).getTime())<=days*86400000
+              }
+              function eventMap(days) {
+              const m= {
+              } ;
+              allEvents.filter(e=>inWindow(e,days)).forEach(e=> {
+              const d=e.created_at.slice(0,10);m[d]=(m[d]||0)+1
+              } );
+              return m
+              }
+              function drawActivity(days) {
+              selectedDays=days;
+              const c=document.getElementById('activity'),ctx=c.getContext('2d'),now=new Date(),map=eventMap(days);
+              ctx.clearRect(0,0,c.width,c.height);
+              const pad=38,w=c.width-pad*2,h=c.height-62,step=w/days,max=Math.max(1,...Object.values(map));
+              ctx.strokeStyle='#343440';
+              ctx.fillStyle='#aaa7b0';
+              ctx.font='12px monospace';
+              [0,.25,.5,.75,1].forEach(v=> {
+              let y=pad+h-v*h;ctx.beginPath();ctx.moveTo(pad,y);ctx.lineTo(c.width-pad,y);ctx.stroke();ctx.fillText(Math.round(max*v),5,y+4)
+              } );
+              for(let i=0;i<days;i++) {
+              let d=new Date(now);
+              d.setDate(now.getDate()-(days-1-i));
+              let key=d.toISOString().slice(0,10),n=map[key]||0,bh=n/max*h,x=pad+i*step;
+              ctx.fillStyle=n?colors[Math.min(4,n-1)]:'#292a35';
+              ctx.fillRect(x,pad+h-bh,Math.max(2,step-2),Math.max(2,bh))
+              }
+              ctx.fillStyle='#aaa7b0';
+              ctx.fillText(days+' day window · public events in fetched window',pad,c.height-10);
+              document.getElementById('activity-note').textContent='Only recent public events returned by GitHub are included; this is not the complete contribution calendar.'
+              }
+              function drawLanguages() {
+              const totals= {
+              } ;
+              allRepos.forEach(r=> {
+              if(r.language)totals[r.language]=(totals[r.language]||0)+1
+              } );
+              const entries=Object.entries(totals).sort((a,b)=>b[1]-a[1]).slice(0,7),c=document.getElementById('languages'),ctx=c.getContext('2d');
+              ctx.clearRect(0,0,c.width,c.height);
+              const total=entries.reduce((s,e)=>s+e[1],0)||1;
+              let a=-Math.PI/2;
+              entries.forEach(([name,n],i)=> {
+              let next=a+n/total*Math.PI*2;ctx.beginPath();ctx.arc(150,145,105,a,next);ctx.arc(150,145,58,next,a,true);ctx.closePath();ctx.fillStyle=colors[i%colors.length];ctx.fill();a=next
+              } );
+              document.getElementById('language-legend').innerHTML=entries.map(([n,v],i)=>'<div class="repo">
+              <span>'+n+'</span>
+              <span>'+v+' repos</span>
+            </div>').join('')||'No language data yet'
+            }
+            function safe(s) {
+            return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+            function renderRepos(){document.getElementById('repo-list').innerHTML=allRepos.slice(0,8).map(r=>'<div class="repo">
+            <a href="'+r.html_url+'" target="_blank" rel="noreferrer">'+safe(r.name)+'</a>
+            <span class="muted">★ '+r.stargazers_count+'</span>
+          </div>').join('')||'<div class="empty">No public repositories found.</div>'}
+          function projectSignals(){const map={};allEvents.forEach(e=>{const name=e.repo?.name;if(!name)return;map[name]=(map[name]||0)+1});return Object.entries(map).sort((a,b)=>b[1]-a[1]).slice(0,9)}
+          function renderProjects(){const signals=projectSignals(),max=Math.max(1,...signals.map(x=>x[1]));const filters=document.getElementById('project-filters');filters.innerHTML='<button data-project="all" class="'+(selectedProject==='all'?'active':'')+'">ALL SIGNALS</button>'+signals.map(([n])=>'<button data-project="'+safe(n)+'" class="'+(selectedProject===n?'active':'')+'">'+safe(n.split('/').pop())+'</button>').join('');filters.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{selectedProject=b.dataset.project;renderProjects()}));const selected=selectedProject==='all'?signals.reduce((n,x)=>n+x[1],0):(signals.find(x=>x[0]===selectedProject)?.[1]||0);const ratio=selectedProject==='all'?Math.min(1,selected/max/Math.max(1,signals.length/2)):selected/max;document.getElementById('journey').style.setProperty('--cat-progress',(5+Math.max(0,Math.min(1,ratio))*88)+'%');document.getElementById('journey-caption').textContent=selectedProject==='all'?'The cat is following the overall public activity trail.': 'The cat is exploring '+selectedProject.split('/').pop()+' · '+selected+' public events in the fetched window.';document.getElementById('project-grid').innerHTML=signals.map(([name,count])=>{const r=allRepos.find(x=>x.full_name===name);return '<article class="project-card">
+          <h3>
+            <a href="'+(r?.html_url||'https: function renderFeed() {
+              const items=allEvents.slice(0,12);document.getElementById('activity-feed').innerHTML=items.map(e=>'<article class="feed-item">
+              <b>'+safe(e.type.replace('Event','').toUpperCase())+'</b>
+              <div>
+                <a style="color:var(--white);text-decoration:none" href="https://github.com/'+safe(e.repo?.name||user)+'" target="_blank" rel="noreferrer">'+safe(e.repo?.name||'Profile activity')+'</a>
+              </div>
+              <small class="muted">'+new Date(e.created_at).toLocaleString()+'</small>
+            </article>').join('')||'<div class="empty">No public events returned.</div>'
+            }
+            async function init() {
+            try {
+            const [profile,repos,events]=await Promise.all([get('/users/'+user),get('/users/'+user+'/repos?per_page=100&sort=updated'),get('/users/'+user+'/events/public?per_page=100')]);allRepos=repos;allEvents=events;metric('repos',profile.public_repos);metric('followers',profile.followers);metric('following',profile.following);metric('events',events.length);drawActivity(30);drawLanguages();renderRepos();renderProjects();renderFeed()
+            }
+            catch(e) {
+            document.getElementById('activity-note').textContent='Could not load GitHub public data: '+e.message;document.getElementById('project-grid').innerHTML='<div class="empty">'+safe(e.message)+'</div>'
+            }
+            }
+            document.querySelectorAll('[data-days]').forEach(b=>b.addEventListener('click',()=> {
+            document.querySelectorAll('[data-days]').forEach(x=>x.classList.remove('active'));b.classList.add('active');drawActivity(Number(b.dataset.days))
+            } )); init(); setInterval(init,10*60*1000);
+            </script>
+        </body>
+      </html>
