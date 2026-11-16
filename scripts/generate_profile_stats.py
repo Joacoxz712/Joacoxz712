@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import json, os, urllib.request
 from datetime import datetime, timedelta, timezone
 from collections import Counter
