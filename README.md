@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Comfortaa&weight=600&size=30&pause=1100&color=E8B6D2&center=true&vCenter=true&width=700&height=58&lines=Hello%2C+I+am+Coco;Building+ideas+into+real+things;Curious+by+default." alt="Welcome — Hello, I am Coco"/>
 
-<p><em>developer in progress · curious mind · Uruguay 🇺🇾</em></p>
+<p><em>developer in progress ✦ curious mind ✦ Uruguay 🇺🇾</em></p>
 
 <a href="https://www.drakkaruruguay.com/"><img src="assets/button-drakkar.svg" width="190" alt="Explore Drakkar"/></a>
 &nbsp;&nbsp;
@@ -88,7 +88,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 <img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=31&pause=1800&color=E8B6D2&center=true&vCenter=true&width=700&height=58&lines=Projects+in+motion" alt="Projects in motion"/>
 
-<sub><em>Two different playgrounds. One endless process of building, experimenting and improving.</em></sub>
+<sub><em>✦ Two different playgrounds. One endless process of building, experimenting and improving. ✦</em></sub>
 
 <br/><br/>
 
@@ -101,7 +101,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
         <img src="https://www.drakkaruruguay.com/og/drakkar-cover.jpg" width="100%" alt="Drakkar — online store preview"/>
       </a>
       <br/><br/>
-      <img src="https://readme-typing-svg.demolab.com?font=Comfortaa&weight=700&size=27&pause=999999&color=E8B6D2&center=true&vCenter=true&width=390&height=48&lines=Drakkar" alt="Drakkar"/>
+      <img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=27&pause=999999&color=E8B6D2&center=true&vCenter=true&width=390&height=48&lines=Drakkar" alt="Drakkar"/>
       <p><em>An e-commerce experience focused on product discovery, visual presentation and the engineering behind a real storefront.</em></p>
       <img src="https://skillicons.dev/icons?i=react,vite,nodejs,express,postgres&perline=5" height="43" alt="React, Vite, Node.js, Express and PostgreSQL"/>
       <br/><br/>
@@ -114,7 +114,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
         <img src="https://tr.rbxcdn.com/180DAY-ec7f4a042bca74bbbf6aad98a43ef84e/768/432/Image/Webp/noFilter" width="100%" alt="Steal A Crypto — Roblox game thumbnail"/>
       </a>
       <br/><br/>
-      <img src="https://readme-typing-svg.demolab.com?font=Comfortaa&weight=700&size=25&pause=999999&color=8DEBFF&center=true&vCenter=true&width=390&height=48&lines=Steal+A+Crypto" alt="Steal A Crypto"/>
+      <img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=25&pause=999999&color=8DEBFF&center=true&vCenter=true&width=390&height=48&lines=Steal+A+Crypto" alt="Steal A Crypto"/>
       <p><em>A neon city where players build bases, collect crypto, upgrade their setup and progress through a world of custom game systems.</em></p>
       <img src="https://skillicons.dev/icons?i=robloxstudio,lua&perline=2" height="43" alt="Roblox Studio and LuaU"/>
       <br/><br/>
@@ -153,17 +153,12 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 ## A little arcade break
 
-<img src="https://www.classicgaming.cc/classics/pac-man/images/web/web-lisnovski-runner.gif" height="145" alt="Pac-Man"/>
+<img src="https://media1.tenor.com/m/Pjo1KC6fRPEAAAAd/sonic.gif" height="150" alt="Sonic running"/>
 
 <em><strong>One more round. One more commit.</strong></em>
 
 </div>
 
-<div align="center">
-
-<img src="assets/inspiration/resource-08.gif" width="40%" alt="Animated visual accent"/>
-
-</div>
 
 ---
 
@@ -190,28 +185,28 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 ## Outside the editor
 
-A soundtrack on repeat, a scene that stays in my head, a late-night idea — and then back to making things.
+A soundtrack on repeat, a scene that stays in my head, a late-night idea ✦ and then back to making things.
 
 <img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" height="135" alt="Rei Ayanami"/>
 &nbsp;&nbsp;&nbsp;
 <img src="https://media1.tenor.com/m/9ByocAJi3EAAAAAd/kaworu-kaworu-nagisa.gif" height="135" alt="Kaworu Nagisa"/>
 
-<div align="center">
-<img src="assets/inspiration/resource-10.gif" width="36%" alt="Animated visual accent"/>
-</div>
+<table>
+  <tr>
+    <td width="50%" align="center"><img src="assets/inspiration/resource-10.gif" width="100%" alt="Animated visual accent"/></td>
+    <td width="50%" align="center"><img src="assets/inspiration/resource-11.gif" width="100%" alt="Animated visual accent"/></td>
+  </tr>
+</table>
 
 <img src="assets/break-cat.svg" width="280" alt="A sleeping cat"/>
 
 <em>Take a breath. Then one more commit.</em>
 
-<div align="center">
-<img src="assets/inspiration/resource-11.gif" width="42%" alt="Animated visual accent"/>
-</div>
-
-<img src="assets/git-cat.gif" width="190" alt="Pixel cat"/>
 
 <br/>
 
-<sub>made with curiosity · Coco / Uruguay 🇺🇾</sub>
+<img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=24&pause=1800&color=E8B6D2&center=true&vCenter=true&width=780&height=48&lines=Curiosity+in+motion+%E2%9C%A6+Made+in+Uruguay" alt="Curiosity in motion"/>
+
+<a href="#-projects-in-motion"><strong>✦ Explore my repositories ↓</strong></a>
 
 </div>
