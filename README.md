@@ -98,7 +98,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 <table>
   <tr>
     <td width="39%" valign="middle">
-      <a href="https://www.drakkaruruguay.com/"><img src="assets/project-drakkar.svg" width="100%" alt="Drakkar"/></a>
+      <a href="https://www.drakkaruruguay.com/"><img src="https://www.drakkaruruguay.com/og/drakkar-cover.jpg" width="100%" alt="Drakkar — vista previa de la tienda online"/></a>
     </td>
     <td width="45%" valign="middle">
       <h3>Drakkar</h3>
@@ -113,7 +113,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
   </tr>
   <tr>
     <td width="39%" valign="middle">
-      <a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store"><img src="assets/project-crypto.svg" width="100%" alt="Steal A Crypto"/></a>
+      <a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store"><img src="https://www.roblox.com/asset-thumbnail/image?assetId=105760353161876&width=768&height=432&format=png" width="100%" alt="Steal A Crypto — imagen del juego en Roblox"/></a>
     </td>
     <td width="45%" valign="middle">
       <h3>Steal A Crypto</h3>
