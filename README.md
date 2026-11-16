@@ -37,10 +37,8 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 </table>
 
 <div align="center">
-  <img src="assets/inspiration/resource-02.gif" width="42%" alt="Animated visual accent"/>
-</div>
-
-<div align="right">
+  <img src="assets/inspiration/resource-02.gif" width="38%" alt="Animated visual accent"/>
+  &nbsp;&nbsp;&nbsp;
   <img src="assets/inspiration/resource-06.gif" width="31%" alt="Animated visual accent"/>
 </div>
 
@@ -127,7 +125,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
   </tr>
 </table>
 
-<div align="right">
+<div align="center">
 
 <img src="assets/inspiration/resource-07.gif" width="38%" alt="Animated visual accent"/>
 
@@ -145,7 +143,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 </div>
 
-<div align="left">
+<div align="center">
 
 <img src="assets/inspiration/resource-08.gif" width="40%" alt="Animated visual accent"/>
 
@@ -160,7 +158,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 <img src="assets/profile-stats.svg" width="100%" alt="GitHub profile statistics"/>
 <img src="assets/profile-languages.svg" width="100%" alt="Most used programming languages"/>
 
-<div align="right">
+<div align="center">
 <img src="assets/inspiration/resource-09.gif" width="35%" alt="Animated visual accent"/>
 </div>
 
@@ -182,7 +180,7 @@ A soundtrack on repeat, a scene that stays in my head, a late-night idea — and
 &nbsp;&nbsp;&nbsp;
 <img src="https://media1.tenor.com/m/9ByocAJi3EAAAAAd/kaworu-kaworu-nagisa.gif" height="135" alt="Kaworu Nagisa"/>
 
-<div align="left">
+<div align="center">
 <img src="assets/inspiration/resource-10.gif" width="36%" alt="Animated visual accent"/>
 </div>
 
@@ -191,7 +189,9 @@ A soundtrack on repeat, a scene that stays in my head, a late-night idea — and
 <em>Take a breath. Then one more commit.</em>
 
 <div align="center">
-<img src="assets/inspiration/resource-11.gif" width="46%" alt="Animated visual accent"/>
+<img src="assets/inspiration/resource-10.gif" width="34%" alt="Animated visual accent"/>
+&nbsp;&nbsp;&nbsp;
+<img src="assets/inspiration/resource-11.gif" width="42%" alt="Animated visual accent"/>
 </div>
 
 <img src="assets/git-cat.gif" width="190" alt="Pixel cat"/>
