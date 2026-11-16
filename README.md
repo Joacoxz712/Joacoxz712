@@ -2,7 +2,7 @@
 
 <img src="assets/hero-coco.svg" width="100%" alt="Coco — personal space"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Comfortaa&weight=600&size=30&pause=1100&color=E8B6D2&center=true&vCenter=true&width=700&height=58&lines=Hello%2C+I+am+Coco;Building+ideas+into+real+things;Curious+by+default." alt="Welcome — Hello, I am Coco"/>
+<img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=30&pause=1100&color=E8B6D2&center=true&vCenter=true&width=700&height=58&lines=Hello%2C+I+am+Coco;Building+ideas+into+real+things;Curious+by+default." alt="Welcome — Hello, I am Coco"/>
 
 <p><em>developer in progress ✦ curious mind ✦ Uruguay 🇺🇾</em></p>
 
@@ -84,6 +84,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 ---
 
+<a id="repositories"></a>
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=31&pause=1800&color=E8B6D2&center=true&vCenter=true&width=700&height=58&lines=Projects+in+motion" alt="Projects in motion"/>
@@ -205,8 +206,6 @@ A soundtrack on repeat, a scene that stays in my head, a late-night idea ✦ and
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=24&pause=1800&color=E8B6D2&center=true&vCenter=true&width=780&height=48&lines=Curiosity+in+motion+%E2%9C%A6+Made+in+Uruguay" alt="Curiosity in motion"/>
-
-<a href="#-projects-in-motion"><strong>✦ Explore my repositories ↓</strong></a>
+<a href="#repositories"><img src="assets/footer-explore.svg" width="100%" alt="Aquí puedes explorar mis repositorios — flecha hacia abajo"/></a>
 
 </div>
