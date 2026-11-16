@@ -1,5 +1,4 @@
 name: Refresh Coco's profile data and Git-Cat
-# Scheduled refresh plus explicit manual run support.
 
 on:
   push:
