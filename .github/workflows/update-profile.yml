@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - 'scripts/generate_cat.py'
+      - 'scripts/round_gifs.py'
+      - 'README.md'
       - 'scripts/generate_profile_stats.py'
       - '.github/workflows/update-profile.yml'
   schedule:
@@ -31,11 +33,12 @@ jobs:
         run: |
           python scripts/generate_profile_stats.py
           python scripts/generate_cat.py
+          python scripts/round_gifs.py
       - name: Commit generated profile assets
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md assets/git-cat.gif assets/profile-stats.svg assets/profile-languages.svg assets/contribution-calendar.svg
+          git add README.md assets/rounded assets/git-cat.gif assets/profile-stats.svg assets/profile-languages.svg assets/contribution-calendar.svg
           git diff --cached --quiet || git commit -m 'chore(profile): refresh live GitHub data'
           git pull --rebase origin main
           git push
