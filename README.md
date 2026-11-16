@@ -6,8 +6,9 @@
 
 <p><em>developer in progress · curious mind · Uruguay 🇺🇾</em></p>
 
-<a href="https://www.drakkaruruguay.com/">Drakkar</a> &nbsp;·&nbsp;
-<a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store">Steal A Crypto</a>
+<a href="https://www.drakkaruruguay.com/"><img src="assets/button-drakkar.svg" width="190" alt="Explore Drakkar"/></a>
+&nbsp;&nbsp;
+<a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store"><img src="assets/button-roblox.svg" width="190" alt="Play Steal A Crypto"/></a>
 
 <br/><br/>
 
@@ -71,16 +72,15 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 </div>
 
-<table>
-<tr>
-<td width="65%" valign="middle">
-<img src="assets/learning-path.svg" width="100%" alt="Learning path: Python, C, C++ and Java"/>
-</td>
-<td width="35%" align="center" valign="middle">
-<img src="assets/inspiration/resource-05.gif" width="100%" alt="Animated visual accent"/>
-</td>
-</tr>
-</table>
+<div align="center">
+
+<img src="assets/learning-path.svg" width="88%" alt="Learning path: Python, C, C++ and Java"/>
+
+<br/><br/>
+
+<img src="assets/inspiration/resource-05.gif" width="42%" alt="Animated visual accent"/>
+
+</div>
 
 ---
 
