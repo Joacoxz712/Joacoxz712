@@ -1,10 +1,11 @@
-name: Update NERV Git-Cat
+name: Refresh Coco's profile data and Git-Cat
 
 on:
   push:
     branches: [main]
     paths:
       - 'scripts/generate_cat.py'
+      - 'scripts/generate_profile_stats.py'
       - '.github/workflows/update-profile.yml'
   schedule:
     - cron: '17 4 * * *'
@@ -23,15 +24,17 @@ jobs:
           python-version: '3.x'
       - name: Install image library
         run: pip install pillow
-      - name: Generate animated activity cat
+      - name: Generate GitHub profile graphics
         env:
           GITHUB_USERNAME: Joacoxz712
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/generate_cat.py
-      - name: Commit generated animation
+        run: |
+          python scripts/generate_profile_stats.py
+          python scripts/generate_cat.py
+      - name: Commit generated profile assets
         run: |
           git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md assets/git-cat.gif
-          git diff --cached --quiet || git commit -m 'chore(profile): update animated Git-Cat'
+          git config user.email '41898282+users.noreply.github.com'
+          git add README.md assets/git-cat.gif assets/profile-stats.svg assets/profile-languages.svg assets/contribution-calendar.svg
+          git diff --cached --quiet || git commit -m 'chore(profile): refresh live GitHub data'
           git push
