@@ -113,7 +113,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
   </tr>
   <tr>
     <td width="39%" valign="middle">
-      <a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store"><img src="https://www.roblox.com/asset-thumbnail/image?assetId=105760353161876&width=768&height=432&format=png" width="100%" alt="Steal A Crypto — imagen del juego en Roblox"/></a>
+      <a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store"><img src="https://thumbnails.roblox.com/v1/places/gameicons?placeIds=105760353161876&size=512x512&format=Png&isCircular=false" width="100%" alt="Steal A Crypto — imagen del juego en Roblox"/></a>
     </td>
     <td width="45%" valign="middle">
       <h3>Steal A Crypto</h3>
