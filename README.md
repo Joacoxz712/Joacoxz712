@@ -2,7 +2,7 @@
 
 <img src="assets/hero-coco.svg" width="100%" alt="Coco — personal space"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=600&size=30&pause=1300&color=E8B6D2&center=true&vCenter=true&width=820&height=64&lines=Hey%2C+I'm+Coco;I+like+making+ideas+real;Learning+by+building." alt="Hey, I'm Coco"/>
+<img src="https://readme-typing-svg.demolab.com?font=Comfortaa&weight=600&size=30&pause=1100&color=E8B6D2&center=true&vCenter=true&width=700&height=58&lines=Hello%2C+I+am+Coco;Building+ideas+into+real+things;Curious+by+default." alt="Welcome — Hello, I am Coco"/>
 
 <p><em>developer in progress · curious mind · Uruguay 🇺🇾</em></p>
 
@@ -11,11 +11,7 @@
 
 <br/><br/>
 
-<img src="assets/inspiration/resource-01.gif" width="23%" alt="Personal visual detail"/>
-&nbsp;&nbsp;
-<img src="assets/inspiration/resource-06.gif" width="23%" alt="Personal visual detail"/>
-&nbsp;&nbsp;
-<img src="assets/inspiration/resource-10.gif" width="23%" alt="Personal visual detail"/>
+<img src="assets/inspiration/resource-01.gif" width="34%" alt="Personal visual detail"/>
 
 </div>
 
@@ -41,11 +37,11 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 </table>
 
 <div align="center">
-  <img src="assets/inspiration/resource-02.gif" width="29%" alt="Animated visual accent"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="assets/inspiration/resource-03.gif" width="29%" alt="Animated visual accent"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="assets/git-cat.gif" width="145" alt="Pixel cat"/>
+  <img src="assets/inspiration/resource-02.gif" width="42%" alt="Animated visual accent"/>
+</div>
+
+<div align="right">
+  <img src="assets/inspiration/resource-06.gif" width="31%" alt="Animated visual accent"/>
 </div>
 
 ---
@@ -131,27 +127,9 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
   </tr>
 </table>
 
-<div align="center">
+<div align="right">
 
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Comfortaa&weight=600&size=17&pause=1600&color=B9A9C8&center=true&vCenter=true&width=600&height=34&lines=A+little+visual+intermission;Not+everything+needs+to+be+code." alt="Visual intermission"/>
-
-<br/><br/>
-
-<img src="assets/inspiration/resource-07.gif" width="47%" alt="Animated visual accent"/>
-&nbsp;&nbsp;
-<img src="assets/inspiration/resource-08.gif" width="47%" alt="Animated visual accent"/>
-
-<br/><br/>
-
-<img src="assets/inspiration/resource-09.gif" width="47%" alt="Animated visual accent"/>
-&nbsp;&nbsp;
-<img src="assets/inspiration/resource-05.gif" width="47%" alt="Animated visual accent"/>
-
-<br/><br/>
-
-<img src="assets/inspiration/resource-11.gif" width="64%" alt="A final animated visual accent"/>
+<img src="assets/inspiration/resource-07.gif" width="38%" alt="Animated visual accent"/>
 
 </div>
 
@@ -162,10 +140,14 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 ## A little arcade break
 
 <img src="https://www.classicgaming.cc/classics/pac-man/images/web/web-lisnovski-runner.gif" height="145" alt="Pac-Man"/>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="assets/git-cat.gif" height="145" alt="Pixel cat"/>
 
 <em><strong>One more round. One more commit.</strong></em>
+
+</div>
+
+<div align="left">
+
+<img src="assets/inspiration/resource-08.gif" width="40%" alt="Animated visual accent"/>
 
 </div>
 
@@ -177,6 +159,11 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 <img src="assets/profile-stats.svg" width="100%" alt="GitHub profile statistics"/>
 <img src="assets/profile-languages.svg" width="100%" alt="Most used programming languages"/>
+
+<div align="right">
+<img src="assets/inspiration/resource-09.gif" width="35%" alt="Animated visual accent"/>
+</div>
+
 <img src="assets/contribution-calendar.svg" width="100%" alt="Contribution calendar"/>
 
 <img src="https://raw.githubusercontent.com/Joacoxz712/Joacoxz712/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake animation"/>
@@ -195,9 +182,19 @@ A soundtrack on repeat, a scene that stays in my head, a late-night idea — and
 &nbsp;&nbsp;&nbsp;
 <img src="https://media1.tenor.com/m/9ByocAJi3EAAAAAd/kaworu-kaworu-nagisa.gif" height="135" alt="Kaworu Nagisa"/>
 
+<div align="left">
+<img src="assets/inspiration/resource-10.gif" width="36%" alt="Animated visual accent"/>
+</div>
+
 <img src="assets/break-cat.svg" width="280" alt="A sleeping cat"/>
 
 <em>Take a breath. Then one more commit.</em>
+
+<div align="center">
+<img src="assets/inspiration/resource-11.gif" width="46%" alt="Animated visual accent"/>
+</div>
+
+<img src="assets/git-cat.gif" width="190" alt="Pixel cat"/>
 
 <br/>
 
