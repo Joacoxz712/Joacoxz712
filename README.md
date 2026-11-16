@@ -89,7 +89,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 <img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=31&pause=1800&color=E8B6D2&center=true&vCenter=true&width=700&height=58&lines=Projects+in+motion" alt="Projects in motion"/>
 
-<sub><em>✦ Two different playgrounds. One endless process of building, experimenting and improving. ✦</em></sub>
+<sub><em>✦ ✦ Two different playgrounds. One endless process of building, experimenting and improving. ✦ ✦</em></sub>
 
 <br/><br/>
 
@@ -156,7 +156,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 <img src="https://media1.tenor.com/m/Pjo1KC6fRPEAAAAd/sonic.gif" height="150" alt="Sonic running"/>
 
-<em><strong>One more round. One more commit.</strong></em>
+<em><strong>One more round ✦ One more commit.</strong></em>
 
 </div>
 
