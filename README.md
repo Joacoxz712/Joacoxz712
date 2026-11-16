@@ -135,8 +135,6 @@ An experiment in project management: tasks, connected ideas, planning flows and 
 <img src="https://www.classicgaming.cc/classics/pac-man/images/web/web-lisnovski-runner.gif" height="145" alt="Pac-Man"/>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="assets/git-cat.gif" height="145" alt="Pixel cat"/>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://github.com/user-attachments/assets/e3b5e1fe-0b4c-47d6-b21f-1fe4d2023556" height="145" alt="Neon night city"/>
 
 <em><strong>One more round. One more commit.</strong></em>
 
