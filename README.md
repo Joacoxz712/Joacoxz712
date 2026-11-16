@@ -189,8 +189,6 @@ A soundtrack on repeat, a scene that stays in my head, a late-night idea — and
 <em>Take a breath. Then one more commit.</em>
 
 <div align="center">
-<img src="assets/inspiration/resource-10.gif" width="34%" alt="Animated visual accent"/>
-&nbsp;&nbsp;&nbsp;
 <img src="assets/inspiration/resource-11.gif" width="42%" alt="Animated visual accent"/>
 </div>
 
