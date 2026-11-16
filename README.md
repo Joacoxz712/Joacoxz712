@@ -91,55 +91,53 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 ---
 
-## Things I'm building
+## Selected projects
 
-<p><em>Different ideas, different challenges. All works in progress.</em></p>
+<p align="center"><em>Ideas in motion — designed, built and still evolving.</em></p>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=600&size=19&pause=1100&color=E8B6D2&center=true&vCenter=true&width=650&height=38&lines=Two+worlds%2C+one+builder.;From+web+experiences+to+game+worlds.;Always+building+the+next+thing." alt="Project section animation"/>
+</div>
 
 <table>
   <tr>
-    <td width="39%" valign="middle">
-      <a href="https://www.drakkaruruguay.com/"><img src="https://www.drakkaruruguay.com/og/drakkar-cover.jpg" width="100%" alt="Drakkar — vista previa de la tienda online"/></a>
-    </td>
-    <td width="45%" valign="middle">
+    <td width="48%" valign="top" align="center">
+      <a href="https://www.drakkaruruguay.com/">
+        <img src="https://www.drakkaruruguay.com/og/drakkar-cover.jpg" width="100%" alt="Drakkar — online store preview"/>
+      </a>
+      <br/>
+      <img src="https://img.shields.io/badge/01-ECOMMERCE-E8B6D2?style=for-the-badge&labelColor=252331"/>
       <h3>Drakkar</h3>
-      <p>An e-commerce experience focused on product presentation, discovery and the systems behind a real storefront.</p>
-      <sub>REACT · VITE · NODE.JS · EXPRESS · POSTGRESQL</sub>
+      <p>A real storefront shaped around product discovery, visual presentation and the systems that make an online shop work.</p>
+      <p><sub>REACT · VITE · NODE.JS · EXPRESS · POSTGRESQL</sub></p>
+      <a href="https://www.drakkaruruguay.com/">EXPLORE THE STORE ↗</a>
       <br/><br/>
-      <a href="https://www.drakkaruruguay.com/">Visit the store ↗</a>
+      <img src="assets/inspiration/resource-07.gif" width="42%" alt="Animated Drakkar accent"/>
     </td>
-    <td width="16%" align="center" valign="middle">
-      <img src="assets/inspiration/resource-07.gif" width="100%" alt="Animated project accent"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="39%" valign="middle">
-      <a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store"><img src="assets/project-crypto.svg" width="100%" alt="Steal A Crypto — imagen del juego en Roblox"/></a>
-    </td>
-    <td width="45%" valign="middle">
+    <td width="4%"></td>
+    <td width="48%" valign="top" align="center">
+      <a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store">
+        <img src="https://tr.rbxcdn.com/180DAY-ec7f4a042bca74bbbf6aad98a43ef84e/768/432/Image/Webp/noFilter" width="100%" alt="Steal A Crypto — Roblox game thumbnail"/>
+      </a>
+      <br/>
+      <img src="https://img.shields.io/badge/02-GAME%20DEVELOPMENT-8DEBFF?style=for-the-badge&labelColor=182A3A"/>
       <h3>Steal A Crypto</h3>
-      <p>A Roblox game set in a neon city. Build your base, collect crypto, upgrade your setup and explore a world built around its own little systems.</p>
-      <sub>ROBLOX STUDIO · LUAU · GAME SYSTEMS</sub>
+      <p>A neon city built around crypto, upgrades and progression. Build your base, collect, expand and explore a world with its own systems.</p>
+      <p><sub>ROBLOX STUDIO · LUAU · GAME SYSTEMS</sub></p>
+      <a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store">ENTER THE GAME ↗</a>
       <br/><br/>
-      <a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store">Open the game ↗</a>
-    </td>
-    <td width="16%" align="center" valign="middle">
-      <img src="assets/inspiration/resource-08.gif" width="100%" alt="Animated project accent"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="39%" valign="middle">
-      <img src="assets/project-projectos.svg" width="100%" alt="ProjectOS"/>
-    </td>
-    <td width="45%" valign="middle">
-      <h3 id="projectos">ProjectOS</h3>
-      <p>A personal productivity workspace built around tasks, connected ideas, planning flows and an AI assistant that helps turn plans into action.</p>
-      <sub>PRODUCTIVITY · AUTOMATION · AI</sub>
-    </td>
-    <td width="16%" align="center" valign="middle">
-      <img src="assets/inspiration/resource-09.gif" width="100%" alt="Animated project accent"/>
+      <img src="assets/inspiration/resource-08.gif" width="42%" alt="Animated game accent"/>
     </td>
   </tr>
 </table>
+
+<div align="center">
+  <img src="assets/inspiration/resource-09.gif" width="25%" alt="Animated transition"/>
+  &nbsp;&nbsp;
+  <img src="assets/inspiration/resource-05.gif" width="25%" alt="Animated transition"/>
+</div>
+
+---
 
 <div align="center">
   <img src="assets/inspiration/resource-11.gif" width="42%" alt="A final animated visual accent"/>
