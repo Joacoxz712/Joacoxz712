@@ -156,7 +156,6 @@ An experiment in project management: tasks, connected ideas, planning flows and 
 
 <img src="https://raw.githubusercontent.com/Joacoxz712/Joacoxz712/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated contribution snake generated from this account"/>
 
-<a href="https://joacoxz712.github.io/Joacoxz712/">Open the live activity dashboard ↗</a>
 
 </div>
 
