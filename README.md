@@ -1,204 +1,164 @@
 <div align="center">
 
-<img src="assets/hero-coco.svg" width="100%" alt="Coco · personal space"/>
+<img src="assets/hero-coco.svg" width="100%" alt="Coco — personal space"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=600&size=32&pause=1100&color=E8B6D2&center=true&vCenter=true&width=820&height=66&lines=Hello%2C+I+am+Coco;Building+ideas+into+real+things;Curious+by+default." alt="Hello, I am Coco"/>
+<img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=600&size=30&pause=1300&color=E8B6D2&center=true&vCenter=true&width=820&height=64&lines=Hey%2C+I'm+Coco;I+like+making+ideas+real;Learning+by+building." alt="Hey, I'm Coco"/>
 
-## Hey, I'm Coco.
+<p>
+  <em>developer in progress · curious mind · Uruguay 🇺🇾</em>
+</p>
 
-I'm usually somewhere between having an idea and trying to make it real.
-
-I like building things with their own character: a storefront, a game world with details to discover, or a tool that makes a messy process easier.
-
-I don't want to stay in one box. I want to understand how things work, experiment, and get a little better with every version.
-
-**Based in Uruguay 🇺🇾**
+<a href="https://www.drakkaruruguay.com/">Drakkar</a> &nbsp;·&nbsp;
+<a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store">Steal A Crypto</a> &nbsp;·&nbsp;
+<a href="#projectos">ProjectOS</a>
 
 </div>
 
+---
+
+## A bit about me
+
+I'm usually somewhere between having an idea and figuring out how to build it.
+
+I enjoy creating things that have their own atmosphere — from an online store to a game world, or a tool that makes everyday work feel less chaotic. I move between code, design and experimentation, and I'm still exploring where that takes me.
+
+Right now, I'm learning by making projects, breaking things, fixing them and trying again.
+
 <div align="center">
-<img src="assets/git-cat.gif" width="210" alt="Animated pixel cat"/>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/jattu8602/jattu8602/main/cat-typing.gif" width="210" alt="Cat typing at a computer"/>
+  <img src="assets/git-cat.gif" width="170" alt="Pixel cat"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/jattu8602/jattu8602/main/cat-typing.gif" width="170" alt="Cat typing"/>
 </div>
 
-<div align="center">
-<img src="assets/profile-divider.svg" width="100%" alt=""/>
-</div>
+---
+
+## What I work with
 
 <div align="center">
-
-## The workbench
 
 **Languages**
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111"/>
-<img src="https://img.shields.io/badge/Luau-00A2FF?style=flat-square&logo=robloxstudio&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-EF6C45?style=flat&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-4B91D1?style=flat&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-E8D46A?style=flat&logo=javascript&logoColor=222"/>
+<img src="https://img.shields.io/badge/Luau-299BD7?style=flat&logo=robloxstudio&logoColor=white"/>
 
 **Frameworks & runtime**
 
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/Express-222222?style=flat-square&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-252A34?style=flat&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-438A56?style=flat&logo=nodedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express-333333?style=flat&logo=express&logoColor=white"/>
 
 **Tools & platforms**
 
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Roblox_Studio-111111?style=flat-square&logo=robloxstudio&logoColor=white"/>
-<img src="https://img.shields.io/badge/Fedora-51A2DA?style=flat-square&logo=fedora&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-24292F?style=flat&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Roblox_Studio-111111?style=flat&logo=robloxstudio&logoColor=white"/>
+<img src="https://img.shields.io/badge/Fedora-3876A8?style=flat&logo=fedora&logoColor=white"/>
 
 </div>
 
 <div align="center">
-<img src="assets/learning-path.svg" width="100%" alt="What I want to learn next: Python, C, C++ and Java"/>
+  <img src="assets/learning-path.svg" width="100%" alt="Learning path: Python, C, C++ and Java"/>
 </div>
 
-<div align="center">
-<img src="assets/profile-divider.svg" width="100%" alt=""/>
-</div>
+---
 
-<div align="center">
+## Things I'm building
 
-## Selected work
-
-*Small ideas, slowly turning into real projects.*
-
-</div>
+<p><em>Different ideas, different challenges. All works in progress.</em></p>
 
 <table>
-<tr>
-<td width="48%" valign="middle">
-<a href="https://www.drakkaruruguay.com/"><img src="assets/project-drakkar.svg" width="100%" alt="Drakkar"/></a>
-</td>
-<td valign="middle">
-
-## Drakkar
-
-**A storefront with a point of view.**
-
-An e-commerce project focused on the full experience: product discovery, presentation, and the systems working behind the scenes.
-
-<sub>REACT · VITE · NODE.JS · EXPRESS · POSTGRESQL</sub>
-
-<a href="https://www.drakkaruruguay.com/">Explore Drakkar ↗</a>
-
-</td>
-</tr>
-<tr>
-<td width="48%" valign="middle">
-<a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store"><img src="assets/project-crypto.svg" width="100%" alt="Steal A Crypto"/></a>
-</td>
-<td valign="middle">
-
-## Steal A Crypto
-
-**A city built around one strange idea.**
-
-A Roblox game about building a crypto empire, exploring a neon city, upgrading your base and discovering how its systems fit together.
-
-<sub>ROBLOX STUDIO · LUAU · GAME SYSTEMS</sub>
-
-<a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store">Play Steal A Crypto ↗</a>
-
-</td>
-</tr>
-<tr>
-<td width="48%" valign="middle">
-<img src="assets/project-projectos.svg" width="100%" alt="ProjectOS"/>
-</td>
-<td valign="middle">
-
-## ProjectOS
-
-**A workspace for getting ideas out of your head.**
-
-An experiment in project management: tasks, connected ideas, planning flows and an AI assistant designed to help move work forward.
-
-<sub>PRODUCTIVITY · AUTOMATION · AI</sub>
-
-</td>
-</tr>
+  <tr>
+    <td width="44%" valign="middle">
+      <a href="https://www.drakkaruruguay.com/"><img src="assets/project-drakkar.svg" width="100%" alt="Drakkar"/></a>
+    </td>
+    <td valign="middle">
+      <h3>Drakkar</h3>
+      <p>An e-commerce experience focused on product presentation, discovery and the systems behind a real storefront.</p>
+      <sub>REACT · VITE · NODE.JS · EXPRESS · POSTGRESQL</sub>
+      <br/><br/>
+      <a href="https://www.drakkaruruguay.com/">Visit the store ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="44%" valign="middle">
+      <a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store"><img src="assets/project-crypto.svg" width="100%" alt="Steal A Crypto"/></a>
+    </td>
+    <td valign="middle">
+      <h3>Steal A Crypto</h3>
+      <p>A Roblox game set in a neon city. Build your base, collect crypto, upgrade your setup and explore a world built around its own little systems.</p>
+      <sub>ROBLOX STUDIO · LUAU · GAME SYSTEMS</sub>
+      <br/><br/>
+      <a href="https://www.roblox.com/es/games/105760353161876/Steal-A-Crypto#!/store">Open the game ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="44%" valign="middle">
+      <img src="assets/project-projectos.svg" width="100%" alt="ProjectOS"/>
+    </td>
+    <td valign="middle">
+      <h3 id="projectos">ProjectOS</h3>
+      <p>A personal productivity workspace built around tasks, connected ideas, planning flows and an AI assistant that helps turn plans into action.</p>
+      <sub>PRODUCTIVITY · AUTOMATION · AI</sub>
+    </td>
+  </tr>
 </table>
 
+---
+
+## A small collection of things I like
+
+<p align="center">
+  <img src="assets/inspiration/resource-01.gif" width="30%" alt="Animated visual from my collection"/>
+  &nbsp;
+  <img src="assets/inspiration/resource-02.gif" width="30%" alt="Animated visual from my collection"/>
+  &nbsp;
+  <img src="assets/inspiration/resource-06.gif" width="30%" alt="Animated visual from my collection"/>
+</p>
+<p align="center">
+  <img src="assets/inspiration/resource-04.jpg" width="30%" alt="Image from my visual collection"/>
+  &nbsp;
+  <img src="assets/inspiration/resource-10.gif" width="30%" alt="Animated visual from my collection"/>
+  &nbsp;
+  <img src="assets/inspiration/resource-11.gif" width="30%" alt="Animated visual from my collection"/>
+</p>
+
+<p align="center"><em>Little visual references collected along the way.</em></p>
+
+---
+
+## GitHub activity
+
 <div align="center">
-<img src="assets/profile-divider.svg" width="100%" alt=""/>
+
+<img src="assets/profile-stats.svg" width="100%" alt="GitHub profile statistics"/>
+<img src="assets/profile-languages.svg" width="100%" alt="Most used programming languages"/>
+<img src="assets/contribution-calendar.svg" width="100%" alt="Contribution calendar"/>
+
+<img src="https://raw.githubusercontent.com/Joacoxz712/Joacoxz712/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake animation"/>
+
 </div>
 
-<div align="center">
-
-## A little arcade break
-
-<img src="https://www.classicgaming.cc/classics/pac-man/images/web/web-lisnovski-runner.gif" height="145" alt="Pac-Man"/>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="assets/git-cat.gif" height="145" alt="Pixel cat"/>
-
-<em><strong>One more round. One more commit.</strong></em>
-
-</div>
-
-<div align="center">
-<img src="assets/profile-divider.svg" width="100%" alt=""/>
-</div>
+---
 
 <div align="center">
 
-## GitHub, as it actually is
+## Outside the editor
 
-<img src="assets/profile-stats.svg" width="100%" alt="GitHub profile statistics generated from Coco's own account"/>
-<img src="assets/profile-languages.svg" width="100%" alt="Programming languages across Coco's repositories"/>
-<img src="assets/contribution-calendar.svg" width="100%" alt="Coco's GitHub contributions in the last year"/>
+A soundtrack on repeat, a scene that stays in my head, a late-night idea — and then back to making things.
 
-<img src="https://raw.githubusercontent.com/Joacoxz712/Joacoxz712/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated contribution snake generated from this account"/>
+<img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" height="135" alt="Rei Ayanami"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://media1.tenor.com/m/9ByocAJi3EAAAAAd/kaworu-kaworu-nagisa.gif" height="135" alt="Kaworu Nagisa"/>
 
-
-</div>
-
-<div align="center">
-<img src="assets/profile-divider.svg" width="100%" alt=""/>
-</div>
-
-<div align="center">
-
-## Things that keep me inspired
-
-A late-night idea, a soundtrack on repeat, a scene that stays in my head longer than expected. Then I go back to the editor and try to make something of it.
-
-<img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" height="150" alt="Rei Ayanami"/>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://media1.tenor.com/m/9ByocAJi3EAAAAAd/kaworu-kaworu-nagisa.gif" height="150" alt="Kaworu Nagisa"/>
-
-<img src="assets/break-cat.svg" width="330" alt="A sleeping white cat"/>
+<img src="assets/break-cat.svg" width="280" alt="A sleeping cat"/>
 
 <em>Take a breath. Then one more commit.</em>
 
-</div>
+<br/>
 
-<details>
-<summary><strong>a tiny process running somewhere</strong></summary>
-
-```javascript
-const loop = [
-  "notice something",
-  "get curious",
-  "make a prototype",
-  "break it",
-  "understand why",
-  "make it better"
-];
-
-for (const step of loop) {
-  keepGoing(step);
-}
-```
-
-</details>
-
-<div align="center">
-
-<sub>made slowly, with curiosity · Coco / Uruguay 🇺🇾</sub>
+<sub>made with curiosity · Coco / Uruguay 🇺🇾</sub>
 
 </div>
