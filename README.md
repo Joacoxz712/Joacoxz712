@@ -12,7 +12,7 @@
 
 <br/><br/>
 
-<img src="assets/inspiration/resource-01.gif" width="34%" alt="Personal visual detail"/>
+<img src="assets/rounded/resource-01.gif" width="34%" alt="Personal visual detail"/>
 
 </div>
 
@@ -38,9 +38,9 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 </table>
 
 <div align="center">
-  <img src="assets/inspiration/resource-02.gif" width="38%" alt="Animated visual accent"/>
+  <img src="assets/rounded/resource-02.gif" width="38%" alt="Animated visual accent"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="assets/inspiration/resource-06.gif" width="31%" alt="Animated visual accent"/>
+  <img src="assets/rounded/resource-06.gif" width="31%" alt="Animated visual accent"/>
 </div>
 
 ---
@@ -78,7 +78,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 <br/><br/>
 
-<img src="assets/inspiration/resource-05.gif" width="42%" alt="Animated visual accent"/>
+<img src="assets/rounded/resource-05.gif" width="42%" alt="Animated visual accent"/>
 
 </div>
 
@@ -144,7 +144,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 <div align="center">
 
-<img src="assets/inspiration/resource-07.gif" width="38%" alt="Animated visual accent"/>
+<img src="assets/rounded/resource-07.gif" width="38%" alt="Animated visual accent"/>
 
 </div>
 
@@ -154,7 +154,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 <img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=27&pause=999999&color=E8B6D2&center=true&vCenter=true&width=560&height=42&lines=A+little+arcade+break" alt="A little arcade break"/>
 
-<img src="https://media1.tenor.com/m/Pjo1KC6fRPEAAAAd/sonic.gif" height="150" alt="Sonic running"/>
+<img src="assets/rounded/sonic.gif" height="150" alt="Sonic running"/>
 
 <em><strong>One more round ✦ One more commit.</strong></em>
 
@@ -171,7 +171,7 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 <img src="assets/profile-languages.svg" width="100%" alt="Most used programming languages"/>
 
 <div align="center">
-<img src="assets/inspiration/resource-09.gif" width="35%" alt="Animated visual accent"/>
+<img src="assets/rounded/resource-09.gif" width="35%" alt="Animated visual accent"/>
 </div>
 
 <img src="assets/contribution-calendar.svg" width="100%" alt="Contribution calendar"/>
@@ -188,14 +188,14 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
 
 A soundtrack on repeat, a scene that stays in my head, a late-night idea ✦ and then back to making things.
 
-<img src="https://media1.tenor.com/m/WWs67w1IWAUAAAAd/rei-ayanami.gif" height="135" alt="Rei Ayanami"/>
+<img src="assets/rounded/rei.gif" height="135" alt="Rei Ayanami"/>
 &nbsp;&nbsp;&nbsp;
-<img src="https://media1.tenor.com/m/9ByocAJi3EAAAAAd/kaworu-kaworu-nagisa.gif" height="135" alt="Kaworu Nagisa"/>
+<img src="assets/rounded/kaworu.gif" height="135" alt="Kaworu Nagisa"/>
 
 <table>
   <tr>
-    <td width="50%" align="center"><img src="assets/inspiration/resource-10.gif" width="100%" alt="Animated visual accent"/></td>
-    <td width="50%" align="center"><img src="assets/inspiration/resource-11.gif" width="100%" alt="Animated visual accent"/></td>
+    <td width="50%" align="center"><img src="assets/rounded/resource-10.gif" width="100%" alt="Animated visual accent"/></td>
+    <td width="50%" align="center"><img src="assets/rounded/resource-11.gif" width="100%" alt="Animated visual accent"/></td>
   </tr>
 </table>
 
