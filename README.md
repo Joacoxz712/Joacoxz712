@@ -125,6 +125,22 @@ Right now, I'm learning by making projects, breaking things, fixing them and try
   </tr>
 </table>
 
+---
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Josefin+Sans&weight=700&size=29&pause=1800&color=E8B6D2&center=true&vCenter=true&width=650&height=52&lines=Find+me+around+the+web" alt="Find me around the web"/>
+
+<a href="https://discord.com/channels/@me/1565200916389429318">
+  <img src="assets/button-discord.svg" width="230" alt="Connect on Discord"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://www.roblox.com/es/users/7390316107/profile">
+  <img src="assets/button-roblox-profile.svg" width="230" alt="My Roblox profile"/>
+</a>
+
+</div>
+
 <div align="center">
 
 <img src="assets/inspiration/resource-07.gif" width="38%" alt="Animated visual accent"/>
