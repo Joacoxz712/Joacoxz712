@@ -2,7 +2,7 @@ from io import BytesIO
 from pathlib import Path
 from urllib.request import Request, urlopen
 
-from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageSequence
+from PIL import Image, ImageChops, ImageDraw, ImageSequence
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,6 +19,8 @@ LOCAL_GIFS = [
     "resource-10.gif",
     "resource-11.gif",
 ]
+
+LOCAL_IMAGES = ["resource-04.jpg"]
 
 REMOTE_GIFS = {
     "sonic.gif": "https://media1.tenor.com/m/Pjo1KC6fRPEAAAAd/sonic.gif",
@@ -98,7 +100,27 @@ for filename in LOCAL_GIFS:
     source = ROOT / "assets" / "inspiration" / filename
     save_rounded(source, OUTPUT / filename)
 
+def save_rounded_image(source, destination):
+    image = Image.open(source).convert("RGBA")
+    width, height = image.size
+    scale = 4
+    mask = Image.new("L", (width * scale, height * scale), 0)
+    draw = ImageDraw.Draw(mask)
+    radius = min(30, width // 8, height // 8) * scale
+    draw.rounded_rectangle((0, 0, width * scale - 1, height * scale - 1), radius=radius, fill=255)
+    mask = mask.resize((width, height), Image.Resampling.LANCZOS)
+    image.putalpha(ImageChops.multiply(image.getchannel("A"), mask))
+    image.save(destination, format="PNG", optimize=True)
+    image.close()
+
+
+for filename in LOCAL_IMAGES:
+    source = ROOT / "assets" / "inspiration" / filename
+    destination = OUTPUT / (Path(filename).stem + ".png")
+    save_rounded_image(source, destination)
+
+
 for filename, url in REMOTE_GIFS.items():
     save_rounded(url, OUTPUT / filename)
 
-print(f"Generated {len(LOCAL_GIFS) + len(REMOTE_GIFS)} rounded animated GIFs.")
+print(f"Generated {len(LOCAL_GIFS) + len(REMOTE_GIFS)} rounded animated GIFs and {len(LOCAL_IMAGES)} rounded image(s).")
